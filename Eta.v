@@ -180,6 +180,9 @@ Qed.
 
 (** *** Secondly, the eta expansion *)
 
+(* Beware: we eta-expanse only terms that are already beta-normal. *)
+(* This allow us to skip one case in the EtaExp inductive definition. *)
+
 Notation " \! k : rho , r " := (\rho, sub_swap0 r k) (at level 20, k at level 99).
 
 Inductive Eta : context -> type -> term -> term -> Prop := 
