@@ -1,0 +1,27 @@
+minlog_mode.v
+MoreList.v
+Term.v 
+Subst.v 
+Subst2.v 
+Typing.v
+Apps.v 
+Eta.v 
+WN.v 
+TaitCore.v 
+nc.v 
+TaitCoreNc.v
+TaitEtaRed.v 
+TaitEtaExp.v 
+Extract.v
+DOCLIST = "Term.v Subst.v Subst2.v Typing.v \
+  Apps.v Eta.v WN.v TaitCore.v nc.v TaitCoreNc.v \
+  TaitEtaRed.v TaitEtaExp.v Extract.v"
+-custom "rm -f doc.ps.gz && \
+  coqdoc --ps -g doc.v ${DOCLIST} | gzip > doc.ps.gz" "" doc.ps.gz
+-custom "rm -f doc.html && \
+  mkdir -p html && \
+  coqdoc --html -d html -g --glob-from .dump --charset utf8 doc.v ${DOCLIST} && \
+  for f in $(DOCLIST:.v=); do echo '<a href=html/'$$f'.html>'$$f'</a><br />' >> doc.html; done && \
+  echo '<a href=html/index.html>Index</a><br />' >> doc.html && \
+  cp -f ../style.css html/" "" doc.html
+ 

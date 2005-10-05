@@ -1,0 +1,57 @@
+betaetaexp.cmo: betaetaexp.ml betaetaexp.cmi
+betaetaexp.cmx: betaetaexp.ml betaetaexp.cmi
+betaetaexp_nc.cmo: betaetaexp_nc.ml betaetaexp_nc.cmi
+betaetaexp_nc.cmx: betaetaexp_nc.ml betaetaexp_nc.cmi
+betaetared.cmo: betaetared.ml betaetared.cmi
+betaetared.cmx: betaetared.ml betaetared.cmi
+betaetared_nc.cmo: betaetared_nc.ml betaetared_nc.cmi
+betaetared_nc.cmx: betaetared_nc.ml betaetared_nc.cmi
+betaetaexp.cmi: betaetaexp.mli
+betaetaexp_nc.cmi: betaetaexp_nc.mli
+betaetared.cmi: betaetared.mli
+betaetared_nc.cmi: betaetared_nc.mli
+Apps.vo: Apps.v Typing.vo
+Apps.vi: Apps.v Typing.vo
+Eta.vo: Eta.v Apps.vo Subst2.vo
+Eta.vi: Eta.v Apps.vo Subst2.vo
+Extract.vo: Extract.v TaitEtaRed.vo TaitEtaExp.vo
+Extract.vi: Extract.v TaitEtaRed.vo TaitEtaExp.vo
+minlog_mode.vo: minlog_mode.v
+minlog_mode.vi: minlog_mode.v
+MoreList.vo: MoreList.v
+MoreList.vi: MoreList.v
+nc.vo: nc.v minlog_mode.vo
+nc.vi: nc.v minlog_mode.vo
+Subst2.vo: Subst2.v Subst.vo
+Subst2.vi: Subst2.v Subst.vo
+Subst.vo: Subst.v Term.vo
+Subst.vi: Subst.v Term.vo
+TaitCoreNc.vo: TaitCoreNc.v TaitCore.vo nc.vo
+TaitCoreNc.vi: TaitCoreNc.v TaitCore.vo nc.vo
+TaitCore.vo: TaitCore.v Typing.vo
+TaitCore.vi: TaitCore.v Typing.vo
+TaitEtaExp.vo: TaitEtaExp.v TaitCore.vo Eta.vo WN.vo TaitCoreNc.vo
+TaitEtaExp.vi: TaitEtaExp.v TaitCore.vo Eta.vo WN.vo TaitCoreNc.vo
+TaitEtaRed.vo: TaitEtaRed.v TaitCore.vo Eta.vo WN.vo TaitCoreNc.vo
+TaitEtaRed.vi: TaitEtaRed.v TaitCore.vo Eta.vo WN.vo TaitCoreNc.vo
+Term.vo: Term.v minlog_mode.vo MoreList.vo
+Term.vi: Term.v minlog_mode.vo MoreList.vo
+Typing.vo: Typing.v Subst2.vo
+Typing.vi: Typing.v Subst2.vo
+WN.vo: WN.v Apps.vo Subst2.vo
+WN.vi: WN.v Apps.vo Subst2.vo
+Apps.html: Apps.v Typing.html
+Eta.html: Eta.v Apps.html Subst2.html
+Extract.html: Extract.v TaitEtaRed.html TaitEtaExp.html
+minlog_mode.html: minlog_mode.v
+MoreList.html: MoreList.v
+nc.html: nc.v minlog_mode.html
+Subst2.html: Subst2.v Subst.html
+Subst.html: Subst.v Term.html
+TaitCoreNc.html: TaitCoreNc.v TaitCore.html nc.html
+TaitCore.html: TaitCore.v Typing.html
+TaitEtaExp.html: TaitEtaExp.v TaitCore.html Eta.html WN.html TaitCoreNc.html
+TaitEtaRed.html: TaitEtaRed.v TaitCore.html Eta.html WN.html TaitCoreNc.html
+Term.html: Term.v minlog_mode.html MoreList.html
+Typing.html: Typing.v Subst2.html
+WN.html: WN.v Apps.html Subst2.html

@@ -1,0 +1,120 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf8"><link rel="stylesheet" href="style.css" type="text/css"><title>Apps</title>
+</head>
+
+<body>
+
+<h1>Library Apps</h1>
+
+<code>
+<code class="keyword">Require</code> <code class="keyword">Export</code> <a href="Typing.html">Typing</a>.<br/>
+
+<br/>
+Set <code class="keyword">Implicit</code> Arguments.<br/>
+
+<br/>
+</code>
+
+<table width="100%"><tr class="doc"><td>
+The Apps form 
+</td></tr></table>
+<code>
+
+<br/>
+<code class="keyword">Definition</code> <a name="is_app"></a>is_app (r:<a href="Term.html#term">term</a>) := match r with <br/>
+&nbsp;| _;_ =&gt; <a href="http://coq.inria.fr/library/Coq.Init.Datatypes.html#true">true</a> <br/>
+&nbsp;| _ =&gt; <a href="http://coq.inria.fr/library/Coq.Init.Datatypes.html#false">false</a><br/>
+&nbsp;end.<br/>
+
+<br/>
+<code class="keyword">Definition</code> <a name="left_app"></a>left_app (r:<a href="Term.html#term">term</a>) := match r with <br/>
+&nbsp;| r;_ =&gt; r <br/>
+&nbsp;| _ =&gt; <a href="Term.html#dterm">dterm</a><br/>
+&nbsp;end.<br/>
+
+<br/>
+<code class="keyword">Definition</code> <a name="right_app"></a>right_app (r:<a href="Term.html#term">term</a>) := match r with <br/>
+&nbsp;| _;r =&gt; r <br/>
+&nbsp;| _ =&gt; <a href="Term.html#dterm">dterm</a><br/>
+&nbsp;end.<br/>
+
+<br/>
+<code class="keyword">Fixpoint</code> <a name="get_apps"></a>get_apps (r:<a href="Term.html#term">term</a>) : <a href="http://coq.inria.fr/library/Coq.Lists.List.html#list">list</a> <a href="Term.html#term">term</a> := <br/>
+&nbsp;match r with <br/>
+&nbsp;&nbsp;| r;s =&gt; get_apps r ++ s::<a href="http://coq.inria.fr/library/Coq.Lists.List.html#nil">nil</a><br/>
+&nbsp;&nbsp;| _ =&gt; <a href="http://coq.inria.fr/library/Coq.Lists.List.html#nil">nil</a><br/>
+&nbsp;end.<br/>
+
+<br/>
+<code class="keyword">Fixpoint</code> <a name="head_apps"></a>head_apps (r:<a href="Term.html#term">term</a>) : <a href="Term.html#term">term</a> := <br/>
+&nbsp;match r with <br/>
+&nbsp;&nbsp;| r;s =&gt; head_apps r<br/>
+&nbsp;&nbsp;| _ =&gt; r<br/>
+&nbsp;end.<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="head_apps_not_App"></a>head_apps_not_App : forall r r1 r2, ~ (<a href="Apps.html#head_apps">head_apps</a> r = r1;r2). <br/>
+&nbsp;<br/>
+<code class="keyword">Definition</code> <a name="apps"></a>apps (r:<a href="Term.html#term">term</a>)(l:<a href="http://coq.inria.fr/library/Coq.Lists.List.html#list">list</a> <a href="Term.html#term">term</a>) := <a href="http://coq.inria.fr/library/Coq.Lists.List.html#fold_left">fold_left</a> <a href="Term.html#App">App</a> l r.<br/>
+<code class="keyword">Notation</code> " r ;; l " := (<a href="Apps.html#apps">apps</a> r l)(at level 20).<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="apps_app"></a>apps_app : forall r l l', (r;;l);;l' = r;;(l++l'). <br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="apps_form"></a>apps_form : forall r, r = (<a href="Apps.html#head_apps">head_apps</a> r);;(<a href="Apps.html#get_apps">get_apps</a> r).<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="apps_form_unique1"></a>apps_form_unique1 : forall r r' l l', <br/>
+&nbsp;r;;l = r';;l' -&gt; <a href="Apps.html#is_app">is_app</a> r = <a href="http://coq.inria.fr/library/Coq.Init.Datatypes.html#false">false</a> -&gt; <a href="Apps.html#is_app">is_app</a> r' = <a href="http://coq.inria.fr/library/Coq.Init.Datatypes.html#false">false</a> -&gt; r = r'.<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="apps_form_unique2"></a>apps_form_unique2 : forall r r' l l', <br/>
+&nbsp;r;;l = r';;l' -&gt; <a href="Apps.html#is_app">is_app</a> r = <a href="http://coq.inria.fr/library/Coq.Init.Datatypes.html#false">false</a> -&gt; <a href="Apps.html#is_app">is_app</a> r' = <a href="http://coq.inria.fr/library/Coq.Init.Datatypes.html#false">false</a> -&gt; l = l'.<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="apps_occurs"></a>apps_occurs : forall l r k, <a href="Term.html#occurs">occurs</a> k (r;;l) = <br/>
+&nbsp;&nbsp;&nbsp;<a href="Term.html#occurs">occurs</a> k r || existsb (<a href="Term.html#occurs">occurs</a> k) l.<br/>
+
+<br/>
+&nbsp;<code class="keyword">Lemma</code> <a name="above_apps"></a>above_apps : forall l r k, <a href="Subst2.html#above">above</a> k (r;;l) -&gt; <br/>
+&nbsp;&nbsp;&nbsp;<a href="Subst2.html#above">above</a> k r /\<br/>
+&nbsp;&nbsp;&nbsp;forall k', k&lt;=k' -&gt; existsb (<a href="Term.html#occurs">occurs</a> k') l = <a href="http://coq.inria.fr/library/Coq.Init.Datatypes.html#false">false</a>.<br/>
+
+<br/>
+&nbsp;<code class="keyword">Lemma</code> <a name="CorTyp_apps"></a>CorTyp_apps : forall l r ρs, <br/>
+&nbsp;&nbsp;&nbsp;<a href="Typing.html#CorTyp">CorTyp</a> ρs (r;;l) -&gt; <a href="Typing.html#CorTyp">CorTyp</a> ρs r.<br/>
+
+<br/>
+&nbsp;<code class="keyword">Lemma</code> <a name="TypJ_apps"></a>TypJ_apps : forall l r r' ρs ρ σ, <br/>
+&nbsp;&nbsp;&nbsp;<a href="Typing.html#TypJ">TypJ</a> ρs r σ -&gt; <br/>
+&nbsp;&nbsp;&nbsp;<a href="Typing.html#TypJ">TypJ</a> ρs r' σ -&gt; <br/>
+&nbsp;&nbsp;&nbsp;<a href="Typing.html#TypJ">TypJ</a> ρs (r;;l) ρ -&gt; <br/>
+&nbsp;&nbsp;&nbsp;<a href="Typing.html#TypJ">TypJ</a> ρs (r';;l) ρ. <br/>
+
+<br/>
+&nbsp;<code class="keyword">Lemma</code> <a name="sub_apps"></a>sub_apps : <br/>
+&nbsp;&nbsp;forall l r rs, <a href="Subst.html#sub">sub</a> (r;;l) rs = (<a href="Subst.html#sub">sub</a> r rs);;(<a href="http://coq.inria.fr/library/Coq.Lists.List.html#map">map</a> (fun r =&gt; <a href="Subst.html#sub">sub</a> r rs) l).<br/>
+
+<br/>
+</code>
+
+<table width="100%"><tr class="doc"><td>
+Similarly, an generalized arrow type 
+</td></tr></table>
+<code>
+
+<br/>
+&nbsp;<code class="keyword">Definition</code> <a name="arrows"></a>arrows (ρ:<a href="Term.html#type">type</a>)(l:<a href="http://coq.inria.fr/library/Coq.Lists.List.html#list">list</a> <a href="Term.html#type">type</a>) := <a href="http://coq.inria.fr/library/Coq.Lists.List.html#fold_right">fold_right</a> <a href="Term.html#Arrow">Arrow</a> ρ l.<br/>
+&nbsp;<code class="keyword">Notation</code> " l ---&gt; ρ " := (<a href="Apps.html#arrows">arrows</a> ρ l)(at level 20).<br/>
+
+<br/>
+&nbsp;Eval compute in fun r r1 r2 =&gt; (r1::r2::<a href="http://coq.inria.fr/library/Coq.Lists.List.html#nil">nil</a>)---&gt;r.<br/>
+
+<br/>
+&nbsp;<code class="keyword">Lemma</code> <a name="arrows_app"></a>arrows_app : forall l l' ρ, (l++l')---&gt;ρ = l---&gt;(l'---&gt;ρ).<br/>
+</code>
+<hr/><a href="index.html">Index</a><hr/><font size="-1">This page has been generated by <a href="http://www.lri.fr/~filliatr/coqdoc/">coqdoc</a></font>
+</body>
+</html>

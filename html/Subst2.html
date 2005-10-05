@@ -1,0 +1,354 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf8"><link rel="stylesheet" href="style.css" type="text/css"><title>Subst2</title>
+</head>
+
+<body>
+
+<h1>Library Subst2</h1>
+
+<code>
+<code class="keyword">Require</code> <code class="keyword">Export</code> <a href="Subst.html">Subst</a>.<br/>
+
+<br/>
+</code>
+
+<table width="100%"><tr class="doc"><td>
+Here, we follow exactly Joachimski manuscript 
+</td></tr></table>
+<code>
+
+<br/>
+<code class="keyword">Module</code> <a name="Joachimski"></a>Joachimski.<br/>
+
+<br/>
+<code class="keyword">Inductive</code> <a name="substitution"></a>substitution : Set := <br/>
+&nbsp;&nbsp;<a name="Dot"></a>Dot : <a href="Term.html#term">term</a> -&gt; substitution -&gt; substitution <br/>
+| <a name="Up"></a>Up : <a href="http://coq.inria.fr/library/Coq.Init.Datatypes.html#nat">nat</a> -&gt; substitution.<br/>
+
+<br/>
+<code class="keyword">Fixpoint</code> <a name="sublift"></a>sublift (θ : substitution) : <a href="http://coq.inria.fr/library/Coq.Init.Datatypes.html#nat">nat</a> -&gt; substitution := fun n =&gt;<br/>
+&nbsp;&nbsp;match θ with<br/>
+&nbsp;&nbsp;| Dot r θ =&gt;  Dot (<a href="Term.html#lift">lift</a> 0 n r) (sublift θ n)<br/>
+&nbsp;&nbsp;| Up m =&gt; Up (m+n)<br/>
+&nbsp;&nbsp;end.<br/>
+
+<br/>
+<code class="keyword">Notation</code> " th ||\ n " := (sublift th n) (at level 60, no associativity).<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="subliftId"></a>subliftId : forall θ, θ||\0 = θ.<br/>
+
+<br/>
+<code class="keyword">Fixpoint</code> <a name="sub'"></a>sub' (k : <a href="http://coq.inria.fr/library/Coq.Init.Datatypes.html#nat">nat</a>) : substitution -&gt; <a href="Term.html#term">term</a> := fun θ =&gt;<br/>
+&nbsp;match k,θ with<br/>
+&nbsp;&nbsp;| <a href="http://coq.inria.fr/library/Coq.Init.Datatypes.html#S">S</a> k, Dot r θ =&gt; sub' k θ<br/>
+&nbsp;&nbsp;| 0, Dot r θ =&gt; r<br/>
+&nbsp;&nbsp;| k, Up n =&gt; <a href="Term.html#Var">Var</a> (k+n)<br/>
+&nbsp;&nbsp;end.<br/>
+
+<br/>
+<code class="keyword">Fixpoint</code> <a name="sub"></a>sub (r : <a href="Term.html#term">term</a>) : substitution -&gt; <a href="Term.html#term">term</a> := fun θ =&gt;<br/>
+&nbsp;&nbsp;match r with<br/>
+&nbsp;&nbsp;| <a href="Term.html#Var">Var</a> k =&gt; sub' k θ<br/>
+&nbsp;&nbsp;| <a href="Term.html#App">App</a> r s =&gt; <a href="Term.html#App">App</a> (sub r θ) (sub s θ)<br/>
+&nbsp;&nbsp;| <a href="Term.html#Abs">Abs</a> ρ r =&gt; <a href="Term.html#Abs">Abs</a> ρ (sub r (Dot (<a href="Term.html#Var">Var</a> 0) (sublift θ 1)))<br/>
+&nbsp;&nbsp;end.<br/>
+
+<br/>
+<code class="keyword">Notation</code> " r {[ th ]} " := (sub r th) (at level 60, no associativity).<br/>
+
+<br/>
+<code class="keyword">Fixpoint</code> <a name="comp'"></a>comp'  (n : <a href="http://coq.inria.fr/library/Coq.Init.Datatypes.html#nat">nat</a>) : substitution -&gt; substitution := fun θ =&gt;<br/>
+&nbsp;&nbsp;match n,θ with<br/>
+&nbsp;&nbsp;| 0,_ =&gt; θ<br/>
+&nbsp;&nbsp;| <a href="http://coq.inria.fr/library/Coq.Init.Datatypes.html#S">S</a> n, Dot r θ =&gt; comp' n θ<br/>
+&nbsp;&nbsp;| <a href="http://coq.inria.fr/library/Coq.Init.Datatypes.html#S">S</a> n, Up m =&gt; Up (<a href="http://coq.inria.fr/library/Coq.Init.Datatypes.html#S">S</a> n + m)<br/>
+&nbsp;&nbsp;end.<br/>
+
+<br/>
+<code class="keyword">Fixpoint</code> <a name="comp"></a>comp (θ θ': substitution) {struct θ} : substitution := <br/>
+&nbsp;&nbsp;match θ with<br/>
+&nbsp;&nbsp;| Dot r θ =&gt; Dot (sub r θ') (comp θ θ')<br/>
+&nbsp;&nbsp;| Up n =&gt; comp' n θ'<br/>
+&nbsp;&nbsp;end.<br/>
+
+<br/>
+<code class="keyword">Notation</code> " th 'o' th' " := (comp th th') (at level 61, left associativity).<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="Comp'Eq"></a>Comp'Eq : forall n m, comp' m (Up n) = Up (m+n).<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="Sub'Eq"></a>Sub'Eq : forall n m, sub' m (Up n) = <a href="Term.html#Var">Var</a> (n+m).<br/>
+
+<br/>
+<code class="keyword">Hint</code> Rewrite Sub'Eq Comp'Eq : db.<br/>
+<code class="keyword">Ltac</code> ar := autorewrite with db.<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="SubliftTwice"></a>SubliftTwice :<br/>
+&nbsp;&nbsp;forall θ n m, (θ ||\ n) ||\ m = θ ||\ n+m.<br/>
+
+<br/>
+</code>
+
+<table width="100%"><tr class="doc"><td>
+To encode the notation (Vect(s).theta), 
+    a list of term pushed before theta 
+</td></tr></table>
+<code>
+
+<br/>
+<code class="keyword">Fixpoint</code> <a name="PushList"></a>PushList (l : <a href="http://coq.inria.fr/library/Coq.Lists.List.html#list">list</a> <a href="Term.html#term">term</a>) : substitution -&gt; substitution := <br/>
+&nbsp;fun θ =&gt; <br/>
+&nbsp;&nbsp;match l with <br/>
+&nbsp;&nbsp;&nbsp;| <a href="http://coq.inria.fr/library/Coq.Lists.List.html#nil">nil</a> =&gt; θ<br/>
+&nbsp;&nbsp;&nbsp;| r :: l =&gt; Dot r (PushList l θ)<br/>
+&nbsp;&nbsp;end.<br/>
+
+<br/>
+<code class="keyword">Infix</code> "++" := PushList.<br/>
+
+<br/>
+</code>
+
+<table width="100%"><tr class="doc"><td>
+0...(n-1).theta 
+</td></tr></table>
+<code>
+
+<br/>
+<code class="keyword">Fixpoint</code> <a name="Spare"></a>Spare(n : <a href="http://coq.inria.fr/library/Coq.Init.Datatypes.html#nat">nat</a>) : substitution -&gt; substitution := <br/>
+&nbsp;fun θ =&gt;<br/>
+&nbsp;&nbsp;match n with<br/>
+&nbsp;&nbsp;| 0 =&gt; θ<br/>
+&nbsp;&nbsp;| <a href="http://coq.inria.fr/library/Coq.Init.Datatypes.html#S">S</a> m =&gt; Spare m (Dot (<a href="Term.html#Var">Var</a> m) θ)<br/>
+&nbsp;&nbsp;end.<br/>
+
+<br/>
+<code class="keyword">Infix</code> "!!" := Spare (at level 60, no associativity).<br/>
+
+<br/>
+</code>
+
+<table width="100%"><tr class="doc"><td>
+The initial form of Spare is really bad for reasoning. 
+</td></tr></table>
+<code>
+</code>
+
+<table width="100%"><tr class="doc"><td>
+So we prove an equivalence with a special form of PushList. 
+</td></tr></table>
+<code>
+
+<br/>
+</code>
+
+<table width="100%"><tr class="doc"><td>
+Begin Spare/PushList 
+</td></tr></table>
+<code>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="SparePushList_aux"></a>SparePushList_aux : forall n m θ, m&lt;=n -&gt; <br/>
+&nbsp;&nbsp;(<a href="http://coq.inria.fr/library/Coq.Lists.List.html#map">map</a> <a href="Term.html#Var">Var</a> (seq 0 n)) ++ θ = <br/>
+&nbsp;&nbsp;Spare m (<a href="http://coq.inria.fr/library/Coq.Lists.List.html#map">map</a> <a href="Term.html#Var">Var</a> (seq m (n-m)) ++ θ).<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="SparePushList"></a>SparePushList : <br/>
+&nbsp;forall n θ, n !! θ = <a href="http://coq.inria.fr/library/Coq.Lists.List.html#map">map</a> <a href="Term.html#Var">Var</a> (seq 0 n) ++ θ.<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="SubPushList1"></a>SubPushList1 : forall n l θ, n &lt; <a href="http://coq.inria.fr/library/Coq.Lists.List.html#length">length</a> l -&gt; <br/>
+&nbsp;&nbsp;<a href="Term.html#Var">Var</a> n {[l++θ]} = <a href="http://coq.inria.fr/library/Coq.Lists.List.html#nth">nth</a> n l (<a href="Term.html#Var">Var</a> 0).<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="SubPushList2"></a>SubPushList2 : forall n l θ, <a href="http://coq.inria.fr/library/Coq.Lists.List.html#length">length</a> l &lt;= n -&gt; <br/>
+&nbsp;&nbsp;<a href="Term.html#Var">Var</a> n {[l++θ]} = <a href="Term.html#Var">Var</a> (n - <a href="http://coq.inria.fr/library/Coq.Lists.List.html#length">length</a> l) {[θ]}.<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="SubliftPushList"></a>SubliftPushList : forall n l θ, <br/>
+&nbsp;(l++θ) ||\ n = (<a href="http://coq.inria.fr/library/Coq.Lists.List.html#map">map</a> (fun r =&gt; r |\ [0,n]) l) ++ (θ ||\ n).<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="UpPushList"></a>UpPushList : forall l θ, (Up (<a href="http://coq.inria.fr/library/Coq.Lists.List.html#length">length</a> l))o(l++θ) = θ.<br/>
+
+<br/>
+</code>
+
+<table width="100%"><tr class="doc"><td>
+End Spare/PushList 
+</td></tr></table>
+<code>
+
+<br/>
+</code>
+
+<table width="100%"><tr class="doc"><td>
+Prop (2) 
+</td></tr></table>
+<code>
+<code class="keyword">Lemma</code> <a name="LiftSubst"></a>LiftSubst : forall r m n, r |\ [m,n] = r {[ m !! (Up (n+m)) ]}.<br/>
+
+<br/>
+</code>
+
+<table width="100%"><tr class="doc"><td>
+(3) 
+</td></tr></table>
+<code>
+<code class="keyword">Lemma</code> <a name="CompUp"></a>CompUp : forall θ n, θ o Up n = θ ||\ n.<br/>
+
+<br/>
+</code>
+
+<table width="100%"><tr class="doc"><td>
+Added: an auxiliary result used in (4) 
+</td></tr></table>
+<code>
+<code class="keyword">Lemma</code> <a name="LiftSublift"></a>LiftSublift : forall k n m θ, <br/>
+&nbsp;(<a href="Term.html#Var">Var</a> k {[θ ||\ m]}) |\ [m,n] = <a href="Term.html#Var">Var</a> k {[θ ||\ m+n]}.<br/>
+
+<br/>
+</code>
+
+<table width="100%"><tr class="doc"><td>
+Corrected (4) : the initial (4), with (theta) instead of (theta||\m), is false 
+</td></tr></table>
+<code>
+<code class="keyword">Lemma</code> <a name="LiftSpare"></a>LiftSpare : forall r m θ n, <br/>
+&nbsp;&nbsp;(r {[ m !! (θ ||\ m)]}) |\ [m,n] = r {[ m !! (θ ||\ m+n)]}.<br/>
+
+<br/>
+</code>
+
+<table width="100%"><tr class="doc"><td>
+The degenerate (4) with m=0, enough to prove what follows. 
+</td></tr></table>
+<code>
+<code class="keyword">Lemma</code> <a name="LiftSpare2"></a>LiftSpare2 : forall r θ n, <br/>
+&nbsp;&nbsp;(r {[θ]}) |\ [0,n] = r {[ θ ||\ n]}.<br/>
+
+<br/>
+</code>
+
+<table width="100%"><tr class="doc"><td>
+(5) 
+</td></tr></table>
+<code>
+<code class="keyword">Lemma</code> <a name="CompSublift"></a>CompSublift : forall θ θ' n, <br/>
+&nbsp;&nbsp;θ o (θ' ||\ n) = (θ o θ') ||\ n.<br/>
+
+<br/>
+</code>
+
+<table width="100%"><tr class="doc"><td>
+(6) 
+</td></tr></table>
+<code>
+<code class="keyword">Lemma</code> <a name="SubLiftSpare"></a>SubLiftSpare : forall r m l θ, <br/>
+&nbsp;&nbsp;(r |\ [m, length l]) {[ m  !! (l++θ) ]} = r {[ m !! θ ]}.<br/>
+
+<br/>
+</code>
+
+<table width="100%"><tr class="doc"><td>
+(6') 
+</td></tr></table>
+<code>
+<code class="keyword">Lemma</code> <a name="SubLiftComp"></a>SubLiftComp : forall θ θ' l, <br/>
+&nbsp;&nbsp;(θ ||\ <a href="http://coq.inria.fr/library/Coq.Lists.List.html#length">length</a> l)o(l++θ') = θ o θ'.<br/>
+
+<br/>
+</code>
+
+<table width="100%"><tr class="doc"><td>
+(7) 
+</td></tr></table>
+<code>
+<code class="keyword">Lemma</code> <a name="SubSub"></a>SubSub : forall r θ θ',<br/>
+&nbsp;r{[θ]}{[θ']} = r{[θ o θ']}.<br/>
+
+<br/>
+</code>
+
+<table width="100%"><tr class="doc"><td>
+(7') 
+</td></tr></table>
+<code>
+<code class="keyword">Lemma</code> <a name="CompAssoc"></a>CompAssoc : forall θ θ' θ'', <br/>
+&nbsp;&nbsp;(θ o θ') o θ'' = θ o (θ' o θ'').<br/>
+
+<br/>
+<code class="keyword">End</code> Joachimski.<br/>
+
+<br/>
+<code class="keyword">Module</code> <a name="Isom"></a>Isom. <br/>
+&nbsp;<code class="keyword">Import</code> Joachimski.<br/>
+
+<br/>
+<code class="keyword">Fixpoint</code> <a name="sub_2_1"></a>sub_2_1 (s:substitution) : Subst.substitution := match s with <br/>
+&nbsp;&nbsp;| Dot r s =&gt; let s' := sub_2_1 s in (r::s')#s'.(<a href="Subst.html#shift">shift</a>)<br/>
+&nbsp;&nbsp;| Up n =&gt; <a href="http://coq.inria.fr/library/Coq.Lists.List.html#nil">nil</a>#n<br/>
+&nbsp;end.<br/>
+
+<br/>
+<code class="keyword">Definition</code> <a name="sub_1_2"></a>sub_1_2 (s:Subst.substitution) : substitution := <br/>
+&nbsp;<a href="http://coq.inria.fr/library/Coq.Lists.List.html#fold_right">fold_right</a> Dot (Up s.(<a href="Subst.html#shift">shift</a>)) s.<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="substitution_isom1"></a>substitution_isom1 : forall s, sub_2_1 (sub_1_2 s) = s.<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="substitution_isom2"></a>substitution_isom2 : forall s, sub_1_2 (sub_2_1 s) = s.<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="sublift_isom"></a>sublift_isom : forall th n, sub_2_1 (th ||\ n) = <br/>
+&nbsp;&nbsp;(<a href="http://coq.inria.fr/library/Coq.Lists.List.html#map">map</a> (<a href="Term.html#lift">lift</a> 0 n) (sub_2_1 th))#((sub_2_1 th).<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="sub_isom1"></a>sub_isom1 : forall r s, sub r s = Subst.sub r (sub_2_1 s).<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="sub_isom2"></a>sub_isom2 : forall r s, Subst.sub r s = sub r (sub_1_2 s).<br/>
+
+<br/>
+<code class="keyword">End</code> Isom.<br/>
+
+<br/>
+<code class="keyword">Import</code> Joachimski.<br/>
+<code class="keyword">Import</code> Isom.<br/>
+<code class="keyword">Import</code> Subst.<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="Sub_Sub"></a>Sub_Sub : forall r (s:<a href="Term.html#term">term</a>) rs, <br/>
+&nbsp;<a href="Subst.html#sub">sub</a> (<a href="Subst.html#sub">sub</a> r s) rs = <a href="Subst.html#sub">sub</a> r (((<a href="Subst.html#sub">sub</a> s rs)::rs)#rs.<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="Sub_Sub_Ad_Hoc"></a>Sub_Sub_Ad_Hoc : forall (r s:<a href="Term.html#term">term</a>) (rs:<a href="Subst.html#substitution">substitution</a>), <br/>
+&nbsp;&nbsp;<a href="Subst.html#sub">sub</a> (<a href="Subst.html#sub">sub</a> r (<a href="Subst.html#sublift">sublift</a> rs)) s =<br/>
+&nbsp;&nbsp;<a href="Subst.html#sub">sub</a> r ((s::rs)#rs.<br/>
+
+<br/>
+<code class="keyword">Definition</code> <a name="above"></a>above k r := forall n, k &lt;= n -&gt; <a href="Term.html#occurs">occurs</a> n r = <a href="http://coq.inria.fr/library/Coq.Init.Datatypes.html#false">false</a>. <br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="above_sub"></a>above_sub : forall r (rs:<a href="Subst.html#substitution">substitution</a>) l d,<br/>
+&nbsp;<a href="Subst2.html#above">above</a> (<a href="http://coq.inria.fr/library/Coq.Lists.List.html#length">length</a> rs) r -&gt; <br/>
+&nbsp;<a href="Subst.html#sub">sub</a> r ((rs++l)#d) = <a href="Subst.html#sub">sub</a> r rs.<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="sub_sub_swap0"></a>sub_sub_swap0 : forall r k, <a href="Subst2.html#above">above</a> (<a href="http://coq.inria.fr/library/Coq.Init.Datatypes.html#S">S</a> k) r -&gt; <br/>
+&nbsp;&nbsp;&nbsp;<a href="Subst.html#sub_swap0">sub_swap0</a> (<a href="Subst.html#sub">sub</a> r [k]) k = r.<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="down_sub2"></a>down_sub2 : forall r l k, <br/>
+&nbsp;<a href="Term.html#occurs">occurs</a> 0 r = <a href="http://coq.inria.fr/library/Coq.Init.Datatypes.html#false">false</a> -&gt; <br/>
+&nbsp;let rs := ((<a href="Subst.html#id">id</a> l)++[k]::<a href="http://coq.inria.fr/library/Coq.Lists.List.html#nil">nil</a>)#l in <br/>
+&nbsp;<a href="Term.html#down">down</a> 0 (<a href="Subst.html#sub">sub</a> r (<a href="Subst.html#sublift">sublift</a> rs)) = <a href="Subst.html#sub">sub</a> (<a href="Term.html#down">down</a> 0 r) rs.<br/>
+</code>
+<hr/><a href="index.html">Index</a><hr/><font size="-1">This page has been generated by <a href="http://www.lri.fr/~filliatr/coqdoc/">coqdoc</a></font>
+</body>
+</html>
