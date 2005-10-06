@@ -145,7 +145,7 @@ doc.html:
   coqdoc --html -d html -g --glob-from .dump --charset utf8 doc.v ${DOCLIST} && \
   for f in $(DOCLIST:.v=); do echo '<a href=html/'$$f'.html>'$$f'</a><br />' >> doc.html; done && \
   echo '<a href=html/index.html>Index</a><br />' >> doc.html && \
-  cp -f ../style.css html/
+  cp -f style.css html/
 
 ####################
 #                  #
