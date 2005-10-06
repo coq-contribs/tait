@@ -1,0 +1,6106 @@
+Fminlog_mode
+R115 Coq.Init.Logic "x = y" type_scope
+R360 Coq.Init.Logic "x = y" type_scope
+R926 Coq.Init.Logic "x = y" type_scope
+R977 Coq.Init.Logic "x = y" type_scope
+R1056 Coq.Init.Logic "x = y" type_scope
+R1155 Coq.Init.Logic "x = y" type_scope
+R1275 Coq.Init.Logic "x = y" type_scope
+R1316 Coq.Init.Logic "x = y" type_scope
+R1328 Coq.Init.Logic "x = y" type_scope
+R1340 Coq.Init.Logic "x = y" type_scope
+R1352 Coq.Init.Logic "x = y" type_scope
+R1364 Coq.Init.Logic "x = y" type_scope
+R1192 Coq.Init.Logic "x = y" type_scope
+R1204 Coq.Init.Logic "x = y" type_scope
+R1216 Coq.Init.Logic "x = y" type_scope
+R1228 Coq.Init.Logic "x = y" type_scope
+R1089 Coq.Init.Logic "x = y" type_scope
+R1101 Coq.Init.Logic "x = y" type_scope
+R1113 Coq.Init.Logic "x = y" type_scope
+R1007 Coq.Init.Logic "x = y" type_scope
+R1019 Coq.Init.Logic "x = y" type_scope
+R945 Coq.Init.Logic "x = y" type_scope
+R1481 Coq.Init.Logic.False
+R1572 Coq.Init.Logic.refl_equal
+R1658 Coq.Init.Logic "x = y" type_scope
+R2130 Coq.Arith.Plus.plus_0_r
+R2156 Coq.Arith.Plus.plus_assoc
+R2199 Coq.Arith.Minus.minus_plus
+R2231 Coq.Arith.Mult.mult_0_r
+R2257 Coq.Arith.Mult.mult_1_r
+R2283 Coq.Arith.Mult.mult_assoc
+R2352 Coq.Init.Peano.plus_n_Sm
+R2389 Coq.Arith.Minus.minus_plus_simpl_l_reverse
+R2447 Coq.Arith.Minus.minus_n_O
+R2474 Coq.Arith.Minus.minus_n_n
+R2501 Coq.Init.Peano.mult_n_Sm
+R2638 Coq.Init.Logic "x = y" type_scope
+R2634 Coq.Init.Peano "n - m" nat_scope
+R2630 Coq.Init.Datatypes.S
+R2680 minlog_mode.minus_Sn_n
+R2811 Coq.Init.Datatypes.bool
+R2793 Coq.Init.Datatypes.nat
+R2793 Coq.Init.Datatypes.nat
+R2844 Coq.Init.Datatypes.false
+R2855 Coq.Init.Datatypes.S
+R2888 Coq.Init.Datatypes.true
+R2901 Coq.Init.Datatypes.S
+R2793 Coq.Init.Datatypes.nat
+R2793 Coq.Init.Datatypes.nat
+R2979 Coq.Init.Peano "x < y" nat_scope
+R2967 Coq.Init.Logic "x = y" type_scope
+R2959 minlog_mode.lt'
+R2969 Coq.Init.Datatypes.true
+R3126 Coq.Init.Logic "x = y" type_scope
+R3118 minlog_mode.lt'
+R3128 Coq.Init.Datatypes.true
+R3108 Coq.Init.Peano.lt
+R3390 Coq.Init.Logic "x = y" type_scope
+R3382 minlog_mode.lt'
+R3392 Coq.Init.Datatypes.false
+R3449 Coq.Init.Logic "x = y" type_scope
+R3437 minlog_mode.lt'
+R3444 Coq.Init.Datatypes.S
+R3451 Coq.Init.Datatypes.true
+R3513 Coq.Init.Logic "x = y" type_scope
+R3497 minlog_mode.lt'
+R3508 Coq.Init.Datatypes.S
+R3502 Coq.Init.Datatypes.S
+R3515 minlog_mode.lt'
+R3574 Coq.Init.Logic "x = y" type_scope
+R3562 minlog_mode.lt'
+R3569 Coq.Init.Datatypes.S
+R3576 Coq.Init.Datatypes.true
+R3640 Coq.Init.Logic "x = y" type_scope
+R3632 minlog_mode.lt'
+R3642 Coq.Init.Datatypes.false
+R3687 minlog_mode.lt'_def1
+R3696 minlog_mode.lt'_def2
+R3705 minlog_mode.lt'_def3
+R3714 minlog_mode.lt'_n_Sn
+R4153 Coq.Init.Peano "x < y" nat_scope
+R4150 Coq.Init.Peano "n + m" nat_scope
+R4156 Coq.Init.Peano "n + m" nat_scope
+R4140 Coq.Init.Peano "x < y" nat_scope
+R4138 Coq.Init.Peano "n + m" nat_scope
+R4142 Coq.Init.Peano "n + m" nat_scope
+R4253 Coq.Init.Datatypes.bool
+R4235 Coq.Init.Datatypes.nat
+R4235 Coq.Init.Datatypes.nat
+R4286 Coq.Init.Datatypes.true
+R4296 Coq.Init.Datatypes.S
+R4329 Coq.Init.Datatypes.false
+R4343 Coq.Init.Datatypes.S
+R4235 Coq.Init.Datatypes.nat
+R4235 Coq.Init.Datatypes.nat
+R4421 Coq.Init.Peano "x <= y" nat_scope
+R4409 Coq.Init.Logic "x = y" type_scope
+R4401 minlog_mode.le'
+R4411 Coq.Init.Datatypes.true
+R4586 Coq.Init.Logic "x = y" type_scope
+R4578 minlog_mode.le'
+R4588 Coq.Init.Datatypes.true
+R4568 Coq.Init.Peano.le
+R4722 Coq.Init.Logic "x = y" type_scope
+R4714 minlog_mode.le'
+R4724 Coq.Init.Datatypes.true
+R4781 Coq.Init.Logic "x = y" type_scope
+R4769 minlog_mode.le'
+R4774 Coq.Init.Datatypes.S
+R4783 Coq.Init.Datatypes.false
+R4846 Coq.Init.Logic "x = y" type_scope
+R4830 minlog_mode.le'
+R4841 Coq.Init.Datatypes.S
+R4835 Coq.Init.Datatypes.S
+R4848 minlog_mode.le'
+R4903 Coq.Init.Logic "x = y" type_scope
+R4895 minlog_mode.le'
+R4905 Coq.Init.Datatypes.true
+R4977 Coq.Init.Logic "x = y" type_scope
+R4965 minlog_mode.le'
+R4973 Coq.Init.Peano "n + m" nat_scope
+R4979 Coq.Init.Datatypes.true
+R5048 Coq.Init.Logic "x = y" type_scope
+R5036 minlog_mode.le'
+R5041 Coq.Init.Datatypes.S
+R5050 Coq.Init.Datatypes.false
+R5095 minlog_mode.le'_def1
+R5104 minlog_mode.le'_def2
+R5113 minlog_mode.le'_def3
+R5122 minlog_mode.le'_refl
+R5131 minlog_mode.le'_n_nk
+R5140 minlog_mode.le'_Sn_n
+R5298 Coq.Init.Peano "x <= y" nat_scope
+R5295 Coq.Init.Peano "n + m" nat_scope
+R5302 Coq.Init.Peano "n + m" nat_scope
+R5284 Coq.Init.Peano "x <= y" nat_scope
+R5282 Coq.Init.Peano "n + m" nat_scope
+R5287 Coq.Init.Peano "n + m" nat_scope
+FMoreList
+R268 Coq.Init.Logic "x = y" type_scope
+R258 Coq.Lists.List.nth
+R250 Coq.Init.Peano "x <= y" nat_scope
+R241 Coq.Lists.List.length
+R228 Coq.Lists.List.list
+R445 Coq.Init.Logic "x = y" type_scope
+R435 Coq.Lists.List.nth
+R447 Coq.Lists.List.nth
+R421 Coq.Init.Peano "x < y" nat_scope
+R423 Coq.Lists.List.length
+R403 Coq.Lists.List.list
+R633 Coq.Init.Logic "x = y" type_scope
+R618 Coq.Lists.List.length
+R627 Coq.Lists.List "x ++ y" list_scope
+R644 Coq.Init.Peano "n + m" nat_scope
+R635 Coq.Lists.List.length
+R646 Coq.Lists.List.length
+R610 Coq.Lists.List.list
+R610 Coq.Lists.List.list
+R773 Coq.Init.Logic "x = y" type_scope
+R757 Coq.Lists.List.nth
+R765 Coq.Lists.List "x ++ y" list_scope
+R775 Coq.Lists.List.nth
+R743 Coq.Init.Peano "x < y" nat_scope
+R745 Coq.Lists.List.length
+R728 Coq.Lists.List.list
+R728 Coq.Lists.List.list
+R985 Coq.Init.Logic "x = y" type_scope
+R969 Coq.Lists.List.nth
+R977 Coq.Lists.List "x ++ y" list_scope
+R987 Coq.Lists.List.nth
+R993 Coq.Init.Peano "n - m" nat_scope
+R994 Coq.Lists.List.length
+R954 Coq.Init.Peano "x >= y" nat_scope
+R957 Coq.Lists.List.length
+R939 Coq.Lists.List.list
+R939 Coq.Lists.List.list
+R1056 Coq.Arith.Minus.minus_n_O
+R1056 Coq.Arith.Minus.minus_n_O
+R1272 Coq.Init.Logic "x = y" type_scope
+R1250 Coq.Lists.List.fold_left
+R1264 Coq.Lists.List "x ++ y" list_scope
+R1274 Coq.Lists.List.fold_left
+R1290 Coq.Lists.List.fold_left
+R1234 Coq.Lists.List.list
+R1234 Coq.Lists.List.list
+R1444 Coq.Init.Logic "x = y" type_scope
+R1429 Coq.Lists.List.length
+R1437 Coq.Lists.List.rev
+R1446 Coq.Lists.List.length
+R1421 Coq.Lists.List.list
+R1496 MoreList.app_length
+R1496 MoreList.app_length
+R1536 Coq.Arith.Plus.plus_comm
+R1536 Coq.Arith.Plus.plus_comm
+R1643 Coq.Init.Logic "x = y" type_scope
+R1627 Coq.Lists.List.nth
+R1634 Coq.Lists.List.rev
+R1645 Coq.Lists.List.nth
+R1659 Coq.Init.Peano "n - m" nat_scope
+R1650 Coq.Lists.List.length
+R1661 Coq.Init.Datatypes.S
+R1610 Coq.Init.Peano "x < y" nat_scope
+R1612 Coq.Lists.List.length
+R1601 Coq.Init.Datatypes.nat
+R1586 Coq.Lists.List.list
+R1739 Coq.Lists.List.rev
+R1746 Coq.Lists.List "x :: y" list_scope
+R1739 Coq.Lists.List.rev
+R1746 Coq.Lists.List "x :: y" list_scope
+R1777 Coq.Init.Peano "n - m" nat_scope
+R1761 Coq.Lists.List.length
+R1771 Coq.Lists.List "x :: y" list_scope
+R1779 Coq.Init.Datatypes.S
+R1777 Coq.Init.Peano "n - m" nat_scope
+R1761 Coq.Lists.List.length
+R1771 Coq.Lists.List "x :: y" list_scope
+R1779 Coq.Init.Datatypes.S
+R1809 Coq.Arith.Minus.minus_n_n
+R1809 Coq.Arith.Minus.minus_n_n
+R1838 MoreList.rev_length
+R1838 MoreList.rev_length
+R1858 MoreList.app_nth2
+R1858 MoreList.app_nth2
+R1885 Coq.Arith.Minus.minus_n_n
+R1885 Coq.Arith.Minus.minus_n_n
+R1910 MoreList.app_nth1
+R1910 MoreList.app_nth1
+R1935 Coq.Arith.Minus.minus_plus_simpl_l_reverse
+R1963 Coq.Lists.List.length
+R1935 Coq.Arith.Minus.minus_plus_simpl_l_reverse
+R1963 Coq.Lists.List.length
+R1990 Coq.Init.Peano "n + m" nat_scope
+R1992 Coq.Lists.List.length
+R2008 Coq.Init.Datatypes.S
+R2011 Coq.Lists.List.length
+R1990 Coq.Init.Peano "n + m" nat_scope
+R1992 Coq.Lists.List.length
+R2008 Coq.Init.Datatypes.S
+R2011 Coq.Lists.List.length
+R2051 Coq.Arith.Minus.minus_Sn_m
+R2051 Coq.Arith.Minus.minus_Sn_m
+R2112 MoreList.rev_length
+R2112 MoreList.rev_length
+R2268 Coq.Lists.List.list
+R2247 Coq.Lists.List.list
+R2247 Coq.Lists.List.list
+R2298 Coq.Lists.List.nil
+R2314 Coq.Lists.List "x :: y" list_scope
+R2333 Coq.Lists.List "x :: y" list_scope
+R2247 Coq.Lists.List.list
+R2247 Coq.Lists.List.list
+R2392 Coq.Init.Logic "x = y" type_scope
+R2379 MoreList.rev_acc
+R2400 Coq.Lists.List "x ++ y" list_scope
+R2394 Coq.Lists.List.rev
+R2459 Coq.Lists.List.ass_app
+R2459 Coq.Lists.List.ass_app
+R2522 Coq.Init.Logic "x = y" type_scope
+R2516 Coq.Lists.List.rev
+R2524 MoreList.rev_acc
+R2534 Coq.Lists.List.nil
+R2562 MoreList.rev_acc_rev
+R2562 MoreList.rev_acc_rev
+R2581 Coq.Lists.List.app_nil_end
+R2581 Coq.Lists.List.app_nil_end
+R2673 Coq.Lists.List.list
+R2678 Coq.Init.Datatypes.nat
+R2653 Coq.Init.Datatypes.nat
+R2653 Coq.Init.Datatypes.nat
+R2712 Coq.Lists.List.nil
+R2720 Coq.Init.Datatypes.S
+R2735 Coq.Lists.List "x :: y" list_scope
+R2743 Coq.Init.Datatypes.S
+R2653 Coq.Init.Datatypes.nat
+R2653 Coq.Init.Datatypes.nat
+R2824 Coq.Init.Logic "x = y" type_scope
+R2801 Coq.Lists.List.length
+R2809 MoreList.seq
+R2948 Coq.Init.Logic "x = y" type_scope
+R2924 Coq.Lists.List.nth
+R2931 MoreList.seq
+R2955 Coq.Init.Peano "n + m" nat_scope
+R2915 Coq.Init.Peano "x < y" nat_scope
+R3008 MoreList.seq
+R3008 MoreList.seq
+R3152 Coq.Init.Logic "x = y" type_scope
+R3130 Coq.Lists.List.map
+R3137 MoreList.seq
+R3134 Coq.Init.Datatypes.S
+R3154 MoreList.seq
+R3159 Coq.Init.Datatypes.S
+R3363 Coq.Init.Logic "'exists' x , p" type_scope
+R3381 Coq.Init.Logic "A /\ B" type_scope
+R3377 Coq.Init.Logic "x = y" type_scope
+R3384 Coq.Lists.List.In
+R3345 Coq.Lists.List.In
+R3351 Coq.Lists.List.map
+R3476 Coq.Init.Logic "x = y" type_scope
+R3459 Coq.Lists.List.length
+R3467 Coq.Lists.List.map
+R3478 Coq.Lists.List.length
+R3581 Coq.Init.Logic "x = y" type_scope
+R3559 Coq.Lists.List.nth
+R3566 Coq.Lists.List.map
+R3586 Coq.Lists.List.nth
+R3624 Coq.Lists.List.map
+R3624 Coq.Lists.List.map
+R3624 Coq.Lists.List.map
+R3705 Coq.Init.Logic "x = y" type_scope
+R3691 Coq.Lists.List.map
+R3699 Coq.Lists.List "x ++ y" list_scope
+R3715 Coq.Lists.List "x ++ y" list_scope
+R3708 Coq.Lists.List.map
+R3721 Coq.Lists.List.map
+R3839 Coq.Init.Logic "x = y" type_scope
+R3825 Coq.Lists.List.map
+R3832 Coq.Lists.List.rev
+R3841 Coq.Lists.List.rev
+R3846 Coq.Lists.List.map
+R3898 MoreList.map_app
+R3898 MoreList.map_app
+R4001 Coq.Init.Logic "x = y" type_scope
+R3985 Coq.Lists.List.map
+R3992 Coq.Lists.List.map
+R4003 Coq.Lists.List.map
+R4158 Coq.Init.Logic "x = y" type_scope
+R4150 Coq.Lists.List.map
+R4160 Coq.Lists.List.map
+R4130 Coq.Init.Logic "x = y" type_scope
+R4286 Coq.Lists.List.list
+R4338 Coq.Lists.List.nil
+R4354 Coq.Lists.List "x :: y" list_scope
+R4357 Coq.Lists.List.nil
+R4373 Coq.Lists.List "x :: y" list_scope
+R4286 Coq.Lists.List.list
+R4441 Coq.Lists.List.list
+R4420 Coq.Lists.List.list
+R4471 Coq.Lists.List.nil
+R4479 Coq.Lists.List.nil
+R4490 Coq.Lists.List "x :: y" list_scope
+R4493 Coq.Lists.List.nil
+R4500 Coq.Lists.List.nil
+R4511 Coq.Lists.List "x :: y" list_scope
+R4521 Coq.Lists.List "x :: y" list_scope
+R4420 Coq.Lists.List.list
+R4598 Coq.Init.Logic "x = y" type_scope
+R4613 Coq.Lists.List "x ++ y" list_scope
+R4600 MoreList.removelast
+R4626 Coq.Lists.List "x :: y" list_scope
+R4617 MoreList.last
+R4629 Coq.Lists.List.nil
+R4587 Coq.Init.Logic "x <> y" type_scope
+R4589 Coq.Lists.List.nil
+R4714 Coq.Lists.List "x :: y" list_scope
+R4714 Coq.Lists.List "x :: y" list_scope
+R4813 Coq.Init.Specif "{ x : A  &  P }" type_scope
+R4829 Coq.Init.Specif "{ x : A  |  P }" type_scope
+R4841 Coq.Init.Logic "x = y" type_scope
+R4845 Coq.Lists.List "x ++ y" list_scope
+R4848 Coq.Lists.List "x :: y" list_scope
+R4850 Coq.Lists.List.nil
+R4820 Coq.Lists.List.list
+R4804 Coq.Init.Logic "x <> y" type_scope
+R4806 Coq.Lists.List.nil
+R4928 Coq.Lists.List.nil
+R4928 Coq.Lists.List.nil
+R5019 Coq.Lists.List "x :: y" list_scope
+R5019 Coq.Lists.List "x :: y" list_scope
+R5132 Coq.Lists.List.list
+R5111 Coq.Lists.List.list
+R5099 Coq.Init.Datatypes.nat
+R5175 Coq.Init.Datatypes.S
+R5183 Coq.Lists.List "x :: y" list_scope
+R5111 Coq.Lists.List.list
+R5099 Coq.Init.Datatypes.nat
+R5263 Coq.Init.Logic "x = y" type_scope
+R5242 Coq.Lists.List.length
+R5250 MoreList.consn
+R5267 Coq.Init.Peano "n + m" nat_scope
+R5269 Coq.Lists.List.length
+R5388 Coq.Init.Logic "x = y" type_scope
+R5366 Coq.Lists.List.nth
+R5373 MoreList.consn
+R5359 Coq.Init.Peano "x < y" nat_scope
+R5567 Coq.Init.Logic "x = y" type_scope
+R5545 Coq.Lists.List.nth
+R5552 MoreList.consn
+R5569 Coq.Lists.List.nth
+R5575 Coq.Init.Peano "n - m" nat_scope
+R5537 Coq.Init.Peano "x <= y" nat_scope
+R5624 Coq.Arith.Minus.minus_n_O
+R5624 Coq.Arith.Minus.minus_n_O
+R5792 Coq.Init.Datatypes.bool
+R5772 Coq.Lists.List.list
+R5764 Coq.Init.Datatypes.bool
+R5824 Coq.Lists.List.nil
+R5831 Coq.Init.Datatypes.false
+R5844 Coq.Lists.List "x :: y" list_scope
+R5855 Coq.Bool.Bool "x || y" bool_scope
+R5772 Coq.Lists.List.list
+R5764 Coq.Init.Datatypes.bool
+R5989 Coq.Init.Logic "x = y" type_scope
+R5978 Coq.Lists.List.nth
+R5991 Coq.Init.Datatypes.false
+R5964 Coq.Init.Logic "x = y" type_scope
+R5952 MoreList.existsb
+R5966 Coq.Init.Datatypes.false
+R5936 Coq.Init.Peano "x < y" nat_scope
+R5938 Coq.Lists.List.length
+R5921 Coq.Lists.List.list
+R5913 Coq.Init.Datatypes.bool
+R6061 Coq.Bool.Bool.orb_false_elim
+R6061 Coq.Bool.Bool.orb_false_elim
+R6243 Coq.Lists.List.list
+R6222 Coq.Lists.List.list
+R6215 Coq.Init.Datatypes.nat
+R6278 Coq.Lists.List.nil
+R6287 Coq.Init.Datatypes.S
+R6318 Coq.Lists.List.nil
+R6325 Coq.Lists.List.nil
+R6340 Coq.Lists.List "x :: y" list_scope
+R6348 Coq.Lists.List "x :: y" list_scope
+R6222 Coq.Lists.List.list
+R6215 Coq.Init.Datatypes.nat
+R6440 Coq.Lists.List.rev_involutive
+R6478 Coq.Lists.List.rev_unit
+R6527 MoreList.map_nth
+R6580 MoreList.map_length
+R6626 MoreList.seq_length
+R6673 MoreList.app_length
+R6731 MoreList.rev_length
+R6775 MoreList.consn_length
+R6858 Coq.Lists.List.app_nil_end
+FTerm
+R490 Term.Arrow
+R579 Coq.Init.Datatypes.nat
+R632 Term.type
+R708 Term.Var
+R739 Term.App
+R790 Term.Abs
+R916 Term.term
+R998 Term.type
+R1011 Term.Iota
+R1011 Term.Iota
+R1087 Term.Iota
+R1095 Term.dtype
+R1112 Term " rho --> sigma "
+R1052 Term.type
+R1201 Term.Iota
+R1209 Term.dtype
+R1221 Term " rho --> sigma "
+R1166 Term.type
+R1290 Coq.Init.Specif "{ A } + { B }" type_scope
+R1294 Coq.Init.Logic "x = y" type_scope
+R1304 Coq.Init.Logic "~ x" type_scope
+R1308 Coq.Init.Logic "x = y" type_scope
+R1284 Term.type
+R1284 Term.type
+R1390 Coq.Init.Specif "{ A } + { B }" type_scope
+R1394 Coq.Init.Logic "x = y" type_scope
+R1403 Coq.Init.Logic "~ x" type_scope
+R1407 Coq.Init.Logic "x = y" type_scope
+R1384 Term.term
+R1384 Term.term
+R1445 Coq.Arith.Peano_dec.eq_nat_dec
+R1445 Coq.Arith.Peano_dec.eq_nat_dec
+R1464 Term.type_dec
+R1464 Term.type_dec
+R1525 Coq.Init.Datatypes.bool
+R1506 Term.term
+R1499 Coq.Init.Datatypes.nat
+R1551 Term " [ n ] "
+R1561 Coq.Arith.Peano_dec.eq_nat_dec
+R1591 Coq.Init.Datatypes.false
+R1581 Coq.Init.Datatypes.true
+R1602 Term " r ; s "
+R1608 Coq.Bool.Bool.orb
+R1642 Term " \ rho , r "
+R1660 Coq.Init.Datatypes.S
+R1506 Term.term
+R1499 Coq.Init.Datatypes.nat
+R1723 Term.term
+R1705 Term.term
+R1698 Coq.Init.Datatypes.nat
+R1691 Coq.Init.Datatypes.nat
+R1753 Term " [ n ] "
+R1763 Coq.Arith.Compare_dec.le_lt_dec
+R1783 Coq.Init.Peano "n + m" nat_scope
+R1799 Term " r ; s "
+R1816 Term " r ; s "
+R1836 Term " \ rho , r "
+R1846 Term " \ rho , r "
+R1858 Coq.Init.Datatypes.S
+R1705 Term.term
+R1698 Coq.Init.Datatypes.nat
+R1691 Coq.Init.Datatypes.nat
+R1908 Term.lift
+R1994 Term.term
+R1976 Term.term
+R1969 Coq.Init.Datatypes.nat
+R2024 Term " [ n ] "
+R2034 Coq.Arith.Compare_dec.le_lt_dec
+R2053 Coq.Init.Datatypes.S
+R2070 Term " r ; s "
+R2083 Term " r ; s "
+R2099 Term " \ rho , r "
+R2109 Term " \ rho , r "
+R2119 Coq.Init.Datatypes.S
+R1976 Term.term
+R1969 Coq.Init.Datatypes.nat
+R2176 Term.term
+R2158 Term.term
+R2151 Coq.Init.Datatypes.nat
+R2206 Term " [ n ] "
+R2216 Coq.Arith.Compare_dec.le_lt_dec
+R2235 Coq.Init.Peano.pred
+R2255 Term " r ; s "
+R2270 Term " r ; s "
+R2288 Term " \ rho , r "
+R2298 Term " \ rho , r "
+R2310 Coq.Init.Datatypes.S
+R2158 Term.term
+R2151 Coq.Init.Datatypes.nat
+R2361 Coq.Init.Logic "x = y" type_scope
+R2354 Term.up
+R2363 Term.lift
+R2538 Coq.Init.Logic "x = y" type_scope
+R2526 Term " r |\ [ l , k  ] "
+R2518 Term " r |\ [ l , k  ] "
+R2542 Term " r |\ [ l , k  ] "
+R2549 Coq.Init.Peano "n + m" nat_scope
+R2727 Coq.Init.Logic "x = y" type_scope
+R2713 Term " r |\ [ l , k  ] "
+R2720 Coq.Init.Peano "n + m" nat_scope
+R2705 Term " r |\ [ l , k  ] "
+R2731 Term " r |\ [ l , k  ] "
+R2739 Coq.Init.Peano "n + m" nat_scope
+R2926 Coq.Init.Logic "x = y" type_scope
+R2908 Term " r |\ [ l , k  ] "
+R2918 Coq.Init.Peano "n + m" nat_scope
+R2915 Coq.Init.Peano "n + m" nat_scope
+R2900 Term " r |\ [ l , k  ] "
+R2944 Term " r |\ [ l , k  ] "
+R2931 Term " r |\ [ l , k  ] "
+R2936 Coq.Init.Peano "n + m" nat_scope
+R3066 Coq.Init.Peano "n + m" nat_scope
+R3063 Coq.Init.Datatypes.S
+R3047 Coq.Init.Datatypes.S
+R3051 Coq.Init.Peano "n + m" nat_scope
+R3066 Coq.Init.Peano "n + m" nat_scope
+R3063 Coq.Init.Datatypes.S
+R3047 Coq.Init.Datatypes.S
+R3051 Coq.Init.Peano "n + m" nat_scope
+R3141 Coq.Init.Logic "x = y" type_scope
+R3130 Term.lift
+R3301 Coq.Init.Logic "x = y" type_scope
+R3285 Term.down
+R3293 Term.up
+R3484 Coq.Init.Logic "x = y" type_scope
+R3468 Term.up
+R3474 Term.down
+R3457 Coq.Init.Logic "x = y" type_scope
+R3446 Term.occurs
+R3459 Coq.Init.Datatypes.false
+R3569 Coq.Bool.Bool.orb_false_elim
+R3569 Coq.Bool.Bool.orb_false_elim
+R3769 Coq.Init.Logic "x = y" type_scope
+R3743 Term.occurs
+R3757 Term.lift
+R3752 Coq.Init.Peano "n + m" nat_scope
+R3771 Term.occurs
+R3730 Coq.Init.Peano "x <= y" nat_scope
+R3896 Coq.Init.Datatypes.S
+R3900 Coq.Init.Peano "n + m" nat_scope
+R3912 Coq.Init.Peano "n + m" nat_scope
+R3914 Coq.Init.Datatypes.S
+R3896 Coq.Init.Datatypes.S
+R3900 Coq.Init.Peano "n + m" nat_scope
+R3912 Coq.Init.Peano "n + m" nat_scope
+R3914 Coq.Init.Datatypes.S
+R4018 Coq.Init.Logic "x = y" type_scope
+R3998 Term.occurs
+R4008 Term.down
+R4020 Term.occurs
+R4028 Coq.Init.Datatypes.S
+R3985 Coq.Init.Peano "x <= y" nat_scope
+R3981 Coq.Init.Datatypes.S
+R4245 Coq.Init.Logic "x = y" type_scope
+R4225 Term.occurs
+R4235 Term.down
+R4247 Term.occurs
+R4255 Coq.Init.Datatypes.S
+R4210 Coq.Init.Logic "x = y" type_scope
+R4199 Term.occurs
+R4212 Coq.Init.Datatypes.false
+R4353 Coq.Bool.Bool.orb_false_elim
+R4353 Coq.Bool.Bool.orb_false_elim
+FSubst
+R237 Coq.Lists.List.list
+R242 Term.term
+R262 Coq.Init.Datatypes.nat
+R293 Subst.mk_sub
+R406 Subst " l # n "
+R390 Coq.Lists.List "x :: y" list_scope
+R386 Term " [ n ] "
+R393 Coq.Lists.List.map
+R398 Term.up
+R409 Coq.Init.Datatypes.S
+R415 Subst.shift
+R366 Subst.substitution
+R499 Term.term
+R471 Subst.substitution
+R462 Term.term
+R527 Term " [ n ] "
+R534 Coq.Lists.List.nth
+R543 Term " [ n ] "
+R555 Coq.Init.Peano "n + m" nat_scope
+R545 Coq.Init.Peano "n - m" nat_scope
+R546 Coq.Lists.List.length
+R560 Subst.shift
+R573 Term " r ; s "
+R588 Term " r ; s "
+R605 Term " \ rho , r "
+R615 Term " \ rho , r "
+R628 Subst.sublift
+R471 Subst.substitution
+R462 Term.term
+R785 Subst " l # n "
+R780 Coq.Lists.List "x :: y" list_scope
+R782 Coq.Lists.List.nil
+R769 Term.term
+R847 Subst.sub
+R880 Term " [ n ] "
+R852 Term " \ rho , r "
+R853 Term.Iota
+R873 Term " r ; s "
+R868 Term " r ; s "
+R864 Term " r ; s "
+R861 Term " [ n ] "
+R865 Term " [ n ] "
+R870 Term " [ n ] "
+R874 Term " [ n ] "
+R946 Subst.substitution
+R980 Subst " l # n "
+R963 Coq.Lists.List.map
+R972 MoreList.seq
+R967 Term.Var
+R939 Coq.Init.Datatypes.nat
+R1016 MoreList.map_map
+R1060 Coq.Init.Datatypes.S
+R1043 MoreList.map_map
+R1076 MoreList.seq_shift
+R1136 Coq.Init.Logic "x = y" type_scope
+R1113 Coq.Lists.List.map
+R1125 Coq.Lists.List.map
+R1129 Term.Var
+R1118 Term.up
+R1138 Coq.Lists.List.map
+R1147 Coq.Lists.List.map
+R1151 Coq.Init.Datatypes.S
+R1142 Term.Var
+R1239 Coq.Init.Logic "x = y" type_scope
+R1224 Subst.sublift
+R1233 Subst.id
+R1241 Subst.id
+R1245 Coq.Init.Datatypes.S
+R1297 Subst.map_up
+R1313 MoreList.seq_shift
+R1297 Subst.map_up
+R1313 MoreList.seq_shift
+R1398 Coq.Init.Logic "x = y" type_scope
+R1369 Subst.sublift
+R1393 Subst " l # n "
+R1384 Coq.Lists.List "x ++ y" list_scope
+R1380 Subst.id
+R1388 Coq.Lists.List "x :: y" list_scope
+R1390 Coq.Lists.List.nil
+R1422 Subst " l # n "
+R1412 Coq.Lists.List "x ++ y" list_scope
+R1404 Subst.id
+R1408 Coq.Init.Datatypes.S
+R1415 Term.up
+R1425 Coq.Init.Datatypes.S
+R1480 MoreList.map_app
+R1480 MoreList.map_app
+R1552 Coq.Init.Logic "x = y" type_scope
+R1539 Subst.sub
+R1546 Subst.id
+R1602 Coq.Arith.Compare_dec.le_lt_dec
+R1602 Coq.Arith.Compare_dec.le_lt_dec
+R1626 MoreList.nth_overflow
+R1626 MoreList.nth_overflow
+R1680 MoreList.seq_nth
+R1680 MoreList.seq_nth
+R1745 Subst.sublift_id
+R1745 Subst.sublift_id
+R2000 Coq.Init.Logic "x = y" type_scope
+R1980 Term.occurs
+R1990 Subst.sub
+R2002 Coq.Init.Datatypes.false
+R1964 Coq.Init.Logic "x = y" type_scope
+R1942 MoreList.existsb
+R1951 Term.occurs
+R1966 Coq.Init.Datatypes.false
+R1926 Coq.Init.Logic "x = y" type_scope
+R1888 Term.occurs
+R1910 Coq.Init.Peano "n - m" nat_scope
+R1898 Coq.Init.Peano "n + m" nat_scope
+R1900 Coq.Lists.List.length
+R1916 Subst.shift
+R1928 Coq.Init.Datatypes.false
+R1867 Coq.Init.Peano "x <= y" nat_scope
+R1858 Subst.shift
+R1870 Coq.Lists.List.length
+R1841 Subst.substitution
+R2060 Coq.Arith.Compare_dec.le_lt_dec
+R2071 Coq.Lists.List.length
+R2060 Coq.Arith.Compare_dec.le_lt_dec
+R2071 Coq.Lists.List.length
+R2096 MoreList.nth_overflow
+R2096 MoreList.nth_overflow
+R2134 Coq.Arith.Peano_dec.eq_nat_dec
+R2160 Coq.Init.Peano "n + m" nat_scope
+R2148 Coq.Init.Peano "n - m" nat_scope
+R2150 Coq.Lists.List.length
+R2162 Subst.shift
+R2134 Coq.Arith.Peano_dec.eq_nat_dec
+R2160 Coq.Init.Peano "n + m" nat_scope
+R2148 Coq.Init.Peano "n - m" nat_scope
+R2150 Coq.Lists.List.length
+R2162 Subst.shift
+R2206 Coq.Arith.Peano_dec.eq_nat_dec
+R2234 Coq.Init.Peano "n - m" nat_scope
+R2222 Coq.Init.Peano "n + m" nat_scope
+R2224 Coq.Lists.List.length
+R2236 Subst.shift
+R2206 Coq.Arith.Peano_dec.eq_nat_dec
+R2234 Coq.Init.Peano "n - m" nat_scope
+R2222 Coq.Init.Peano "n + m" nat_scope
+R2224 Coq.Lists.List.length
+R2236 Subst.shift
+R2276 MoreList.existsb_nth
+R2276 MoreList.existsb_nth
+R2328 Coq.Bool.Bool.orb_false_elim
+R2328 Coq.Bool.Bool.orb_false_elim
+R2589 Subst.support
+R2589 Subst.support
+R2622 Term.lift_up
+R2622 Term.lift_up
+R2651 Coq.Bool.Bool.orb_false_elim
+R2651 Coq.Bool.Bool.orb_false_elim
+R2731 Coq.Init.Datatypes.S
+R2743 Coq.Init.Peano "n + m" nat_scope
+R2731 Coq.Init.Datatypes.S
+R2743 Coq.Init.Peano "n + m" nat_scope
+R2763 Term.lift_occurs
+R2763 Term.lift_occurs
+R2874 Coq.Lists.List.nth
+R2884 Coq.Lists.List "x ++ y" list_scope
+R2888 Coq.Lists.List "x :: y" list_scope
+R2890 Coq.Lists.List.nil
+R2947 Coq.Arith.Compare_dec.lt_eq_lt_dec
+R2961 Coq.Lists.List.length
+R3080 MoreList.nth_overflow
+R3162 MoreList.app_nth2
+R3241 MoreList.app_nth1
+R3307 MoreList.seq_nth
+R3436 Coq.Init.Logic "x = y" type_scope
+R3425 Term.occurs
+R3438 Term.occurs
+R3448 Subst.sub
+R3472 Subst " l # n "
+R3461 Coq.Lists.List "x ++ y" list_scope
+R3456 Subst.id
+R3467 Coq.Lists.List "x :: y" list_scope
+R3464 Term " [ n ] "
+R3469 Coq.Lists.List.nil
+R3415 Coq.Init.Peano "x < y" nat_scope
+R3406 Coq.Init.Peano "x < y" nat_scope
+R3546 Coq.Lists.List "x :: y" list_scope
+R3542 Term " [ n ] "
+R3548 Coq.Lists.List.nil
+R3559 Coq.Lists.List.map
+R3571 Coq.Lists.List "x :: y" list_scope
+R3574 Coq.Lists.List.nil
+R3563 Term.Var
+R3546 Coq.Lists.List "x :: y" list_scope
+R3542 Term " [ n ] "
+R3548 Coq.Lists.List.nil
+R3559 Coq.Lists.List.map
+R3571 Coq.Lists.List "x :: y" list_scope
+R3574 Coq.Lists.List.nil
+R3563 Term.Var
+R3599 MoreList.map_app
+R3599 MoreList.map_app
+R3804 Subst.sublift_id_s
+R3855 Coq.Init.Datatypes.S
+R3849 Coq.Init.Datatypes.S
+R3843 Coq.Init.Datatypes.S
+R3855 Coq.Init.Datatypes.S
+R3849 Coq.Init.Datatypes.S
+R3843 Coq.Init.Datatypes.S
+R3978 Coq.Init.Logic "x = y" type_scope
+R3967 Term.occurs
+R3980 Term.occurs
+R3994 Subst.sub
+R4020 Subst " l # n "
+R4007 Coq.Lists.List "x ++ y" list_scope
+R4003 Subst.id
+R4015 Coq.Lists.List "x :: y" list_scope
+R4010 Term " [ n ] "
+R4012 Coq.Init.Peano "n + m" nat_scope
+R4017 Coq.Lists.List.nil
+R3989 Coq.Init.Peano "n + m" nat_scope
+R3953 Coq.Init.Logic "x = y" type_scope
+R3936 Term.occurs
+R3947 Coq.Init.Peano "n + m" nat_scope
+R3944 Coq.Init.Datatypes.S
+R3955 Coq.Init.Datatypes.false
+R4080 Coq.Lists.List "x :: y" list_scope
+R4075 Term " [ n ] "
+R4077 Coq.Init.Peano "n + m" nat_scope
+R4082 Coq.Lists.List.nil
+R4093 Coq.Lists.List.map
+R4106 Coq.Lists.List "x :: y" list_scope
+R4104 Coq.Init.Peano "n + m" nat_scope
+R4109 Coq.Lists.List.nil
+R4097 Term.Var
+R4080 Coq.Lists.List "x :: y" list_scope
+R4075 Term " [ n ] "
+R4077 Coq.Init.Peano "n + m" nat_scope
+R4082 Coq.Lists.List.nil
+R4093 Coq.Lists.List.map
+R4106 Coq.Lists.List "x :: y" list_scope
+R4104 Coq.Init.Peano "n + m" nat_scope
+R4109 Coq.Lists.List.nil
+R4097 Term.Var
+R4134 MoreList.map_app
+R4134 MoreList.map_app
+R4275 Coq.Bool.Bool.orb_false_elim
+R4275 Coq.Bool.Bool.orb_false_elim
+R4368 Subst.sublift_id_s
+R4404 Coq.Init.Datatypes.S
+R4404 Coq.Init.Datatypes.S
+R4512 Coq.Init.Logic "x = y" type_scope
+R4501 Term.occurs
+R4514 Term.occurs
+R4524 Subst.sub
+R4486 Coq.Init.Logic "x = y" type_scope
+R4471 Term.occurs
+R4479 Coq.Init.Datatypes.S
+R4488 Coq.Init.Datatypes.false
+R4559 Subst.subk_occurs_gen
+R4559 Subst.subk_occurs_gen
+R4702 Coq.Init.Logic "x = y" type_scope
+R4693 Term.down
+R4704 Subst.sub
+R4726 Subst " l # n "
+R4717 Coq.Lists.List "x ++ y" list_scope
+R4713 Subst.id
+R4721 Coq.Lists.List "x :: y" list_scope
+R4723 Coq.Lists.List.nil
+R4679 Coq.Init.Logic "x = y" type_scope
+R4668 Term.occurs
+R4681 Coq.Init.Datatypes.false
+R4823 Coq.Bool.Bool.orb_false_elim
+R4823 Coq.Bool.Bool.orb_false_elim
+R4917 Subst.sublift_id_s
+R4951 Term.up
+R4945 Coq.Init.Datatypes.S
+R4951 Term.up
+R4945 Coq.Init.Datatypes.S
+R5025 Subst.substitution
+R5074 Subst " l # n "
+R5063 Coq.Lists.List "x ++ y" list_scope
+R5045 Coq.Lists.List.map
+R5057 Subst.id
+R5050 Term.up
+R5069 Coq.Lists.List "x :: y" list_scope
+R5066 Term " [ n ] "
+R5071 Coq.Lists.List.nil
+R5077 Coq.Init.Datatypes.S
+R5080 Coq.Init.Datatypes.S
+R5018 Coq.Init.Datatypes.nat
+R5128 Subst.sub
+R5135 Subst.swap0
+R5120 Coq.Init.Datatypes.nat
+R5112 Term.term
+FSubst2
+R138 Term.term
+R183 Coq.Init.Datatypes.nat
+R254 Subst2.Joachimski.substitution
+R247 Coq.Init.Datatypes.nat
+R231 Subst2.Joachimski.substitution
+R302 Subst2.Joachimski.Dot
+R318 Subst2.Joachimski.Dot
+R323 Term.lift
+R357 Subst2.Joachimski.Up
+R365 Subst2.Joachimski.Up
+R370 Coq.Init.Peano "n + m" nat_scope
+R231 Subst2.Joachimski.substitution
+R408 Subst2.Joachimski.sublift
+R498 Coq.Init.Logic "x = y" type_scope
+R493 Subst2 " th ||\ n "
+R563 Term.lift_null
+R563 Term.lift_null
+R637 Term.term
+R621 Subst2.Joachimski.substitution
+R614 Coq.Init.Datatypes.nat
+R682 Coq.Init.Datatypes.S
+R687 Subst2.Joachimski.Dot
+R722 Subst2.Joachimski.Dot
+R746 Subst2.Joachimski.Up
+R754 Term.Var
+R760 Coq.Init.Peano "n + m" nat_scope
+R614 Coq.Init.Datatypes.nat
+R814 Term.term
+R798 Subst2.Joachimski.substitution
+R790 Term.term
+R854 Term.Var
+R863 Subst2.Joachimski.sub'
+R880 Term.App
+R891 Term.App
+R927 Term.Abs
+R940 Term.Abs
+R956 Subst2.Joachimski.Dot
+R969 Subst2.Joachimski.sublift
+R961 Term.Var
+R790 Term.term
+R1024 Subst2.Joachimski.sub
+R1112 Subst2.Joachimski.substitution
+R1096 Subst2.Joachimski.substitution
+R1089 Coq.Init.Datatypes.nat
+R1183 Coq.Init.Datatypes.S
+R1188 Subst2.Joachimski.Dot
+R1221 Coq.Init.Datatypes.S
+R1226 Subst2.Joachimski.Up
+R1234 Subst2.Joachimski.Up
+R1242 Coq.Init.Peano "n + m" nat_scope
+R1238 Coq.Init.Datatypes.S
+R1089 Coq.Init.Datatypes.nat
+R1315 Subst2.Joachimski.substitution
+R1284 Subst2.Joachimski.substitution
+R1284 Subst2.Joachimski.substitution
+R1355 Subst2.Joachimski.Dot
+R1370 Subst2.Joachimski.Dot
+R1375 Subst2.Joachimski.sub
+R1413 Subst2.Joachimski.Up
+R1421 Subst2.Joachimski.comp'
+R1284 Subst2.Joachimski.substitution
+R1284 Subst2.Joachimski.substitution
+R1472 Subst2.Joachimski.comp
+R1564 Coq.Init.Logic "x = y" type_scope
+R1549 Subst2.Joachimski.comp'
+R1558 Subst2.Joachimski.Up
+R1566 Subst2.Joachimski.Up
+R1571 Coq.Init.Peano "n + m" nat_scope
+R1660 Coq.Init.Logic "x = y" type_scope
+R1646 Subst2.Joachimski.sub'
+R1654 Subst2.Joachimski.Up
+R1662 Term.Var
+R1668 Coq.Init.Peano "n + m" nat_scope
+R1737 Subst2.Joachimski.Sub'Eq
+R1744 Subst2.Joachimski.Comp'Eq
+R1852 Coq.Init.Logic "x = y" type_scope
+R1844 Subst2 " th ||\ n "
+R1839 Subst2 " th ||\ n "
+R1860 Subst2 " th ||\ n "
+R1865 Coq.Init.Peano "n + m" nat_scope
+R1918 Term.lift_lift
+R1918 Term.lift_lift
+R2098 Subst2.Joachimski.substitution
+R2082 Subst2.Joachimski.substitution
+R2069 Coq.Lists.List.list
+R2074 Term.term
+R2151 Coq.Lists.List.nil
+R2171 Coq.Lists.List "x :: y" list_scope
+R2179 Subst2.Joachimski.Dot
+R2069 Coq.Lists.List.list
+R2074 Term.term
+R2226 Subst2.Joachimski.PushList
+R2226 Subst2.Joachimski.PushList
+R2303 Subst2.Joachimski.substitution
+R2287 Subst2.Joachimski.substitution
+R2280 Coq.Init.Datatypes.nat
+R2368 Coq.Init.Datatypes.S
+R2384 Subst2.Joachimski.Dot
+R2389 Term.Var
+R2280 Coq.Init.Datatypes.nat
+R2425 Subst2.Joachimski.Spare
+R2709 Coq.Init.Logic "x = y" type_scope
+R2698 Subst2 "x ++ y"
+R2681 Coq.Lists.List.map
+R2690 MoreList.seq
+R2685 Term.Var
+R2714 Subst2.Joachimski.Spare
+R2745 Subst2 "x ++ y"
+R2723 Coq.Lists.List.map
+R2732 MoreList.seq
+R2740 Coq.Init.Peano "n - m" nat_scope
+R2727 Term.Var
+R2670 Coq.Init.Peano "x <= y" nat_scope
+R2837 Coq.Init.Peano "n - m" nat_scope
+R2847 Coq.Init.Datatypes.S
+R2851 Coq.Init.Peano "n - m" nat_scope
+R2854 Coq.Init.Datatypes.S
+R2837 Coq.Init.Peano "n - m" nat_scope
+R2847 Coq.Init.Datatypes.S
+R2851 Coq.Init.Peano "n - m" nat_scope
+R2854 Coq.Init.Datatypes.S
+R2939 Coq.Init.Logic "x = y" type_scope
+R2930 Subst2 "x !! y"
+R2959 Subst2 "x ++ y"
+R2941 Coq.Lists.List.map
+R2950 MoreList.seq
+R2945 Term.Var
+R2995 Subst2.Joachimski.SparePushList_aux
+R2995 Subst2.Joachimski.SparePushList_aux
+R3121 Coq.Init.Logic "x = y" type_scope
+R3108 Subst2 " r {[ th ]} "
+R3102 Term.Var
+R3111 Subst2 "x ++ y"
+R3123 Coq.Lists.List.nth
+R3132 Term.Var
+R3085 Coq.Init.Peano "x < y" nat_scope
+R3087 Coq.Lists.List.length
+R3337 Coq.Init.Logic "x = y" type_scope
+R3324 Subst2 " r {[ th ]} "
+R3318 Term.Var
+R3327 Subst2 "x ++ y"
+R3358 Subst2 " r {[ th ]} "
+R3339 Term.Var
+R3346 Coq.Init.Peano "n - m" nat_scope
+R3348 Coq.Lists.List.length
+R3307 Coq.Init.Peano "x <= y" nat_scope
+R3298 Coq.Lists.List.length
+R3535 Coq.Init.Logic "x = y" type_scope
+R3527 Subst2 " th ||\ n "
+R3520 Subst2 "x ++ y"
+R3565 Subst2 "x ++ y"
+R3538 Coq.Lists.List.map
+R3554 Term " r |\ [ l , k  ] "
+R3577 Subst2 " th ||\ n "
+R3713 Coq.Init.Logic "x = y" type_scope
+R3700 Subst2 " th 'o' th' "
+R3687 Subst2.Joachimski.Up
+R3691 Coq.Lists.List.length
+R3704 Subst2 "x ++ y"
+R3848 Coq.Init.Logic "x = y" type_scope
+R3839 Term " r |\ [ l , k  ] "
+R3852 Subst2 " r {[ th ]} "
+R3857 Subst2 "x !! y"
+R3861 Subst2.Joachimski.Up
+R3866 Coq.Init.Peano "n + m" nat_scope
+R3911 Subst2.Joachimski.SparePushList
+R3911 Subst2.Joachimski.SparePushList
+R3932 Term.lift
+R3932 Term.lift
+R3955 Subst2.Joachimski.SubPushList2
+R3955 Subst2.Joachimski.SubPushList2
+R4003 Subst2.Joachimski.SubPushList1
+R4037 MoreList.seq_nth
+R4003 Subst2.Joachimski.SubPushList1
+R4037 MoreList.seq_nth
+R4121 Subst2.Joachimski.SparePushList
+R4121 Subst2.Joachimski.SparePushList
+R4178 Subst2.Joachimski.SparePushList
+R4178 Subst2.Joachimski.SparePushList
+R4217 Subst2.Joachimski.SubliftPushList
+R4217 Subst2.Joachimski.SubliftPushList
+R4332 Coq.Init.Logic "x = y" type_scope
+R4325 Subst2 " th 'o' th' "
+R4327 Subst2.Joachimski.Up
+R4340 Subst2 " th ||\ n "
+R4411 Subst2.Joachimski.LiftSubst
+R4411 Subst2.Joachimski.LiftSubst
+R4571 Coq.Init.Logic "x = y" type_scope
+R4560 Term " r |\ [ l , k  ] "
+R4545 Subst2 " r {[ th ]} "
+R4539 Term.Var
+R4553 Subst2 " th ||\ n "
+R4579 Subst2 " r {[ th ]} "
+R4573 Term.Var
+R4587 Subst2 " th ||\ n "
+R4592 Coq.Init.Peano "n + m" nat_scope
+R4656 Term.lift_lift2
+R4656 Term.lift_lift2
+R4917 Coq.Init.Logic "x = y" type_scope
+R4906 Term " r |\ [ l , k  ] "
+R4883 Subst2 " r {[ th ]} "
+R4888 Subst2 "x !! y"
+R4898 Subst2 " th ||\ n "
+R4921 Subst2 " r {[ th ]} "
+R4926 Subst2 "x !! y"
+R4936 Subst2 " th ||\ n "
+R4941 Coq.Init.Peano "n + m" nat_scope
+R4994 Coq.Arith.Compare_dec.le_lt_dec
+R5032 Subst2.Joachimski.SparePushList
+R4994 Coq.Arith.Compare_dec.le_lt_dec
+R5032 Subst2.Joachimski.SparePushList
+R5032 Subst2.Joachimski.SparePushList
+R5032 Subst2.Joachimski.SparePushList
+R5032 Subst2.Joachimski.SparePushList
+R5081 Subst2.Joachimski.SubPushList2
+R5081 Subst2.Joachimski.SubPushList2
+R5081 Subst2.Joachimski.SubPushList2
+R5120 Subst2.Joachimski.LiftSublift
+R5120 Subst2.Joachimski.LiftSublift
+R5159 Subst2.Joachimski.SubPushList1
+R5159 Subst2.Joachimski.SubPushList1
+R5159 Subst2.Joachimski.SubPushList1
+R5200 MoreList.seq_nth
+R5200 MoreList.seq_nth
+R5305 Subst2.Joachimski.SparePushList
+R5328 Subst2.Joachimski.SubliftPushList
+R5305 Subst2.Joachimski.SparePushList
+R5328 Subst2.Joachimski.SubliftPushList
+R5305 Subst2.Joachimski.SparePushList
+R5328 Subst2.Joachimski.SubliftPushList
+R5379 Subst2.Joachimski.SubliftTwice
+R5379 Subst2.Joachimski.SubliftTwice
+R5379 Subst2.Joachimski.SubliftTwice
+R5410 Coq.Init.Datatypes.S
+R5410 Coq.Init.Datatypes.S
+R5438 Subst2.Joachimski.SparePushList
+R5438 Subst2.Joachimski.SparePushList
+R5438 Subst2.Joachimski.SparePushList
+R5600 Coq.Init.Logic "x = y" type_scope
+R5589 Term " r |\ [ l , k  ] "
+R5580 Subst2 " r {[ th ]} "
+R5604 Subst2 " r {[ th ]} "
+R5613 Subst2 " th ||\ n "
+R5649 Subst2.Joachimski.subliftId
+R5649 Subst2.Joachimski.subliftId
+R5675 Subst2.Joachimski.SubliftTwice
+R5675 Subst2.Joachimski.SubliftTwice
+R5696 Subst2.Joachimski.LiftSpare
+R5696 Subst2.Joachimski.LiftSpare
+R5806 Coq.Init.Logic "x = y" type_scope
+R5789 Subst2 " th 'o' th' "
+R5799 Subst2 " th ||\ n "
+R5823 Subst2 " th ||\ n "
+R5815 Subst2 " th 'o' th' "
+R5879 Subst2.Joachimski.LiftSpare2
+R5879 Subst2.Joachimski.LiftSpare2
+R6085 Coq.Init.Logic "x = y" type_scope
+R6060 Subst2 " r {[ th ]} "
+R6044 Term " r |\ [ l , k  ] "
+R6051 Coq.Lists.List.length
+R6068 Subst2 "x !! y"
+R6073 Subst2 "x ++ y"
+R6089 Subst2 " r {[ th ]} "
+R6094 Subst2 "x !! y"
+R6176 Coq.Init.Logic "x = y" type_scope
+R6168 Subst2.Joachimski.sub'
+R6177 Subst2.Joachimski.sub'
+R6202 Coq.Init.Logic "x = y" type_scope
+R6197 Subst2 " r {[ th ]} "
+R6205 Subst2 " r {[ th ]} "
+R6234 Subst2.Joachimski.SparePushList
+R6202 Coq.Init.Logic "x = y" type_scope
+R6197 Subst2 " r {[ th ]} "
+R6205 Subst2 " r {[ th ]} "
+R6202 Coq.Init.Logic "x = y" type_scope
+R6197 Subst2 " r {[ th ]} "
+R6205 Subst2 " r {[ th ]} "
+R6234 Subst2.Joachimski.SparePushList
+R6234 Subst2.Joachimski.SparePushList
+R6234 Subst2.Joachimski.SparePushList
+R6234 Subst2.Joachimski.SparePushList
+R6283 Subst2.Joachimski.SubPushList2
+R6283 Subst2.Joachimski.SubPushList2
+R6283 Subst2.Joachimski.SubPushList2
+R6283 Subst2.Joachimski.SubPushList2
+R6394 Subst2.Joachimski.SubPushList1
+R6394 Subst2.Joachimski.SubPushList1
+R6394 Subst2.Joachimski.SubPushList1
+R6497 Subst2.Joachimski.SparePushList
+R6525 Subst2.Joachimski.SubliftPushList
+R6497 Subst2.Joachimski.SparePushList
+R6497 Subst2.Joachimski.SparePushList
+R6525 Subst2.Joachimski.SubliftPushList
+R6525 Subst2.Joachimski.SubliftPushList
+R6525 Subst2.Joachimski.SubliftPushList
+R6564 Coq.Lists.List.map
+R6582 Term " r |\ [ l , k  ] "
+R6564 Coq.Lists.List.map
+R6582 Term " r |\ [ l , k  ] "
+R6607 Coq.Lists.List.length
+R6623 Coq.Lists.List.length
+R6607 Coq.Lists.List.length
+R6623 Coq.Lists.List.length
+R6667 Subst2 " th ||\ n "
+R6652 Coq.Init.Datatypes.S
+R6667 Subst2 " th ||\ n "
+R6652 Coq.Init.Datatypes.S
+R6688 Subst2.Joachimski.SparePushList
+R6688 Subst2.Joachimski.SparePushList
+R6688 Subst2.Joachimski.SparePushList
+R6842 Coq.Init.Logic "x = y" type_scope
+R6828 Subst2 " th 'o' th' "
+R6816 Subst2 " th ||\ n "
+R6820 Coq.Lists.List.length
+R6832 Subst2 "x ++ y"
+R6850 Subst2 " th 'o' th' "
+R6928 Subst2 "x !! y"
+R6933 Subst2 "x ++ y"
+R6910 Subst2 "x ++ y"
+R6928 Subst2 "x !! y"
+R6933 Subst2 "x ++ y"
+R6910 Subst2 "x ++ y"
+R6953 Subst2.Joachimski.SubLiftSpare
+R6953 Subst2.Joachimski.SubLiftSpare
+R7113 Coq.Init.Logic "x = y" type_scope
+R7102 Subst2 " r {[ th ]} "
+R7093 Subst2 " r {[ th ]} "
+R7116 Subst2 " r {[ th ]} "
+R7124 Subst2 " th 'o' th' "
+R7458 Subst2.Joachimski.Comp'Eq
+R7458 Subst2.Joachimski.Comp'Eq
+R7597 Subst2.Joachimski.CompSublift
+R7597 Subst2.Joachimski.CompSublift
+R7659 Coq.Lists.List "x :: y" list_scope
+R7656 Term " [ n ] "
+R7661 Coq.Lists.List.nil
+R7635 Subst2.Joachimski.SubLiftComp
+R7659 Coq.Lists.List "x :: y" list_scope
+R7656 Term " [ n ] "
+R7661 Coq.Lists.List.nil
+R7635 Subst2.Joachimski.SubLiftComp
+R7783 Coq.Init.Logic "x = y" type_scope
+R7771 Subst2 " th 'o' th' "
+R7763 Subst2 " th 'o' th' "
+R7791 Subst2 " th 'o' th' "
+R7801 Subst2 " th 'o' th' "
+R7860 Subst2.Joachimski.SubSub
+R7860 Subst2.Joachimski.SubSub
+R8236 Subst.substitution
+R8220 Subst2.Joachimski.substitution
+R8276 Subst2.Joachimski.Dot
+R8316 Subst " l # n "
+R8312 Coq.Lists.List "x :: y" list_scope
+R8322 Subst.shift
+R8333 Subst2.Joachimski.Up
+R8344 Subst " l # n "
+R8341 Coq.Lists.List.nil
+R8220 Subst2.Joachimski.substitution
+R8398 Subst2.Joachimski.substitution
+R8416 Coq.Lists.List.fold_right
+R8432 Subst2.Joachimski.Up
+R8438 Subst.shift
+R8427 Subst2.Joachimski.Dot
+R8376 Subst.substitution
+R8507 Coq.Init.Logic "x = y" type_scope
+R8487 Subst2.Isom.sub_2_1
+R8496 Subst2.Isom.sub_1_2
+R8671 Coq.Init.Logic "x = y" type_scope
+R8651 Subst2.Isom.sub_1_2
+R8660 Subst2.Isom.sub_2_1
+R8803 Coq.Init.Logic "x = y" type_scope
+R8784 Subst2.Isom.sub_2_1
+R8796 Subst2 " th ||\ n "
+R8836 Subst " l # n "
+R8809 Coq.Lists.List.map
+R8825 Subst2.Isom.sub_2_1
+R8814 Term.lift
+R8859 Coq.Init.Peano "n + m" nat_scope
+R8853 Subst.shift
+R8840 Subst2.Isom.sub_2_1
+R8977 Coq.Init.Logic "x = y" type_scope
+R8969 Subst2.Joachimski.sub
+R8979 Subst.sub
+R8992 Subst2.Isom.sub_2_1
+R9158 Subst2.Isom.sublift_isom
+R9158 Subst2.Isom.sublift_isom
+R9243 Term.up
+R9253 Term.lift
+R9226 MoreList.map_ext
+R9243 Term.up
+R9253 Term.lift
+R9226 MoreList.map_ext
+R9286 Term.lift_up
+R9286 Term.lift_up
+R9345 Coq.Init.Logic "x = y" type_scope
+R9331 Subst.sub
+R9347 Subst2.Joachimski.sub
+R9354 Subst2.Isom.sub_1_2
+R9409 Subst2.Isom.substitution_isom1
+R9409 Subst2.Isom.substitution_isom1
+R9440 Subst2.Isom.sub_isom1
+R9440 Subst2.Isom.sub_isom1
+R9578 Coq.Init.Logic "x = y" type_scope
+R9561 Subst.sub
+R9566 Subst.sub
+R9580 Subst.sub
+R9602 Subst " l # n "
+R9597 Coq.Lists.List "x :: y" list_scope
+R9589 Subst.sub
+R9608 Subst.shift
+R9549 Term.term
+R9647 Subst2.Isom.sub_isom2
+R9647 Subst2.Isom.sub_isom2
+R9647 Subst2.Isom.sub_isom2
+R9647 Subst2.Isom.sub_isom2
+R9647 Subst2.Isom.sub_isom2
+R9647 Subst2.Isom.sub_isom2
+R9700 Coq.Lists.List.fold_right
+R9716 Subst2.Joachimski.Up
+R9720 Subst.shift
+R9711 Subst2.Joachimski.Dot
+R9700 Coq.Lists.List.fold_right
+R9716 Subst2.Joachimski.Up
+R9720 Subst.shift
+R9711 Subst2.Joachimski.Dot
+R9773 Subst2.Joachimski.SubSub
+R9773 Subst2.Joachimski.SubSub
+R9890 Coq.Init.Logic "x = y" type_scope
+R9863 Subst.sub
+R9868 Subst.sub
+R9875 Subst.sublift
+R9894 Subst.sub
+R9907 Subst " l # n "
+R9903 Coq.Lists.List "x :: y" list_scope
+R9913 Subst.shift
+R9845 Subst.substitution
+R9835 Term.term
+R9835 Term.term
+R9953 Subst2.Isom.sub_isom2
+R9953 Subst2.Isom.sub_isom2
+R9953 Subst2.Isom.sub_isom2
+R9953 Subst2.Isom.sub_isom2
+R9953 Subst2.Isom.sub_isom2
+R9993 Coq.Init.Logic "x = y" type_scope
+R9972 Subst2.Isom.sub_1_2
+R9981 Subst.sublift
+R9995 Subst2.Joachimski.Dot
+R10015 Subst2 " th ||\ n "
+R10004 Subst2.Isom.sub_1_2
+R9999 Term " [ n ] "
+R9993 Coq.Init.Logic "x = y" type_scope
+R9972 Subst2.Isom.sub_1_2
+R9981 Subst.sublift
+R9995 Subst2.Joachimski.Dot
+R10015 Subst2 " th ||\ n "
+R10004 Subst2.Isom.sub_1_2
+R9999 Term " [ n ] "
+R10129 Term.lift_up
+R10129 Term.lift_up
+R10259 Coq.Lists.List.fold_right
+R10275 Subst2.Joachimski.Up
+R10279 Subst.shift
+R10270 Subst2.Joachimski.Dot
+R10259 Coq.Lists.List.fold_right
+R10275 Subst2.Joachimski.Up
+R10279 Subst.shift
+R10270 Subst2.Joachimski.Dot
+R10331 Subst2.Joachimski.SubSub
+R10331 Subst2.Joachimski.SubSub
+R10355 Subst2.Joachimski.Dot
+R10362 Subst2.Joachimski.Up
+R10382 Subst2 "x ++ y"
+R10377 Coq.Lists.List "x :: y" list_scope
+R10379 Coq.Lists.List.nil
+R10387 Subst2.Joachimski.Up
+R10355 Subst2.Joachimski.Dot
+R10362 Subst2.Joachimski.Up
+R10382 Subst2 "x ++ y"
+R10377 Coq.Lists.List "x :: y" list_scope
+R10379 Coq.Lists.List.nil
+R10387 Subst2.Joachimski.Up
+R10416 Coq.Lists.List.length
+R10425 Coq.Lists.List "x :: y" list_scope
+R10427 Coq.Lists.List.nil
+R10416 Coq.Lists.List.length
+R10425 Coq.Lists.List "x :: y" list_scope
+R10427 Coq.Lists.List.nil
+R10448 Subst2.Joachimski.SubLiftComp
+R10448 Subst2.Joachimski.SubLiftComp
+R10469 Subst2.Joachimski.CompUp
+R10469 Subst2.Joachimski.CompUp
+R10485 Subst2.Joachimski.subliftId
+R10485 Subst2.Joachimski.subliftId
+R10563 Coq.Init.Logic "x = y" type_scope
+R10552 Term.occurs
+R10565 Coq.Init.Datatypes.false
+R10544 Coq.Init.Peano "x <= y" nat_scope
+R10668 Coq.Init.Logic "x = y" type_scope
+R10650 Subst.sub
+R10663 Subst " l # n "
+R10660 Coq.Lists.List "x ++ y" list_scope
+R10670 Subst.sub
+R10625 Subst2.above
+R10632 Coq.Lists.List.length
+R10605 Subst.substitution
+R10739 Coq.Arith.Compare_dec.le_lt_dec
+R10750 Coq.Lists.List.length
+R10739 Coq.Arith.Compare_dec.le_lt_dec
+R10750 Coq.Lists.List.length
+R10796 Coq.Arith.Peano_dec.eq_nat_dec
+R10796 Coq.Arith.Peano_dec.eq_nat_dec
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R10850 MoreList.app_nth1
+R10850 MoreList.app_nth1
+R10872 MoreList.nth_indep
+R10872 MoreList.nth_indep
+R10941 Coq.Bool.Bool.orb_false_elim
+R10941 Coq.Bool.Bool.orb_false_elim
+R10995 Coq.Bool.Bool.orb_false_elim
+R10995 Coq.Bool.Bool.orb_false_elim
+R11062 MoreList.map_app
+R11062 MoreList.map_app
+R11086 Coq.Lists.List.app_comm_cons
+R11086 Coq.Lists.List.app_comm_cons
+R11143 Subst " l # n "
+R11127 Coq.Lists.List "x :: y" list_scope
+R11123 Term " [ n ] "
+R11130 Coq.Lists.List.map
+R11135 Term.up
+R11147 Coq.Init.Datatypes.S
+R11150 Subst.shift
+R11143 Subst " l # n "
+R11127 Coq.Lists.List "x :: y" list_scope
+R11123 Term " [ n ] "
+R11130 Coq.Lists.List.map
+R11135 Term.up
+R11147 Coq.Init.Datatypes.S
+R11150 Subst.shift
+R11186 Coq.Arith.Lt.S_pred
+R11186 Coq.Arith.Lt.S_pred
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R11300 Coq.Init.Logic "x = y" type_scope
+R11276 Subst.sub_swap0
+R11287 Subst.sub
+R11293 Term " [ n ] "
+R11255 Subst2.above
+R11262 Coq.Init.Datatypes.S
+R11346 Subst2.Sub_Sub
+R11346 Subst2.Sub_Sub
+R11369 MoreList.app_nth2
+R11369 MoreList.app_nth2
+R11399 Coq.Lists.List.app_comm_cons
+R11399 Coq.Lists.List.app_comm_cons
+R11427 Coq.Lists.List "x :: y" list_scope
+R11423 Term " [ n ] "
+R11430 Coq.Lists.List.map
+R11442 Coq.Lists.List.map
+R11451 MoreList.seq
+R11446 Term.Var
+R11435 Term.up
+R11468 Subst.support
+R11477 Subst.id
+R11481 Coq.Init.Datatypes.S
+R11427 Coq.Lists.List "x :: y" list_scope
+R11423 Term " [ n ] "
+R11430 Coq.Lists.List.map
+R11442 Coq.Lists.List.map
+R11451 MoreList.seq
+R11446 Term.Var
+R11435 Term.up
+R11468 Subst.support
+R11477 Subst.id
+R11481 Coq.Init.Datatypes.S
+R11497 Subst2.above_sub
+R11497 Subst2.above_sub
+R11514 Subst.sub_id
+R11514 Subst.sub_id
+R11557 Subst.sublift_id
+R11557 Subst.sublift_id
+R11707 Coq.Init.Logic "x = y" type_scope
+R11679 Term.down
+R11687 Subst.sub
+R11694 Subst.sublift
+R11709 Subst.sub
+R11714 Term.down
+R11670 Subst " l # n "
+R11659 Coq.Lists.List "x ++ y" list_scope
+R11655 Subst.id
+R11665 Coq.Lists.List "x :: y" list_scope
+R11662 Term " [ n ] "
+R11667 Coq.Lists.List.nil
+R11630 Coq.Init.Logic "x = y" type_scope
+R11619 Term.occurs
+R11632 Coq.Init.Datatypes.false
+R11769 Subst.down_sub
+R11782 Term.dterm
+R11769 Subst.down_sub
+R11782 Term.dterm
+R11830 Subst " l # n "
+R11825 Coq.Lists.List "x :: y" list_scope
+R11820 Term.dterm
+R11827 Coq.Lists.List.nil
+R11841 Subst.sub1
+R11846 Term.dterm
+R11830 Subst " l # n "
+R11825 Coq.Lists.List "x :: y" list_scope
+R11820 Term.dterm
+R11827 Coq.Lists.List.nil
+R11841 Subst.sub1
+R11846 Term.dterm
+R11868 Subst2.Sub_Sub
+R11868 Subst2.Sub_Sub
+R11888 Subst2.Sub_Sub_Ad_Hoc
+R11888 Subst2.Sub_Sub_Ad_Hoc
+R11913 Subst.down_sub
+R11946 Subst.sub
+R11950 Term.dterm
+R11923 Subst.sub
+R11930 Subst.sublift
+R11913 Subst.down_sub
+R11946 Subst.sub
+R11950 Term.dterm
+R11923 Subst.sub
+R11930 Subst.sublift
+R12003 MoreList.map_app
+R12003 MoreList.map_app
+R12027 Coq.Lists.List.app_comm_cons
+R12027 Coq.Lists.List.app_comm_cons
+R12055 Coq.Lists.List "x :: y" list_scope
+R12051 Term " [ n ] "
+R12058 Coq.Lists.List.map
+R12070 Coq.Lists.List.map
+R12079 MoreList.seq
+R12074 Term.Var
+R12063 Term.up
+R12096 Subst.support
+R12105 Subst.id
+R12109 Coq.Init.Datatypes.S
+R12055 Coq.Lists.List "x :: y" list_scope
+R12051 Term " [ n ] "
+R12058 Coq.Lists.List.map
+R12070 Coq.Lists.List.map
+R12079 MoreList.seq
+R12074 Term.Var
+R12063 Term.up
+R12096 Subst.support
+R12105 Subst.id
+R12109 Coq.Init.Datatypes.S
+R12128 Subst.sub_occurs2
+R12128 Subst.sub_occurs2
+R12170 Subst.sublift_id
+R12170 Subst.sublift_id
+FTyping
+R121 Coq.Lists.List.list
+R126 Term.type
+R257 Term.type
+R238 Term.term
+R227 Typing.context
+R287 Term " [ n ] "
+R294 Coq.Lists.List.nth
+R305 Term.dtype
+R317 Term " r ; s "
+R323 Term.arrow_right
+R353 Term " \ rho , r "
+R367 Term " rho --> sigma "
+R379 Coq.Lists.List "x :: y" list_scope
+R238 Term.term
+R227 Typing.context
+R501 Term.term
+R490 Typing.context
+R577 Term " [ n ] "
+R548 Coq.Init.Peano "x < y" nat_scope
+R550 Coq.Lists.List.length
+R741 Term " r ; s "
+R686 Coq.Init.Logic "x = y" type_scope
+R675 Typing.typ
+R700 Term " rho --> sigma "
+R690 Typing.typ
+R822 Term " \ rho , r "
+R796 Coq.Lists.List "x :: y" list_scope
+R927 Coq.Init.Logic "A /\ B" type_scope
+R914 Typing.CorTyp
+R944 Coq.Init.Logic "x = y" type_scope
+R933 Typing.typ
+R901 Term.type
+R891 Term.term
+R880 Typing.context
+R1095 Typing.TypJ
+R1106 Term " \ rho , r "
+R1070 Typing.TypJ
+R1079 Coq.Lists.List "x :: y" list_scope
+R1051 Coq.Init.Logic "x = y" type_scope
+R1057 Term " rho --> sigma "
+R1272 Typing.TypJ
+R1284 Term " r ; s "
+R1253 Typing.TypJ
+R1224 Typing.TypJ
+R1240 Term " rho --> sigma "
+R1332 Typing.CorApp
+R1332 Typing.CorApp
+R1497 Typing.TypJ
+R1515 Term " rho --> sigma "
+R1480 Coq.Init.Logic "x = y" type_scope
+R1482 Typing.typ
+R1451 Typing.TypJ
+R1463 Term " r ; s "
+R1733 Typing.TypJ
+R1717 Coq.Init.Logic "x = y" type_scope
+R1719 Typing.typ
+R1688 Typing.TypJ
+R1700 Term " r ; s "
+R1821 Typing.TypJ_App
+R1830 Typing.TypJ_App_inv1
+R1844 Typing.TypJ_App_inv2
+R1929 Typing.TypJ
+R1939 Coq.Lists.List "x ++ y" list_scope
+R1910 Typing.TypJ
+R2060 MoreList.app_length
+R2060 MoreList.app_length
+R2094 MoreList.app_nth1
+R2094 MoreList.app_nth1
+R2255 Typing.typ
+R2255 Typing.typ
+R2299 Typing.typ
+R2308 Coq.Lists.List "x ++ y" list_scope
+R2284 Typing.TypJ_App
+R2299 Typing.typ
+R2308 Coq.Lists.List "x ++ y" list_scope
+R2284 Typing.TypJ_App
+R2505 Typing.typ
+R2511 Coq.Lists.List "x :: y" list_scope
+R2489 Coq.Lists.List "x :: y" list_scope
+R2505 Typing.typ
+R2511 Coq.Lists.List "x :: y" list_scope
+R2489 Coq.Lists.List "x :: y" list_scope
+R2622 Typing.TypJ_ext_ctx
+R2745 Typing.TypJ
+R2716 Typing.TypJ
+R2726 Coq.Lists.List "x ++ y" list_scope
+R2687 Subst2.above
+R2694 Coq.Lists.List.length
+R2821 Coq.Arith.Compare_dec.le_lt_dec
+R2832 Coq.Lists.List.length
+R2821 Coq.Arith.Compare_dec.le_lt_dec
+R2832 Coq.Lists.List.length
+R2881 Coq.Arith.Peano_dec.eq_nat_dec
+R2881 Coq.Arith.Peano_dec.eq_nat_dec
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R2980 MoreList.app_nth1
+R2980 MoreList.app_nth1
+R3024 Typing.typ
+R3033 Coq.Lists.List "x ++ y" list_scope
+R3009 Typing.TypJ_App
+R3024 Typing.typ
+R3033 Coq.Lists.List "x ++ y" list_scope
+R3009 Typing.TypJ_App
+R3102 Coq.Bool.Bool.orb_false_elim
+R3102 Coq.Bool.Bool.orb_false_elim
+R3192 Coq.Bool.Bool.orb_false_elim
+R3192 Coq.Bool.Bool.orb_false_elim
+R3250 Typing.typ
+R3256 Coq.Lists.List "x :: y" list_scope
+R3262 Coq.Lists.List "x ++ y" list_scope
+R3235 Typing.TypJ_Abs
+R3250 Typing.typ
+R3256 Coq.Lists.List "x :: y" list_scope
+R3262 Coq.Lists.List "x ++ y" list_scope
+R3235 Typing.TypJ_Abs
+R3355 Coq.Arith.Lt.S_pred
+R3355 Coq.Arith.Lt.S_pred
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R3554 Typing.TypJ
+R3582 Term.up
+R3566 Coq.Lists.List "x ++ y" list_scope
+R3573 Coq.Lists.List "x :: y" list_scope
+R3522 Typing.TypJ
+R3534 Coq.Lists.List "x ++ y" list_scope
+R3512 Coq.Init.Logic "x = y" type_scope
+R3498 Coq.Lists.List.length
+R3805 MoreList.app_nth2
+R3805 MoreList.app_nth2
+R3839 Coq.Init.Peano "n - m" nat_scope
+R3835 Coq.Init.Datatypes.S
+R3850 Coq.Init.Datatypes.S
+R3854 Coq.Init.Peano "n - m" nat_scope
+R3839 Coq.Init.Peano "n - m" nat_scope
+R3835 Coq.Init.Datatypes.S
+R3850 Coq.Init.Datatypes.S
+R3854 Coq.Init.Peano "n - m" nat_scope
+R3886 MoreList.app_nth2
+R3886 MoreList.app_nth2
+R3947 MoreList.app_nth1
+R3947 MoreList.app_nth1
+R3986 Typing.TypJ_ext_ctx
+R3986 Typing.TypJ_ext_ctx
+R4054 Typing.TypJ_App
+R4054 Typing.TypJ_App
+R4143 Typing.TypJ
+R4190 Typing.typ
+R4198 Coq.Lists.List "x :: y" list_scope
+R4208 Coq.Lists.List "x ++ y" list_scope
+R4177 Term.up
+R4181 Coq.Init.Datatypes.S
+R4160 Coq.Lists.List "x ++ y" list_scope
+R4152 Coq.Lists.List "x :: y" list_scope
+R4168 Coq.Lists.List "x :: y" list_scope
+R4143 Typing.TypJ
+R4190 Typing.typ
+R4198 Coq.Lists.List "x :: y" list_scope
+R4208 Coq.Lists.List "x ++ y" list_scope
+R4177 Term.up
+R4181 Coq.Init.Datatypes.S
+R4160 Coq.Lists.List "x ++ y" list_scope
+R4152 Coq.Lists.List "x :: y" list_scope
+R4168 Coq.Lists.List "x :: y" list_scope
+R4422 MoreList.consn
+R4452 Coq.Lists.List.nil
+R4433 Coq.Init.Peano "n - m" nat_scope
+R4429 Coq.Init.Datatypes.S
+R4435 Coq.Lists.List.length
+R4411 Term.type
+R4402 Coq.Init.Datatypes.nat
+R4391 Typing.context
+R4558 Coq.Init.Logic "x = y" type_scope
+R4522 Coq.Lists.List.length
+R4535 Coq.Lists.List "x ++ y" list_scope
+R4538 Typing.ext_ctx
+R4560 Coq.Init.Datatypes.S
+R4512 Coq.Init.Peano "x <= y" nat_scope
+R4500 Coq.Lists.List.length
+R4614 Coq.Lists.List.length
+R4614 Coq.Lists.List.length
+R4697 Typing.TypJ
+R4708 Coq.Lists.List "x ++ y" list_scope
+R4711 Typing.ext_ctx
+R4687 Coq.Init.Peano "x <= y" nat_scope
+R4675 Coq.Lists.List.length
+R4787 Typing.ext_ctx_length
+R4787 Typing.ext_ctx_length
+R4851 MoreList.app_nth2
+R4851 MoreList.app_nth2
+R4873 MoreList.consn_nth1
+R4873 MoreList.consn_nth1
+R4993 Coq.Init.Logic "x = y" type_scope
+R4961 MoreList.last
+R4987 Term.dtype
+R4967 Typing.ext_ctx
+R4950 Coq.Init.Peano "x <= y" nat_scope
+R4938 Coq.Lists.List.length
+R5040 Coq.Init.Peano "n - m" nat_scope
+R5036 Coq.Init.Datatypes.S
+R5042 Coq.Lists.List.length
+R5040 Coq.Init.Peano "n - m" nat_scope
+R5036 Coq.Init.Datatypes.S
+R5042 Coq.Lists.List.length
+R5067 Coq.Init.Peano "x < y" nat_scope
+R5067 Coq.Init.Peano "x < y" nat_scope
+R5203 MoreList.consn
+R5215 Coq.Lists.List.nil
+R5203 MoreList.consn
+R5215 Coq.Lists.List.nil
+R5517 Typing.TypJ
+R5537 Subst.sub
+R5526 Coq.Lists.List "x ++ y" list_scope
+R5462 Typing.TypJ
+R5495 Coq.Lists.List.nth
+R5482 Coq.Lists.List.nth
+R5471 Coq.Lists.List "x ++ y" list_scope
+R5441 Coq.Init.Peano "x < y" nat_scope
+R5442 Coq.Lists.List.length
+R5391 Typing.TypJ
+R5401 Coq.Lists.List "x ++ y" list_scope
+R5373 Coq.Init.Logic "x = y" type_scope
+R5362 Coq.Lists.List.length
+R5379 Subst.shift
+R5344 Coq.Init.Logic "x = y" type_scope
+R5332 Coq.Lists.List.length
+R5346 Coq.Lists.List.length
+R5314 Subst.substitution
+R5696 Coq.Arith.Compare_dec.le_lt_dec
+R5707 Coq.Lists.List.length
+R5696 Coq.Arith.Compare_dec.le_lt_dec
+R5707 Coq.Lists.List.length
+R5730 MoreList.nth_overflow
+R5730 MoreList.nth_overflow
+R5771 MoreList.app_nth2
+R5771 MoreList.app_nth2
+R5852 MoreList.app_nth2
+R5852 MoreList.app_nth2
+R5955 Coq.Init.Peano "n - m" nat_scope
+R5944 Coq.Init.Peano "n + m" nat_scope
+R5932 Coq.Init.Peano "n - m" nat_scope
+R5934 Coq.Lists.List.length
+R5946 Subst.shift
+R5957 Subst.shift
+R5975 Coq.Init.Peano "n - m" nat_scope
+R5977 Coq.Lists.List.length
+R5955 Coq.Init.Peano "n - m" nat_scope
+R5944 Coq.Init.Peano "n + m" nat_scope
+R5932 Coq.Init.Peano "n - m" nat_scope
+R5934 Coq.Lists.List.length
+R5946 Subst.shift
+R5957 Subst.shift
+R5975 Coq.Init.Peano "n - m" nat_scope
+R5977 Coq.Lists.List.length
+R6027 MoreList.app_nth1
+R6027 MoreList.app_nth1
+R6118 Typing.TypJ_App
+R6118 Typing.TypJ_App
+R6229 Typing.typ
+R6240 Coq.Lists.List "x :: y" list_scope
+R6248 Coq.Lists.List "x ++ y" list_scope
+R6229 Typing.typ
+R6240 Coq.Lists.List "x :: y" list_scope
+R6248 Coq.Lists.List "x ++ y" list_scope
+R6276 Typing.TypJ
+R6305 Subst.sub
+R6312 Subst.sublift
+R6293 Coq.Lists.List "x ++ y" list_scope
+R6288 Coq.Lists.List "x :: y" list_scope
+R6276 Typing.TypJ
+R6305 Subst.sub
+R6312 Subst.sublift
+R6293 Coq.Lists.List "x ++ y" list_scope
+R6288 Coq.Lists.List "x :: y" list_scope
+R6368 Coq.Lists.List "x :: y" list_scope
+R6347 Coq.Lists.List "x :: y" list_scope
+R6368 Coq.Lists.List "x :: y" list_scope
+R6347 Coq.Lists.List "x :: y" list_scope
+R6585 Term.up
+R6565 MoreList.nth_indep
+R6585 Term.up
+R6565 MoreList.nth_indep
+R6626 Coq.Lists.List "x :: y" list_scope
+R6633 Coq.Lists.List "x ++ y" list_scope
+R6654 Coq.Lists.List "x ++ y" list_scope
+R6650 Coq.Lists.List.nil
+R6664 Coq.Lists.List "x :: y" list_scope
+R6671 Coq.Lists.List "x ++ y" list_scope
+R6626 Coq.Lists.List "x :: y" list_scope
+R6633 Coq.Lists.List "x ++ y" list_scope
+R6654 Coq.Lists.List "x ++ y" list_scope
+R6650 Coq.Lists.List.nil
+R6664 Coq.Lists.List "x :: y" list_scope
+R6671 Coq.Lists.List "x ++ y" list_scope
+R6696 Typing.TypJ_up
+R6696 Typing.TypJ_up
+R6736 Typing.TypJ_Abs
+R6736 Typing.TypJ_Abs
+R6959 Typing.TypJ
+R6972 Subst.sub
+R6911 Typing.TypJ
+R6937 Coq.Lists.List.nth
+R6924 Coq.Lists.List.nth
+R6890 Coq.Init.Peano "x < y" nat_scope
+R6891 Coq.Lists.List.length
+R6852 Typing.TypJ
+R6834 Coq.Init.Peano "x <= y" nat_scope
+R6822 Coq.Lists.List.length
+R6837 Coq.Lists.List.length
+R6806 Subst.substitution
+R7119 Typing.TypJ_App
+R7119 Typing.TypJ_App
+R7230 Typing.typ
+R7240 Coq.Lists.List "x :: y" list_scope
+R7230 Typing.typ
+R7240 Coq.Lists.List "x :: y" list_scope
+R7265 Typing.TypJ
+R7287 Subst.sub
+R7294 Subst.sublift
+R7276 Coq.Lists.List "x :: y" list_scope
+R7265 Typing.TypJ
+R7287 Subst.sub
+R7294 Subst.sublift
+R7276 Coq.Lists.List "x :: y" list_scope
+R7345 Coq.Lists.List "x :: y" list_scope
+R7329 Coq.Lists.List "x :: y" list_scope
+R7345 Coq.Lists.List "x :: y" list_scope
+R7329 Coq.Lists.List "x :: y" list_scope
+R7530 Term.up
+R7510 MoreList.nth_indep
+R7530 Term.up
+R7510 MoreList.nth_indep
+R7571 Coq.Lists.List "x :: y" list_scope
+R7592 Coq.Lists.List "x ++ y" list_scope
+R7588 Coq.Lists.List.nil
+R7602 Coq.Lists.List "x :: y" list_scope
+R7571 Coq.Lists.List "x :: y" list_scope
+R7592 Coq.Lists.List "x ++ y" list_scope
+R7588 Coq.Lists.List.nil
+R7602 Coq.Lists.List "x :: y" list_scope
+R7627 Typing.TypJ_up
+R7627 Typing.TypJ_up
+R7667 Typing.TypJ_Abs
+R7667 Typing.TypJ_Abs
+FApps
+R120 Term " r ; s "
+R126 Coq.Init.Datatypes.true
+R140 Coq.Init.Datatypes.false
+R93 Term.term
+R203 Term " r ; s "
+R220 Term.dterm
+R176 Term.term
+R284 Term " r ; s "
+R301 Term.dterm
+R257 Term.term
+R343 Coq.Lists.List.list
+R348 Term.term
+R335 Term.term
+R377 Term " r ; s "
+R394 Coq.Lists.List "x ++ y" list_scope
+R398 Coq.Lists.List "x :: y" list_scope
+R400 Coq.Lists.List.nil
+R413 Coq.Lists.List.nil
+R335 Term.term
+R454 Term.term
+R446 Term.term
+R483 Term " r ; s "
+R446 Term.term
+R561 Coq.Init.Logic "~ x" type_scope
+R576 Coq.Init.Logic "x = y" type_scope
+R564 Apps.head_apps
+R580 Term " r ; s "
+R690 Coq.Lists.List.fold_left
+R700 Term.App
+R676 Coq.Lists.List.list
+R681 Term.term
+R668 Term.term
+R733 Apps.apps
+R801 Coq.Init.Logic "x = y" type_scope
+R795 Apps " r ;; l "
+R792 Apps " r ;; l "
+R804 Apps " r ;; l "
+R808 Coq.Lists.List "x ++ y" list_scope
+R851 MoreList.fold_left_app
+R851 MoreList.fold_left_app
+R909 Coq.Init.Logic "x = y" type_scope
+R923 Apps " r ;; l "
+R912 Apps.head_apps
+R927 Apps.get_apps
+R983 Apps.apps_app
+R983 Apps.apps_app
+R1135 Coq.Init.Logic "x = y" type_scope
+R1122 Coq.Init.Logic "x = y" type_scope
+R1112 Apps.is_app
+R1124 Coq.Init.Datatypes.false
+R1101 Coq.Init.Logic "x = y" type_scope
+R1092 Apps.is_app
+R1103 Coq.Init.Datatypes.false
+R1080 Coq.Init.Logic "x = y" type_scope
+R1076 Apps " r ;; l "
+R1084 Apps " r ;; l "
+R1253 Coq.Init.Logic "x = y" type_scope
+R1234 Coq.Init.Logic "x = y" type_scope
+R1225 Apps " r ;; l "
+R1228 Coq.Lists.List.rev
+R1238 Apps " r ;; l "
+R1241 Coq.Lists.List.rev
+R1213 Coq.Init.Logic "x = y" type_scope
+R1203 Apps.is_app
+R1215 Coq.Init.Datatypes.false
+R1192 Coq.Init.Logic "x = y" type_scope
+R1183 Apps.is_app
+R1194 Coq.Init.Datatypes.false
+R1253 Coq.Init.Logic "x = y" type_scope
+R1234 Coq.Init.Logic "x = y" type_scope
+R1225 Apps " r ;; l "
+R1228 Coq.Lists.List.rev
+R1238 Apps " r ;; l "
+R1241 Coq.Lists.List.rev
+R1213 Coq.Init.Logic "x = y" type_scope
+R1203 Apps.is_app
+R1215 Coq.Init.Datatypes.false
+R1192 Coq.Init.Logic "x = y" type_scope
+R1183 Apps.is_app
+R1194 Coq.Init.Datatypes.false
+R1317 Apps.apps_app
+R1317 Apps.apps_app
+R1317 Apps.apps_app
+R1317 Apps.apps_app
+R1317 Apps.apps_app
+R1317 Apps.apps_app
+R1317 Apps.apps_app
+R1317 Apps.apps_app
+R1452 Coq.Lists.List.rev_involutive
+R1483 Coq.Lists.List.rev_involutive
+R1452 Coq.Lists.List.rev_involutive
+R1483 Coq.Lists.List.rev_involutive
+R1622 Coq.Init.Logic "x = y" type_scope
+R1609 Coq.Init.Logic "x = y" type_scope
+R1599 Apps.is_app
+R1611 Coq.Init.Datatypes.false
+R1588 Coq.Init.Logic "x = y" type_scope
+R1579 Apps.is_app
+R1590 Coq.Init.Datatypes.false
+R1567 Coq.Init.Logic "x = y" type_scope
+R1563 Apps " r ;; l "
+R1571 Apps " r ;; l "
+R1744 Coq.Init.Logic "x = y" type_scope
+R1738 Coq.Lists.List.rev
+R1746 Coq.Lists.List.rev
+R1721 Coq.Init.Logic "x = y" type_scope
+R1712 Apps " r ;; l "
+R1715 Coq.Lists.List.rev
+R1725 Apps " r ;; l "
+R1728 Coq.Lists.List.rev
+R1700 Coq.Init.Logic "x = y" type_scope
+R1690 Apps.is_app
+R1702 Coq.Init.Datatypes.false
+R1679 Coq.Init.Logic "x = y" type_scope
+R1670 Apps.is_app
+R1681 Coq.Init.Datatypes.false
+R1744 Coq.Init.Logic "x = y" type_scope
+R1738 Coq.Lists.List.rev
+R1746 Coq.Lists.List.rev
+R1721 Coq.Init.Logic "x = y" type_scope
+R1712 Apps " r ;; l "
+R1715 Coq.Lists.List.rev
+R1725 Apps " r ;; l "
+R1728 Coq.Lists.List.rev
+R1700 Coq.Init.Logic "x = y" type_scope
+R1690 Apps.is_app
+R1702 Coq.Init.Datatypes.false
+R1679 Coq.Init.Logic "x = y" type_scope
+R1670 Apps.is_app
+R1681 Coq.Init.Datatypes.false
+R1812 Apps.apps_app
+R1812 Apps.apps_app
+R1812 Apps.apps_app
+R1812 Apps.apps_app
+R1812 Apps.apps_app
+R1812 Apps.apps_app
+R1812 Apps.apps_app
+R1812 Apps.apps_app
+R1971 Coq.Lists.List.rev_involutive
+R2002 Coq.Lists.List.rev_involutive
+R1971 Coq.Lists.List.rev_involutive
+R2002 Coq.Lists.List.rev_involutive
+R2086 Coq.Init.Logic "x = y" type_scope
+R2070 Term.occurs
+R2081 Apps " r ;; l "
+R2103 Coq.Bool.Bool "x || y" bool_scope
+R2092 Term.occurs
+R2106 MoreList.existsb
+R2115 Term.occurs
+R2307 Coq.Init.Logic "A /\ B" type_scope
+R2297 Subst2.above
+R2355 Coq.Init.Logic "x = y" type_scope
+R2333 MoreList.existsb
+R2342 Term.occurs
+R2357 Coq.Init.Datatypes.false
+R2325 Coq.Init.Peano "x <= y" nat_scope
+R2275 Subst2.above
+R2285 Apps " r ;; l "
+R2439 Term " r ; s "
+R2439 Term " r ; s "
+R2491 Coq.Bool.Bool.orb_false_elim
+R2491 Coq.Bool.Bool.orb_false_elim
+R2536 Coq.Bool.Bool.orb_false_intro
+R2536 Coq.Bool.Bool.orb_false_intro
+R2570 Coq.Bool.Bool.orb_false_elim
+R2570 Coq.Bool.Bool.orb_false_elim
+R2681 Typing.CorTyp
+R2659 Typing.CorTyp
+R2673 Apps " r ;; l "
+R2765 Typing.CorTyp
+R2779 Term " r ; s "
+R2765 Typing.CorTyp
+R2779 Term " r ; s "
+R2952 Typing.TypJ
+R2965 Apps " r ;; l "
+R2924 Typing.TypJ
+R2936 Apps " r ;; l "
+R2898 Typing.TypJ
+R2873 Typing.TypJ
+R3139 Term " r ; s "
+R3144 Typing.typ
+R3156 Term " r ; s "
+R3139 Term " r ; s "
+R3144 Typing.typ
+R3156 Term " r ; s "
+R3211 Apps.CorTyp_apps
+R3211 Apps.CorTyp_apps
+R3344 Typing.CorTyp
+R3358 Term " r ; s "
+R3344 Typing.CorTyp
+R3358 Term " r ; s "
+R3371 Apps.CorTyp_apps
+R3371 Apps.CorTyp_apps
+R3546 Coq.Init.Logic "x = y" type_scope
+R3532 Subst.sub
+R3538 Apps " r ;; l "
+R3557 Apps " r ;; l "
+R3549 Subst.sub
+R3561 Coq.Lists.List.map
+R3575 Subst.sub
+R3749 Coq.Lists.List.fold_right
+R3760 Term.Arrow
+R3735 Coq.Lists.List.list
+R3740 Term.type
+R3727 Term.type
+R3802 Apps.arrows
+R3875 Apps " l ---> rho "
+R3866 Coq.Lists.List "x :: y" list_scope
+R3870 Coq.Lists.List "x :: y" list_scope
+R3872 Coq.Lists.List.nil
+R3936 Coq.Init.Logic "x = y" type_scope
+R3927 Apps " l ---> rho "
+R3923 Coq.Lists.List "x ++ y" list_scope
+R3939 Apps " l ---> rho "
+R3946 Apps " l ---> rho "
+FEta
+R231 Coq.Bool.Bool "x && y" bool_scope
+R171 Coq.Bool.Bool "x && y" bool_scope
+R162 Apps.is_app
+R182 Term.term_dec
+R205 Term " [ n ] "
+R192 Apps.right_app
+R224 Coq.Init.Datatypes.false
+R214 Coq.Init.Datatypes.true
+R238 Coq.Bool.Bool.negb
+R244 Term.occurs
+R254 Apps.left_app
+R149 Coq.Init.Datatypes.nat
+R141 Term.term
+R298 Term.term
+R290 Term.term
+R324 Term " [ n ] "
+R331 Term " [ n ] "
+R340 Term " r ; s "
+R356 Term " r ; s "
+R374 Term " \ rho , r "
+R421 Eta.is_eta_core
+R469 Term " \ rho , r "
+R443 Term.down
+R451 Apps.left_app
+R290 Term.term
+R878 Term.term
+R838 Term " \ rho , r "
+R845 Term " \ rho , r "
+R822 Term " \ rho , r "
+R775 Term " \ rho , r "
+R785 Term " r ; s "
+R718 Term " \ rho , r "
+R725 Term " [ n ] "
+R687 Term " r ; s "
+R640 Term " [ n ] "
+R610 Term.term
+R934 Term.term
+R983 Term " [ n ] "
+R1002 Term " r ; s "
+R1038 Term " \ rho , r "
+R1080 Term " \ rho , r "
+R1107 Term " [ n ] "
+R1146 Term " r ; s "
+R1201 Term " \ rho , r "
+R1344 Coq.Init.Logic "x = y" type_scope
+R1323 Term.occurs
+R1333 Eta.eta_red
+R1346 Term.occurs
+R1392 Eta.term2_ind
+R1392 Eta.term2_ind
+R1540 Eta.is_eta_core
+R1563 Term " r ; s "
+R1553 Eta.eta_red
+R1565 Eta.eta_red
+R1540 Eta.is_eta_core
+R1563 Term " r ; s "
+R1553 Eta.eta_red
+R1565 Eta.eta_red
+R1653 Term.term_dec
+R1675 Term " [ n ] "
+R1663 Eta.eta_red
+R1653 Term.term_dec
+R1675 Term " [ n ] "
+R1663 Eta.eta_red
+R1764 Coq.Bool.Bool.orb_b_false
+R1764 Coq.Bool.Bool.orb_b_false
+R1791 Coq.Bool.Bool.negb_sym
+R1805 Coq.Init.Logic.sym_eq
+R1791 Coq.Bool.Bool.negb_sym
+R1805 Coq.Init.Logic.sym_eq
+R1872 Term.down_occurs2
+R1872 Term.down_occurs2
+R1901 Term.down_occurs
+R1901 Term.down_occurs
+R1983 Term " \ rho , r "
+R1983 Term " \ rho , r "
+R2030 Eta.is_eta_core
+R2043 Eta.eta_red
+R2030 Eta.is_eta_core
+R2043 Eta.eta_red
+R2118 Coq.Bool.Bool.andb_prop
+R2118 Coq.Bool.Bool.andb_prop
+R2158 Coq.Bool.Bool.andb_prop
+R2158 Coq.Bool.Bool.andb_prop
+R2198 Eta.eta_red
+R2198 Eta.eta_red
+R2252 Term.term_dec
+R2252 Term.term_dec
+R2341 Coq.Bool.Bool.orb_b_false
+R2341 Coq.Bool.Bool.orb_b_false
+R2368 Coq.Bool.Bool.negb_sym
+R2382 Coq.Init.Logic.sym_eq
+R2368 Coq.Bool.Bool.negb_sym
+R2382 Coq.Init.Logic.sym_eq
+R2440 Term.down_occurs2
+R2440 Term.down_occurs2
+R2467 Term.down_occurs
+R2467 Term.down_occurs
+R2594 Coq.Init.Logic "x = y" type_scope
+R2578 Eta.is_eta_core
+R2596 Eta.is_eta_core
+R2609 Subst.sub
+R2563 Coq.Init.Logic "x = y" type_scope
+R2548 Term.occurs
+R2556 Coq.Init.Datatypes.S
+R2565 Coq.Init.Datatypes.false
+R2538 Coq.Init.Datatypes.nat
+R2748 Term.term_dec
+R2760 Term " [ n ] "
+R2748 Term.term_dec
+R2760 Term " [ n ] "
+R2803 Term.term_dec
+R2803 Term.term_dec
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R2852 Subst.subk_occurs
+R2852 Subst.subk_occurs
+R2883 Coq.Bool.Bool.orb_false_elim
+R2883 Coq.Bool.Bool.orb_false_elim
+R2924 Term.term_dec
+R2934 Subst.sub
+R2924 Term.term_dec
+R2934 Subst.sub
+R2972 Coq.Bool.Bool.orb_false_elim
+R2972 Coq.Bool.Bool.orb_false_elim
+R3073 Coq.Arith.Peano_dec.eq_nat_dec
+R3087 Coq.Init.Datatypes.S
+R3073 Coq.Arith.Peano_dec.eq_nat_dec
+R3087 Coq.Init.Datatypes.S
+R3307 Coq.Init.Logic "x = y" type_scope
+R3291 Eta.is_eta_core
+R3309 Eta.is_eta_core
+R3322 Subst.sub
+R3354 Subst " l # n "
+R3339 Coq.Lists.List "x ++ y" list_scope
+R3330 Subst.id
+R3334 Coq.Init.Datatypes.S
+R3348 Coq.Lists.List "x :: y" list_scope
+R3342 Term " [ n ] "
+R3343 Coq.Init.Datatypes.S
+R3351 Coq.Lists.List.nil
+R3358 Coq.Init.Datatypes.S
+R3281 Coq.Init.Datatypes.nat
+R3281 Coq.Init.Datatypes.nat
+R3437 Coq.Lists.List "x :: y" list_scope
+R3432 Term " [ n ] "
+R3433 Coq.Init.Datatypes.S
+R3439 Coq.Lists.List.nil
+R3450 Coq.Lists.List.map
+R3462 Coq.Lists.List "x :: y" list_scope
+R3459 Coq.Init.Datatypes.S
+R3464 Coq.Lists.List.nil
+R3454 Term.Var
+R3437 Coq.Lists.List "x :: y" list_scope
+R3432 Term " [ n ] "
+R3433 Coq.Init.Datatypes.S
+R3439 Coq.Lists.List.nil
+R3450 Coq.Lists.List.map
+R3462 Coq.Lists.List "x :: y" list_scope
+R3459 Coq.Init.Datatypes.S
+R3464 Coq.Lists.List.nil
+R3454 Term.Var
+R3489 MoreList.map_app
+R3489 MoreList.map_app
+R3568 Subst " l # n "
+R3553 Coq.Lists.List "x ++ y" list_scope
+R3544 Subst.id
+R3548 Coq.Init.Datatypes.S
+R3562 Coq.Lists.List "x :: y" list_scope
+R3556 Term " [ n ] "
+R3557 Coq.Init.Datatypes.S
+R3565 Coq.Lists.List.nil
+R3570 Coq.Init.Datatypes.S
+R3568 Subst " l # n "
+R3553 Coq.Lists.List "x ++ y" list_scope
+R3544 Subst.id
+R3548 Coq.Init.Datatypes.S
+R3562 Coq.Lists.List "x :: y" list_scope
+R3556 Term " [ n ] "
+R3557 Coq.Init.Datatypes.S
+R3565 Coq.Lists.List.nil
+R3570 Coq.Init.Datatypes.S
+R3615 Term.term_dec
+R3627 Term " [ n ] "
+R3615 Term.term_dec
+R3627 Term " [ n ] "
+R3670 Term.term_dec
+R3670 Term.term_dec
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R3733 Subst.sub_occurs2
+R3749 Coq.Init.Datatypes.S
+R3733 Subst.sub_occurs2
+R3749 Coq.Init.Datatypes.S
+R3786 Term.term_dec
+R3796 Subst.sub
+R3786 Term.term_dec
+R3796 Subst.sub
+R3958 Coq.Arith.Compare_dec.le_lt_dec
+R3958 Coq.Arith.Compare_dec.le_lt_dec
+R3984 MoreList.app_nth2
+R3984 MoreList.app_nth2
+R4028 Coq.Arith.Peano_dec.eq_nat_dec
+R4028 Coq.Arith.Peano_dec.eq_nat_dec
+R4095 MoreList.nth_overflow
+R4095 MoreList.nth_overflow
+R4181 MoreList.app_nth1
+R4181 MoreList.app_nth1
+R4223 MoreList.seq_nth
+R4223 MoreList.seq_nth
+R4388 Coq.Init.Logic "x = y" type_scope
+R4349 Eta.eta_red
+R4358 Subst.sub
+R4382 Subst " l # n "
+R4371 Coq.Lists.List "x ++ y" list_scope
+R4366 Subst.id
+R4377 Coq.Lists.List "x :: y" list_scope
+R4374 Term " [ n ] "
+R4379 Coq.Lists.List.nil
+R4390 Subst.sub
+R4423 Subst " l # n "
+R4413 Coq.Lists.List "x ++ y" list_scope
+R4408 Subst.id
+R4418 Coq.Lists.List "x :: y" list_scope
+R4415 Term " [ n ] "
+R4420 Coq.Lists.List.nil
+R4395 Eta.eta_red
+R4339 Coq.Init.Datatypes.nat
+R4339 Coq.Init.Datatypes.nat
+R4479 Coq.Lists.List "x :: y" list_scope
+R4476 Term " [ n ] "
+R4481 Coq.Lists.List.nil
+R4492 Coq.Lists.List.map
+R4502 Coq.Lists.List "x :: y" list_scope
+R4504 Coq.Lists.List.nil
+R4496 Term.Var
+R4479 Coq.Lists.List "x :: y" list_scope
+R4476 Term " [ n ] "
+R4481 Coq.Lists.List.nil
+R4492 Coq.Lists.List.map
+R4502 Coq.Lists.List "x :: y" list_scope
+R4504 Coq.Lists.List.nil
+R4496 Term.Var
+R4529 MoreList.map_app
+R4529 MoreList.map_app
+R4619 Subst.sublift_id_s
+R4665 Coq.Init.Datatypes.S
+R4659 Coq.Init.Datatypes.S
+R4665 Coq.Init.Datatypes.S
+R4659 Coq.Init.Datatypes.S
+R4694 Eta.eta_core_sub2
+R4717 Eta.is_eta_core
+R4730 Eta.eta_red
+R4717 Eta.is_eta_core
+R4730 Eta.eta_red
+R4790 Eta.eta_red
+R4790 Eta.eta_red
+R4844 Coq.Bool.Bool.andb_prop
+R4844 Coq.Bool.Bool.andb_prop
+R4885 Coq.Bool.Bool.negb_sym
+R4899 Coq.Init.Logic.sym_eq
+R4885 Coq.Bool.Bool.negb_sym
+R4899 Coq.Init.Logic.sym_eq
+R4937 Subst2.down_sub2
+R4937 Subst2.down_sub2
+R4994 MoreList.map_app
+R4994 MoreList.map_app
+R5019 Subst.map_up
+R5019 Subst.map_up
+R5042 MoreList.seq_shift
+R5042 MoreList.seq_shift
+R5080 Subst.sublift_id_s
+R5171 Coq.Init.Logic "x = y" type_scope
+R5153 Eta.eta_red
+R5162 Subst.sub
+R5173 Subst.sub
+R5178 Eta.eta_red
+R5143 Coq.Init.Datatypes.nat
+R5217 Eta.eta_subk_gen
+R5217 Eta.eta_subk_gen
+R5322 Term " \ rho , r "
+R5328 Subst.sub_swap0
+R5417 Term.term
+R5409 Term.term
+R5401 Term.type
+R5390 Typing.context
+R5473 Term.Iota
+R5742 Eta " \! k : rho , r "
+R5729 Term " rho --> sigma "
+R5697 Term " r ; s "
+R5669 Coq.Lists.List "x ++ y" list_scope
+R5677 Coq.Lists.List "x ++ y" list_scope
+R5682 Coq.Lists.List "x :: y" list_scope
+R5684 Coq.Lists.List.nil
+R5641 Term " [ n ] "
+R5617 Coq.Lists.List "x ++ y" list_scope
+R5625 Coq.Lists.List "x ++ y" list_scope
+R5630 Coq.Lists.List "x :: y" list_scope
+R5632 Coq.Lists.List.nil
+R5595 Coq.Init.Logic "x = y" type_scope
+R5573 Coq.Lists.List.length
+R5585 Coq.Lists.List "x ++ y" list_scope
+R5558 Coq.Init.Peano "x <= y" nat_scope
+R5546 Coq.Lists.List.length
+R5805 Term.term
+R5797 Term.term
+R5789 Term.type
+R5778 Typing.context
+R6296 Coq.Lists.List.list
+R6301 Term.term
+R6283 Coq.Lists.List.list
+R6288 Term.term
+R6270 Coq.Lists.List.list
+R6275 Term.type
+R6259 Typing.context
+R6007 Apps " r ;; l "
+R6004 Term " [ n ] "
+R5953 Eta.Eta
+R5970 Apps " r ;; l "
+R5967 Term " [ n ] "
+R5879 Typing.TypJ
+R5900 Apps " l ---> rho "
+R5889 Term " [ n ] "
+R6230 Eta " \! k : rho , r "
+R6214 Eta " \! k : rho , r "
+R6202 Term " rho --> sigma "
+R6147 Coq.Lists.List "x ++ y" list_scope
+R6155 Coq.Lists.List "x ++ y" list_scope
+R6160 Coq.Lists.List "x :: y" list_scope
+R6162 Coq.Lists.List.nil
+R6122 Coq.Init.Logic "x = y" type_scope
+R6100 Coq.Lists.List.length
+R6112 Coq.Lists.List "x ++ y" list_scope
+R6086 Coq.Init.Peano "x <= y" nat_scope
+R6074 Coq.Lists.List.length
+R6370 Coq.Lists.List.nil
+R6366 Coq.Lists.List.nil
+R6362 Coq.Lists.List.nil
+R6536 Coq.Lists.List "x :: y" list_scope
+R6528 Coq.Lists.List "x :: y" list_scope
+R6516 Coq.Lists.List "x :: y" list_scope
+R6739 Eta.EtaExps
+R6774 Coq.Lists.List "x ++ y" list_scope
+R6764 Coq.Lists.List "x ++ y" list_scope
+R6755 Coq.Lists.List "x ++ y" list_scope
+R6710 Eta.EtaExps
+R6684 Eta.EtaExps
+R6869 Eta.EtaExps_app
+R6949 Eta.EtaExps
+R6979 Coq.Lists.List.rev
+R6971 Coq.Lists.List.rev
+R6963 Coq.Lists.List.rev
+R6926 Eta.EtaExps
+R7218 Coq.Init.Logic "A /\ B" type_scope
+R7192 Eta.EtaExps
+R7221 Eta.EtaExp
+R7124 Eta.EtaExps
+R7173 Coq.Lists.List "x ++ y" list_scope
+R7177 Coq.Lists.List "x :: y" list_scope
+R7179 Coq.Lists.List.nil
+R7160 Coq.Lists.List "x ++ y" list_scope
+R7163 Coq.Lists.List "x :: y" list_scope
+R7165 Coq.Lists.List.nil
+R7144 Coq.Lists.List "x ++ y" list_scope
+R7151 Coq.Lists.List "x :: y" list_scope
+R7153 Coq.Lists.List.nil
+R7274 Eta.EtaExps_rev
+R7274 Eta.EtaExps_rev
+R7336 Eta.EtaExps_rev
+R7336 Eta.EtaExps_rev
+R8326 Typing.context
+R8339 Term.type
+R8352 Term.term
+R8363 Eta.EtaExp
+R8434 Eta.EtaExp
+R8492 Eta.EtaExp_Var
+R8615 Eta.EtaExp_Abs
+R8732 Coq.Lists.List "x ++ y" list_scope
+R8742 Coq.Lists.List "x ++ y" list_scope
+R8749 Coq.Lists.List "x :: y" list_scope
+R8752 Coq.Lists.List.nil
+R8791 Typing.context
+R8807 Coq.Lists.List.list
+R8812 Term.type
+R8825 Coq.Lists.List.list
+R8830 Term.term
+R8840 Eta.EtaExps
+R8920 Eta.EtaExps
+R8989 Eta.EtaExps_nil
+R9022 Eta.EtaExps_cons
+R8302 Coq.Lists.List "x :: y" list_scope
+R8294 Coq.Lists.List "x :: y" list_scope
+R8286 Coq.Lists.List "x :: y" list_scope
+R8235 Eta.EtaExps
+R8188 Eta.EtaExp
+R8138 Coq.Lists.List.nil
+R8134 Coq.Lists.List.nil
+R8130 Coq.Lists.List.nil
+R8086 Eta " \! k : rho , r "
+R8070 Eta " \! k : rho , r "
+R8058 Term " rho --> sigma "
+R8000 Coq.Lists.List "x ++ y" list_scope
+R8010 Coq.Lists.List "x ++ y" list_scope
+R8017 Coq.Lists.List "x :: y" list_scope
+R8020 Coq.Lists.List.nil
+R7934 Eta.EtaExp
+R7947 Coq.Lists.List "x ++ y" list_scope
+R7957 Coq.Lists.List "x ++ y" list_scope
+R7964 Coq.Lists.List "x :: y" list_scope
+R7967 Coq.Lists.List.nil
+R7919 Coq.Init.Logic "x = y" type_scope
+R7897 Coq.Lists.List.length
+R7909 Coq.Lists.List "x ++ y" list_scope
+R7881 Coq.Init.Peano "x <= y" nat_scope
+R7869 Coq.Lists.List.length
+R7807 Apps " r ;; l "
+R7804 Term " [ n ] "
+R7764 Eta.Eta
+R7781 Apps " r ;; l "
+R7778 Term " [ n ] "
+R7706 Eta.EtaExps
+R7666 Typing.TypJ
+R7687 Apps " l ---> rho "
+R7676 Term " [ n ] "
+R7599 Coq.Lists.List.list
+R7604 Term.term
+R7586 Coq.Lists.List.list
+R7591 Term.term
+R7573 Coq.Lists.List.list
+R7578 Term.type
+R7562 Typing.context
+R7537 Term.term
+R7529 Term.term
+R7521 Term.type
+R7510 Typing.context
+R9255 Eta.Eta
+R9221 Eta.Eta
+R9230 Coq.Lists.List "x ++ y" list_scope
+R9391 Coq.Lists.List "x ++ y" list_scope
+R9391 Coq.Lists.List "x ++ y" list_scope
+R9453 Coq.Lists.List.app_ass
+R9470 Coq.Lists.List.app_ass
+R9453 Coq.Lists.List.app_ass
+R9470 Coq.Lists.List.app_ass
+R9500 Coq.Lists.List.app_ass
+R9517 Coq.Lists.List.app_ass
+R9500 Coq.Lists.List.app_ass
+R9517 Coq.Lists.List.app_ass
+R9745 Eta.EtaExps
+R9727 Coq.Init.Logic "x = y" type_scope
+R9706 MoreList.existsb
+R9715 Term.occurs
+R9729 Coq.Init.Datatypes.false
+R9698 Coq.Init.Peano "x <= y" nat_scope
+R9685 Coq.Lists.List.length
+R9653 Coq.Init.Logic "x = y" type_scope
+R9660 Coq.Lists.List "x ++ y" list_scope
+R9598 Eta.EtaExps
+R9889 Eta.EtaExp
+R9858 Subst2.above
+R9865 Coq.Lists.List.length
+R9842 Coq.Init.Logic "x = y" type_scope
+R9849 Coq.Lists.List "x ++ y" list_scope
+R9889 Eta.EtaExp
+R9858 Subst2.above
+R9865 Coq.Lists.List.length
+R9842 Coq.Init.Logic "x = y" type_scope
+R9849 Coq.Lists.List "x ++ y" list_scope
+R10071 Eta.EtaExps
+R10053 Coq.Init.Logic "x = y" type_scope
+R10032 MoreList.existsb
+R10041 Term.occurs
+R10055 Coq.Init.Datatypes.false
+R10024 Coq.Init.Peano "x <= y" nat_scope
+R10011 Coq.Lists.List.length
+R9979 Coq.Init.Logic "x = y" type_scope
+R9986 Coq.Lists.List "x ++ y" list_scope
+R10071 Eta.EtaExps
+R10053 Coq.Init.Logic "x = y" type_scope
+R10032 MoreList.existsb
+R10041 Term.occurs
+R10055 Coq.Init.Datatypes.false
+R10024 Coq.Init.Peano "x <= y" nat_scope
+R10011 Coq.Lists.List.length
+R9979 Coq.Init.Logic "x = y" type_scope
+R9986 Coq.Lists.List "x ++ y" list_scope
+R10134 Eta.EtaExps
+R10134 Eta.EtaExps
+R10192 Eta.EtaExp_EtaExps_ind
+R10192 Eta.EtaExp_EtaExps_ind
+R10251 Apps.above_apps
+R10251 Apps.above_apps
+R10335 Typing.TypJ_red_ctx
+R10335 Typing.TypJ_red_ctx
+R10365 Eta.Eta_red_ctx
+R10365 Eta.Eta_red_ctx
+R10425 Coq.Lists.List "x ++ y" list_scope
+R10425 Coq.Lists.List "x ++ y" list_scope
+R10550 Coq.Lists.List.app_ass
+R10550 Coq.Lists.List.app_ass
+R10592 Coq.Lists.List.app_ass
+R10592 Coq.Lists.List.app_ass
+R10732 Coq.Bool.Bool.orb_false_elim
+R10732 Coq.Bool.Bool.orb_false_elim
+R10831 Coq.Bool.Bool.orb_false_elim
+R10831 Coq.Bool.Bool.orb_false_elim
+FTaitCore
+R194 TaitCore.prod
+R194 TaitCore.prod
+R327 TaitCore.halfprod
+R445 Coq.Init.Logic "A /\ B" type_scope
+R429 Typing.TypJ
+R460 Coq.Init.Peano "x <= y" nat_scope
+R448 Coq.Lists.List.length
+R418 Coq.Init.Datatypes.nat
+R410 Term.term
+R402 Term.type
+R389 Typing.context
+R553 Coq.Init.Logic "x = y" type_scope
+R542 Term.occurs
+R555 Coq.Init.Datatypes.false
+R524 TaitCore.F
+R619 Coq.Arith.Peano_dec.eq_nat_dec
+R619 Coq.Arith.Peano_dec.eq_nat_dec
+R698 Coq.Init.Logic.False
+R698 Coq.Init.Logic.False
+R769 Term " rho --> sigma "
+R757 Typing.typ
+R769 Term " rho --> sigma "
+R757 Typing.typ
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R830 Typing.typ
+R830 Typing.typ
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R1007 Coq.Init.Datatypes.S
+R987 Typing.typ
+R995 Coq.Lists.List "x :: y" list_scope
+R978 Coq.Lists.List "x :: y" list_scope
+R1007 Coq.Init.Datatypes.S
+R987 Typing.typ
+R995 Coq.Lists.List "x :: y" list_scope
+R978 Coq.Lists.List "x :: y" list_scope
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R1140 Term.term
+R1132 Term.term
+R1124 Term.type
+R1117 Coq.Init.Datatypes.nat
+R1180 TaitCore.Requirements.abstr
+R1268 Term.term
+R1260 Term.term
+R1252 Term.type
+R1241 Typing.context
+R1324 Term.term
+R1316 Term.term
+R1308 Term.type
+R1297 Typing.context
+R1380 Term.term
+R1372 Term.term
+R1364 Term.type
+R1353 Typing.context
+R1517 TaitCore.Requirements.N
+R1541 TaitCore " \! k : rho , r "
+R1528 Term " rho --> sigma "
+R1468 TaitCore.Requirements.N
+R1505 Term " r ; s "
+R1475 Coq.Lists.List "x ++ y" list_scope
+R1477 Typing.ext_ctx
+R1437 TaitCore.Requirements.F
+R1448 Term " rho --> sigma "
+R1605 TaitCore.Requirements.N
+R1612 Term.Iota
+R1586 TaitCore.Requirements.A
+R1593 Term.Iota
+R1677 TaitCore.Requirements.A
+R1692 Term " [ n ] "
+R1688 Term " [ n ] "
+R1655 Typing.TypJ
+R1665 Term " [ n ] "
+R1814 TaitCore.Requirements.A
+R1836 Term " r ; s "
+R1829 Term " r ; s "
+R1795 TaitCore.Requirements.N
+R1766 TaitCore.Requirements.A
+R1777 Term " rho --> sigma "
+R1744 Typing.TypJ
+R1918 TaitCore.Requirements.N
+R1900 TaitCore.Requirements.N
+R1882 TaitCore.Requirements.H
+R1981 TaitCore.Requirements.H
+R2020 Subst.sub
+R2033 Subst " l # n "
+R2029 Coq.Lists.List "x :: y" list_scope
+R2039 Subst.shift
+R2011 Term " r ; s "
+R1996 Subst.sub
+R2001 Term " \ rho , r "
+R2123 TaitCore.Requirements.H
+R2144 Term " r ; s "
+R2138 Term " r ; s "
+R2095 TaitCore.Requirements.H
+R2106 Term " rho --> sigma "
+R2241 TaitCore.Requirements.H
+R2248 Coq.Lists.List "x ++ y" list_scope
+R2223 TaitCore.Requirements.H
+R2201 Typing.TypJ
+R2446 Coq.Init.Specif "{ x : A  |  P }" type_scope
+R2457 R.N
+R2464 Coq.Lists.List "x ++ y" list_scope
+R2450 Term.term
+R2413 TaitCore.NormalizationProof.F
+R2420 Coq.Lists.List "x ++ y" list_scope
+R2384 Term.term
+R2376 Term.type
+R2363 Typing.context
+R2589 Coq.Init.Specif "{ x : A  |  P }" type_scope
+R2600 R.A
+R2607 Coq.Lists.List "x ++ y" list_scope
+R2593 Term.term
+R2556 TaitCore.NormalizationProof.F
+R2563 Coq.Lists.List "x ++ y" list_scope
+R2528 Term.term
+R2520 Term.type
+R2507 Typing.context
+R2693 Term.term
+R2685 Term.type
+R2672 Typing.context
+R2741 TaitCore "x ** y" type_scope
+R2726 Typing.TypJ
+R2768 Term.Iota
+R2776 TaitCore.NormalizationProof.SN
+R2784 Term.Iota
+R2798 Term " rho --> sigma "
+R2892 Term " r ; s "
+R2874 Coq.Lists.List "x ++ y" list_scope
+R2840 Coq.Lists.List "x ++ y" list_scope
+R2693 Term.term
+R2685 Term.type
+R2672 Typing.context
+R2987 TaitCore.NormalizationProof.SN
+R2995 Coq.Lists.List "x ++ y" list_scope
+R2970 TaitCore.NormalizationProof.SN
+R2951 Typing.TypJ
+R3046 Coq.Lists.List.app_ass
+R3069 Coq.Lists.List.app_ass
+R3046 Coq.Lists.List.app_ass
+R3069 Coq.Lists.List.app_ass
+R3122 TaitCore.NormalizationProof.SN_ext_ctx
+R3187 Typing.TypJ
+R3170 TaitCore.NormalizationProof.SC
+R3263 TaitCore.NormalizationProof.SC_TypJ
+R3337 TaitCore.NormalizationProof.SC
+R3345 Coq.Lists.List "x ++ y" list_scope
+R3320 TaitCore.NormalizationProof.SC
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R3427 Coq.Lists.List.app_ass
+R3444 Coq.Lists.List.app_ass
+R3427 Coq.Lists.List.app_ass
+R3444 Coq.Lists.List.app_ass
+R3556 TaitCore "x * y" type_scope
+R3543 TaitCore.NormalizationProof.SN
+R3526 TaitCore.NormalizationProof.SC
+R3576 TaitCore.NormalizationProof.SC
+R3559 TaitCore.NormalizationProof.SA
+R3504 Typing.TypJ
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R3731 R.Ax2
+R3731 R.Ax2
+R3891 Coq.Lists.List "x ++ y" list_scope
+R3891 Coq.Lists.List "x ++ y" list_scope
+R3914 Typing.ext_ctx
+R3914 Typing.ext_ctx
+R3949 Typing.TypJ
+R3960 Coq.Lists.List "x ++ y" list_scope
+R3949 Typing.TypJ
+R3960 Coq.Lists.List "x ++ y" list_scope
+R4000 Typing.ext_ctx_TypJ
+R4000 Typing.ext_ctx_TypJ
+R4041 TaitCore.NormalizationProof.SA
+R4064 Term " [ n ] "
+R4050 Coq.Lists.List "x ++ y" list_scope
+R4041 TaitCore.NormalizationProof.SA
+R4064 Term " [ n ] "
+R4050 Coq.Lists.List "x ++ y" list_scope
+R4093 Term " [ n ] "
+R4093 Term " [ n ] "
+R4105 R.Ax3
+R4105 R.Ax3
+R4138 TaitCore.NormalizationProof.SC
+R4165 Term " r ; s "
+R4147 Coq.Lists.List "x ++ y" list_scope
+R4138 TaitCore.NormalizationProof.SC
+R4165 Term " r ; s "
+R4147 Coq.Lists.List "x ++ y" list_scope
+R4206 Coq.Lists.List.app_ass
+R4206 Coq.Lists.List.app_ass
+R4306 Term " [ n ] "
+R4291 Coq.Lists.List "x ++ y" list_scope
+R4296 Coq.Lists.List "x ++ y" list_scope
+R4306 Term " [ n ] "
+R4291 Coq.Lists.List "x ++ y" list_scope
+R4296 Coq.Lists.List "x ++ y" list_scope
+R4326 TaitCore.NormalizationProof.SN
+R4353 Term " r ; s "
+R4335 Coq.Lists.List "x ++ y" list_scope
+R4326 TaitCore.NormalizationProof.SN
+R4353 Term " r ; s "
+R4335 Coq.Lists.List "x ++ y" list_scope
+R4395 Term " r ; s "
+R4383 Coq.Lists.List "x ++ y" list_scope
+R4395 Term " r ; s "
+R4383 Coq.Lists.List "x ++ y" list_scope
+R4427 Coq.Lists.List.nil
+R4422 Coq.Init.Datatypes.S
+R4427 Coq.Lists.List.nil
+R4422 Coq.Init.Datatypes.S
+R4500 Typing.ext_ctx_length
+R4500 Typing.ext_ctx_length
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R4557 TaitCore " \! k : rho , r "
+R4557 TaitCore " \! k : rho , r "
+R4602 R.Ax1
+R4602 R.Ax1
+R4705 Term " r ; s "
+R4693 Coq.Lists.List "x ++ y" list_scope
+R4705 Term " r ; s "
+R4693 Coq.Lists.List "x ++ y" list_scope
+R4783 Coq.Lists.List "x ++ y" list_scope
+R4783 Coq.Lists.List "x ++ y" list_scope
+R4820 Coq.Lists.List.app_ass
+R4820 Coq.Lists.List.app_ass
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R4881 Coq.Lists.List.app_ass
+R4881 Coq.Lists.List.app_ass
+R4919 Coq.Lists.List "x ++ y" list_scope
+R4919 Coq.Lists.List "x ++ y" list_scope
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R5031 Term " r ; s "
+R5031 Term " r ; s "
+R5044 R.Ax4
+R5044 R.Ax4
+R5159 TaitCore.NormalizationProof.SC
+R5140 R.H
+R5122 TaitCore.NormalizationProof.SC
+R5100 Typing.TypJ
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R5340 R.Ax5
+R5340 R.Ax5
+R5358 R.Ax_H_ext_ctx
+R5358 R.Ax_H_ext_ctx
+R5404 Term " r ; s "
+R5404 Term " r ; s "
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R5434 R.Ax7
+R5446 R.Ax_H_ext_ctx
+R5434 R.Ax7
+R5446 R.Ax_H_ext_ctx
+R5517 Coq.Lists.List.list
+R5522 Term.term
+R5504 Typing.context
+R5504 Typing.context
+R5578 Coq.Lists.List.nil
+R5582 Coq.Lists.List.nil
+R5589 Coq.Init.Logic.True
+R5597 Coq.Lists.List.nil
+R5607 Coq.Init.Logic.False
+R5619 Coq.Lists.List.nil
+R5626 Coq.Init.Logic.False
+R5639 Coq.Lists.List "x :: y" list_scope
+R5648 Coq.Lists.List "x :: y" list_scope
+R5672 TaitCore "x * y" type_scope
+R5657 TaitCore.NormalizationProof.SC
+R5517 Coq.Lists.List.list
+R5522 Term.term
+R5504 Typing.context
+R5504 Typing.context
+R5779 Coq.Init.Logic "x = y" type_scope
+R5767 Coq.Lists.List.length
+R5781 Coq.Lists.List.length
+R5743 TaitCore.NormalizationProof.SCs
+R5962 TaitCore.NormalizationProof.SC
+R5991 Coq.Lists.List.nth
+R5973 Coq.Lists.List.nth
+R5940 TaitCore.NormalizationProof.SCs
+R5921 Coq.Init.Peano "x < y" nat_scope
+R5923 Coq.Lists.List.length
+R6058 Coq.Init.Logic.False
+R6058 Coq.Init.Logic.False
+R6270 TaitCore.NormalizationProof.SCs
+R6281 Coq.Lists.List "x ++ y" list_scope
+R6248 TaitCore.NormalizationProof.SCs
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R6361 TaitCore.NormalizationProof.SC_ext_ctx
+R6361 TaitCore.NormalizationProof.SC_ext_ctx
+R6489 TaitCore.NormalizationProof.SC
+R6504 Subst.sub
+R6469 Typing.TypJ
+R6445 TaitCore.NormalizationProof.SCs
+R6412 Subst.substitution
+R6593 TaitCore.NormalizationProof.SCs_nth
+R6593 TaitCore.NormalizationProof.SCs_nth
+R6664 Typing.typ
+R6664 Typing.typ
+R6690 Typing.TypJ
+R6709 Term " rho --> sigma "
+R6690 Typing.TypJ
+R6709 Term " rho --> sigma "
+R6738 Typing.TypJ
+R6752 Typing.typ
+R6738 Typing.TypJ
+R6752 Typing.typ
+R6815 Term " rho --> sigma "
+R6815 Term " rho --> sigma "
+R6866 Typing.typ
+R6866 Typing.typ
+R6951 Coq.Lists.List "x ++ y" list_scope
+R6953 Coq.Lists.List.nil
+R6951 Coq.Lists.List "x ++ y" list_scope
+R6953 Coq.Lists.List.nil
+R7005 Coq.Lists.List.nil
+R6994 Subst.sub
+R7005 Coq.Lists.List.nil
+R6994 Subst.sub
+R7096 Subst.sub
+R7101 Term " \ rho , r "
+R7096 Subst.sub
+R7101 Term " \ rho , r "
+R7124 Typing.TypJ
+R7161 Term " rho --> sigma "
+R7165 Typing.typ
+R7173 Coq.Lists.List "x :: y" list_scope
+R7137 Subst.sub
+R7142 Term " \ rho , r "
+R7124 Typing.TypJ
+R7161 Term " rho --> sigma "
+R7165 Typing.typ
+R7173 Coq.Lists.List "x :: y" list_scope
+R7137 Subst.sub
+R7142 Term " \ rho , r "
+R7193 Typing.TypJ_sub2
+R7193 Typing.TypJ_sub2
+R7224 TaitCore.NormalizationProof.SCs_length
+R7224 TaitCore.NormalizationProof.SCs_length
+R7295 TaitCore.NormalizationProof.SCs_nth
+R7295 TaitCore.NormalizationProof.SCs_nth
+R7372 TaitCore.NormalizationProof.One
+R7388 Coq.Lists.List "x ++ y" list_scope
+R7372 TaitCore.NormalizationProof.One
+R7388 Coq.Lists.List "x ++ y" list_scope
+R7426 Subst.sub
+R7439 Subst " l # n "
+R7435 Coq.Lists.List "x :: y" list_scope
+R7446 Subst.shift
+R7416 TaitCore.NormalizationProof.Two
+R7426 Subst.sub
+R7439 Subst " l # n "
+R7435 Coq.Lists.List "x :: y" list_scope
+R7446 Subst.shift
+R7416 TaitCore.NormalizationProof.Two
+R7489 Coq.Lists.List "x :: y" list_scope
+R7489 Coq.Lists.List "x :: y" list_scope
+R7524 TaitCore.NormalizationProof.SCs_ext_ctx
+R7524 TaitCore.NormalizationProof.SCs_ext_ctx
+R7597 R.Ax6
+R7597 R.Ax6
+R7653 TaitCore.NormalizationProof.SCs
+R7681 Coq.Lists.List.map
+R7690 MoreList.seq
+R7711 Coq.Lists.List.length
+R7695 Coq.Lists.List.length
+R7685 Term.Var
+R7664 Coq.Lists.List "x ++ y" list_scope
+R7789 TaitCore.NormalizationProof.One
+R7814 Coq.Lists.List.length
+R7802 Coq.Lists.List "x ++ y" list_scope
+R7805 Coq.Lists.List "x :: y" list_scope
+R7789 TaitCore.NormalizationProof.One
+R7814 Coq.Lists.List.length
+R7802 Coq.Lists.List "x ++ y" list_scope
+R7805 Coq.Lists.List "x :: y" list_scope
+R7910 MoreList.app_nth2
+R7910 MoreList.app_nth2
+R7980 Term " [ n ] "
+R7981 Coq.Lists.List.length
+R7980 Term " [ n ] "
+R7981 Coq.Lists.List.length
+R8003 R.Ax3
+R8003 R.Ax3
+R8037 Coq.Lists.List "x :: y" list_scope
+R8058 Coq.Lists.List "x ++ y" list_scope
+R8053 Coq.Lists.List "x :: y" list_scope
+R8055 Coq.Lists.List.nil
+R8037 Coq.Lists.List "x :: y" list_scope
+R8058 Coq.Lists.List "x ++ y" list_scope
+R8053 Coq.Lists.List "x :: y" list_scope
+R8055 Coq.Lists.List.nil
+R8087 Coq.Lists.List.app_ass
+R8087 Coq.Lists.List.app_ass
+R8105 Coq.Init.Datatypes.S
+R8108 Coq.Lists.List.length
+R8130 Coq.Lists.List.length
+R8144 Coq.Lists.List "x ++ y" list_scope
+R8147 Coq.Lists.List "x :: y" list_scope
+R8149 Coq.Lists.List.nil
+R8105 Coq.Init.Datatypes.S
+R8108 Coq.Lists.List.length
+R8130 Coq.Lists.List.length
+R8144 Coq.Lists.List "x ++ y" list_scope
+R8147 Coq.Lists.List "x :: y" list_scope
+R8149 Coq.Lists.List.nil
+R8275 Coq.Init.Specif "{ x : A  |  P }" type_scope
+R8286 R.N
+R8279 Term.term
+R8256 Typing.TypJ
+R8331 TaitCore.NormalizationProof.One
+R8331 TaitCore.NormalizationProof.One
+R8362 TaitCore.NormalizationProof.SC
+R8362 TaitCore.NormalizationProof.SC
+R8390 Subst.sub_id
+R8400 Coq.Lists.List.length
+R8390 Subst.sub_id
+R8400 Coq.Lists.List.length
+R8421 TaitCore.NormalizationProof.Three
+R8421 TaitCore.NormalizationProof.Three
+R8474 TaitCore.NormalizationProof.SCs_seq
+R8487 Coq.Lists.List.nil
+R8474 TaitCore.NormalizationProof.SCs_seq
+R8487 Coq.Lists.List.nil
+R8548 Coq.Lists.List.nil
+R8535 Coq.Lists.List.length
+R8548 Coq.Lists.List.nil
+R8535 Coq.Lists.List.length
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+FWN
+R94 Term.term
+R86 Term.term
+R364 Coq.Lists.List.list
+R369 Term.term
+R351 Coq.Lists.List.list
+R356 Term.term
+R166 Apps " r ;; l "
+R163 Term " [ n ] "
+R157 Apps " r ;; l "
+R154 Term " [ n ] "
+R223 Term " \ rho , r "
+R214 Term " \ rho , r "
+R311 Apps " r ;; l "
+R305 Term " \ rho , r "
+R316 Coq.Lists.List "x :: y" list_scope
+R289 Apps " r ;; l "
+R282 Subst.sub
+R260 Term.term
+R260 Term.term
+R407 Coq.Lists.List.nil
+R403 Coq.Lists.List.nil
+R477 Coq.Lists.List "x :: y" list_scope
+R470 Coq.Lists.List "x :: y" list_scope
+R595 WN.WNs
+R610 Coq.Lists.List "x ++ y" list_scope
+R601 Coq.Lists.List "x ++ y" list_scope
+R579 WN.WNs
+R567 WN.WNs
+R703 WN.WNs_app
+R756 WN.WNs
+R769 Coq.Lists.List.rev
+R761 Coq.Lists.List.rev
+R744 WN.WNs
+R929 Coq.Init.Logic "A /\ B" type_scope
+R920 WN.WNs
+R932 WN.WN
+R887 WN.WNs
+R906 Coq.Lists.List "x ++ y" list_scope
+R910 Coq.Lists.List "x :: y" list_scope
+R912 Coq.Lists.List.nil
+R893 Coq.Lists.List "x ++ y" list_scope
+R896 Coq.Lists.List "x :: y" list_scope
+R898 Coq.Lists.List.nil
+R968 WN.WNs_rev
+R968 WN.WNs_rev
+R1023 WN.WNs_rev
+R1023 WN.WNs_rev
+R1714 Term.term
+R1725 WN.WN
+R1771 WN.WN
+R1807 WN.WN_var
+R1855 WN.WN_abs
+R1905 WN.WN_beta
+R1962 Apps " r ;; l "
+R1955 Subst.sub
+R1998 Coq.Lists.List.list
+R2003 Term.term
+R2013 WN.WNs
+R2062 WN.WNs
+R2103 WN.WNs_nil
+R2122 WN.WNs_cons
+R1688 Coq.Lists.List "x :: y" list_scope
+R1680 Coq.Lists.List "x :: y" list_scope
+R1654 WN.WNs
+R1633 WN.WN
+R1601 Coq.Lists.List.nil
+R1597 Coq.Lists.List.nil
+R1569 Apps " r ;; l "
+R1561 Term " \ rho , r "
+R1576 Coq.Lists.List "x :: y" list_scope
+R1546 Apps " r ;; l "
+R1539 Subst.sub
+R1506 WN.WN
+R1517 Apps " r ;; l "
+R1510 Subst.sub
+R1491 Term.term
+R1475 Coq.Lists.List.list
+R1480 Term.term
+R1464 Term.term
+R1464 Term.term
+R1451 Term.type
+R1418 Term " \ rho , r "
+R1407 Term " \ rho , r "
+R1385 WN.WN
+R1370 Term.term
+R1370 Term.term
+R1357 Term.type
+R1327 Apps " r ;; l "
+R1319 Apps " r ;; l "
+R1293 WN.WNs
+R1281 Coq.Lists.List.list
+R1286 Term.term
+R1281 Coq.Lists.List.list
+R1286 Term.term
+R1268 Coq.Init.Datatypes.nat
+R1230 Coq.Lists.List.list
+R1235 Term.term
+R1217 Coq.Lists.List.list
+R1222 Term.term
+R1192 Term.term
+R1184 Term.term
+R2308 Coq.Init.Logic "x = y" type_scope
+R2296 Term.occurs
+R2310 Coq.Init.Datatypes.false
+R2285 Coq.Init.Logic "x = y" type_scope
+R2274 Term.occurs
+R2287 Coq.Init.Datatypes.false
+R2253 WN.WN
+R2408 Coq.Init.Logic "x = y" type_scope
+R2396 Term.occurs
+R2410 Coq.Init.Datatypes.false
+R2385 Coq.Init.Logic "x = y" type_scope
+R2374 Term.occurs
+R2387 Coq.Init.Datatypes.false
+R2408 Coq.Init.Logic "x = y" type_scope
+R2396 Term.occurs
+R2410 Coq.Init.Datatypes.false
+R2385 Coq.Init.Logic "x = y" type_scope
+R2374 Term.occurs
+R2387 Coq.Init.Datatypes.false
+R2569 Coq.Init.Logic "x = y" type_scope
+R2547 MoreList.existsb
+R2556 Term.occurs
+R2571 Coq.Init.Datatypes.false
+R2490 Coq.Init.Logic "x = y" type_scope
+R2469 MoreList.existsb
+R2478 Term.occurs
+R2492 Coq.Init.Datatypes.false
+R2569 Coq.Init.Logic "x = y" type_scope
+R2547 MoreList.existsb
+R2556 Term.occurs
+R2571 Coq.Init.Datatypes.false
+R2490 Coq.Init.Logic "x = y" type_scope
+R2469 MoreList.existsb
+R2478 Term.occurs
+R2492 Coq.Init.Datatypes.false
+R2588 WN.WN_WNs_ind
+R2588 WN.WN_WNs_ind
+R2657 Apps.apps_occurs
+R2657 Apps.apps_occurs
+R2679 Apps.apps_occurs
+R2679 Apps.apps_occurs
+R2709 Coq.Bool.Bool.orb_false_elim
+R2709 Coq.Bool.Bool.orb_false_elim
+R2848 Apps.apps_occurs
+R2848 Apps.apps_occurs
+R2892 Coq.Bool.Bool.orb_false_elim
+R2892 Coq.Bool.Bool.orb_false_elim
+R2937 Coq.Bool.Bool.orb_false_elim
+R2937 Coq.Bool.Bool.orb_false_elim
+R2991 Apps.apps_occurs
+R2991 Apps.apps_occurs
+R3027 Coq.Bool.Bool.orb_b_false
+R3027 Coq.Bool.Bool.orb_b_false
+R3048 Subst.sub_occurs
+R3048 Subst.sub_occurs
+R3153 Coq.Bool.Bool.orb_false_elim
+R3153 Coq.Bool.Bool.orb_false_elim
+R3385 Coq.Init.Logic "'exists' x , p" type_scope
+R3412 Coq.Init.Logic "A /\ B" type_scope
+R3399 Coq.Init.Logic "x = y" type_scope
+R3401 Subst.sub
+R3415 WN.WN
+R3370 Coq.Init.Logic "x = y" type_scope
+R3372 Subst.sub
+R3354 Subst " l # n "
+R3344 Coq.Lists.List.map
+R3348 Term.Var
+R3310 Coq.Lists.List.list
+R3315 Coq.Init.Datatypes.nat
+R3285 WN.WN
+R3556 Coq.Init.Logic "'exists' x , p" type_scope
+R3582 Coq.Init.Logic "A /\ B" type_scope
+R3570 Coq.Init.Logic "x = y" type_scope
+R3572 Subst.sub
+R3585 WN.WN
+R3541 Coq.Init.Logic "x = y" type_scope
+R3543 Subst.sub
+R3530 Subst " l # n "
+R3520 Coq.Lists.List.map
+R3524 Term.Var
+R3556 Coq.Init.Logic "'exists' x , p" type_scope
+R3582 Coq.Init.Logic "A /\ B" type_scope
+R3570 Coq.Init.Logic "x = y" type_scope
+R3572 Subst.sub
+R3585 WN.WN
+R3541 Coq.Init.Logic "x = y" type_scope
+R3543 Subst.sub
+R3530 Subst " l # n "
+R3520 Coq.Lists.List.map
+R3524 Term.Var
+R3717 Coq.Init.Logic "'exists' x , p" type_scope
+R3762 Coq.Init.Logic "A /\ B" type_scope
+R3732 Coq.Init.Logic "x = y" type_scope
+R3734 Coq.Lists.List.map
+R3748 Subst.sub
+R3765 WN.WNs
+R3671 Coq.Init.Logic "x = y" type_scope
+R3673 Coq.Lists.List.map
+R3687 Subst.sub
+R3661 Subst " l # n "
+R3651 Coq.Lists.List.map
+R3655 Term.Var
+R3717 Coq.Init.Logic "'exists' x , p" type_scope
+R3762 Coq.Init.Logic "A /\ B" type_scope
+R3732 Coq.Init.Logic "x = y" type_scope
+R3734 Coq.Lists.List.map
+R3748 Subst.sub
+R3765 WN.WNs
+R3671 Coq.Init.Logic "x = y" type_scope
+R3673 Coq.Lists.List.map
+R3687 Subst.sub
+R3661 Subst " l # n "
+R3651 Coq.Lists.List.map
+R3655 Term.Var
+R3801 WN.WN_WNs_ind
+R3801 WN.WN_WNs_ind
+R3894 Subst " l # n "
+R3884 Coq.Lists.List.map
+R3888 Term.Var
+R3894 Subst " l # n "
+R3884 Coq.Lists.List.map
+R3888 Term.Var
+R3917 Apps.apps_form
+R3947 Apps.apps_form
+R3917 Apps.apps_form
+R3947 Apps.apps_form
+R3971 Apps.sub_apps
+R3971 Apps.sub_apps
+R4027 Coq.Init.Logic "x = y" type_scope
+R3996 Apps.is_app
+R4004 Subst.sub
+R4009 Apps.head_apps
+R4029 Coq.Init.Datatypes.false
+R4027 Coq.Init.Logic "x = y" type_scope
+R3996 Apps.is_app
+R4004 Subst.sub
+R4009 Apps.head_apps
+R4029 Coq.Init.Datatypes.false
+R4046 Apps.head_apps
+R4046 Apps.head_apps
+R4128 Apps.head_apps_not_App
+R4128 Apps.head_apps_not_App
+R4184 Coq.Init.Logic "x = y" type_scope
+R4162 Subst.sub
+R4167 Apps.head_apps
+R4186 Term " [ n ] "
+R4184 Coq.Init.Logic "x = y" type_scope
+R4162 Subst.sub
+R4167 Apps.head_apps
+R4186 Term " [ n ] "
+R4201 Apps.apps_form_unique1
+R4201 Apps.apps_form_unique1
+R4238 Coq.Init.Logic "x = y" type_scope
+R4240 Coq.Lists.List.map
+R4272 Apps.get_apps
+R4261 Subst.sub
+R4253 Term.term
+R4238 Coq.Init.Logic "x = y" type_scope
+R4240 Coq.Lists.List.map
+R4272 Apps.get_apps
+R4261 Subst.sub
+R4253 Term.term
+R4296 Apps.apps_form_unique2
+R4296 Apps.apps_form_unique2
+R4345 Apps.head_apps
+R4376 Apps.get_apps
+R4345 Apps.head_apps
+R4376 Apps.get_apps
+R4451 Apps " r ;; l "
+R4451 Apps " r ;; l "
+R4469 Apps.sub_apps
+R4469 Apps.sub_apps
+R4734 Coq.Lists.List "x :: y" list_scope
+R4737 Coq.Lists.List.map
+R4741 Coq.Init.Datatypes.S
+R4734 Coq.Lists.List "x :: y" list_scope
+R4737 Coq.Lists.List.map
+R4741 Coq.Init.Datatypes.S
+R4784 Coq.Init.Logic "x = y" type_scope
+R4758 Subst.sublift
+R4778 Subst " l # n "
+R4767 Coq.Lists.List.map
+R4771 Term.Var
+R4798 Subst " l # n "
+R4786 Coq.Lists.List.map
+R4790 Term.Var
+R4800 Coq.Init.Datatypes.S
+R4784 Coq.Init.Logic "x = y" type_scope
+R4758 Subst.sublift
+R4778 Subst " l # n "
+R4767 Coq.Lists.List.map
+R4771 Term.Var
+R4798 Subst " l # n "
+R4786 Coq.Lists.List.map
+R4790 Term.Var
+R4800 Coq.Init.Datatypes.S
+R4852 MoreList.map_map
+R4852 MoreList.map_map
+R4852 MoreList.map_map
+R4913 Coq.Init.Datatypes.S
+R4913 Coq.Init.Datatypes.S
+R4952 Term " \ rho , r "
+R4952 Term " \ rho , r "
+R5056 Subst " l # n "
+R5046 Coq.Lists.List.map
+R5050 Term.Var
+R5056 Subst " l # n "
+R5046 Coq.Lists.List.map
+R5050 Term.Var
+R5079 Apps.apps_form
+R5109 Apps.apps_form
+R5079 Apps.apps_form
+R5109 Apps.apps_form
+R5133 Apps.sub_apps
+R5133 Apps.sub_apps
+R5189 Coq.Init.Logic "x = y" type_scope
+R5158 Apps.is_app
+R5166 Subst.sub
+R5171 Apps.head_apps
+R5191 Coq.Init.Datatypes.false
+R5189 Coq.Init.Logic "x = y" type_scope
+R5158 Apps.is_app
+R5166 Subst.sub
+R5171 Apps.head_apps
+R5191 Coq.Init.Datatypes.false
+R5208 Apps.head_apps
+R5208 Apps.head_apps
+R5290 Apps.head_apps_not_App
+R5290 Apps.head_apps_not_App
+R5346 Coq.Init.Logic "x = y" type_scope
+R5324 Subst.sub
+R5329 Apps.head_apps
+R5349 Term " \ rho , r "
+R5346 Coq.Init.Logic "x = y" type_scope
+R5324 Subst.sub
+R5329 Apps.head_apps
+R5349 Term " \ rho , r "
+R5368 Apps.apps_form_unique1
+R5368 Apps.apps_form_unique1
+R5408 Coq.Init.Logic "x = y" type_scope
+R5404 Coq.Lists.List "x :: y" list_scope
+R5410 Coq.Lists.List.map
+R5442 Apps.get_apps
+R5431 Subst.sub
+R5423 Term.term
+R5408 Coq.Init.Logic "x = y" type_scope
+R5404 Coq.Lists.List "x :: y" list_scope
+R5410 Coq.Lists.List.map
+R5442 Apps.get_apps
+R5431 Subst.sub
+R5423 Term.term
+R5466 Apps.apps_form_unique2
+R5466 Apps.apps_form_unique2
+R5515 Apps.head_apps
+R5546 Apps.get_apps
+R5515 Apps.head_apps
+R5546 Apps.get_apps
+R5831 Coq.Lists.List "x :: y" list_scope
+R5834 Coq.Lists.List.map
+R5838 Coq.Init.Datatypes.S
+R5831 Coq.Lists.List "x :: y" list_scope
+R5834 Coq.Lists.List.map
+R5838 Coq.Init.Datatypes.S
+R5866 Coq.Init.Logic "x = y" type_scope
+R5855 Subst.sublift
+R5880 Subst " l # n "
+R5868 Coq.Lists.List.map
+R5872 Term.Var
+R5882 Coq.Init.Datatypes.S
+R5866 Coq.Init.Logic "x = y" type_scope
+R5855 Subst.sublift
+R5880 Subst " l # n "
+R5868 Coq.Lists.List.map
+R5872 Term.Var
+R5882 Coq.Init.Datatypes.S
+R5934 MoreList.map_map
+R5934 MoreList.map_map
+R5934 MoreList.map_map
+R6007 Apps " r ;; l "
+R5998 Subst.sub
+R6007 Apps " r ;; l "
+R5998 Subst.sub
+R6041 Apps.sub_apps
+R6041 Apps.sub_apps
+R6124 Coq.Lists.List.map
+R6128 Term.Var
+R6142 Subst.support
+R6124 Coq.Lists.List.map
+R6128 Term.Var
+R6142 Subst.support
+R6182 Subst.shift
+R6182 Subst.shift
+R6205 Subst2.Sub_Sub
+R6205 Subst2.Sub_Sub
+R6221 Subst2.Sub_Sub_Ad_Hoc
+R6221 Subst2.Sub_Sub_Ad_Hoc
+R6313 Coq.Lists.List.nil
+R6317 Term.term
+R6313 Coq.Lists.List.nil
+R6317 Term.term
+R6538 Coq.Lists.List "x :: y" list_scope
+R6538 Coq.Lists.List "x :: y" list_scope
+Fnc
+R58 Coq.Init.Logic.refl_equal
+R200 nc.nc_type
+R376 nc.existsnc_t
+R389 nc " t ! "
+R493 nc " t ! "
+R592 Coq.Init.Logic "x = y" type_scope
+R587 nc.nc
+R689 nc.existsnc_t
+R717 nc.existsnc_I
+R733 nc.nc
+R837 Coq.Init.Logic "x = y" type_scope
+R825 Coq.Init.Logic "x = y" type_scope
+R820 nc.nc
+R827 nc.nc
+R880 Coq.Init.Logic "'exists' x , p" type_scope
+R892 Coq.Init.Logic "x = y" type_scope
+R894 nc.nc
+R876 nc " t ! "
+R1025 nc.nc
+R1004 nc " t ! "
+R1043 nc.nc1
+R1055 nc.nc1
+R1059 Coq.Init.Peano.pred
+R1160 nc.nc
+R1124 nc " t ! "
+R1118 nc " t ! "
+R1181 nc.nc2
+R1193 nc.nc2
+R1197 Coq.Init.Peano.plus
+R1211 nc.nc2
+R1228 nc.nc
+R1221 nc.nc
+R1215 Coq.Init.Peano.plus
+R1253 nc.nc2
+R1270 nc.nc
+R1263 nc.nc
+R1257 Coq.Init.Peano.plus
+R1401 nc.nc
+R1347 nc " t ! "
+R1341 nc " t ! "
+R1335 nc " t ! "
+R1473 nc "'letnc' x := y 'in' p" type_scope
+R1467 nc " t ! "
+R1561 nc "'letnc' x := y 'in' p" type_scope
+R1576 nc "'letnc' x := y 'in' p" type_scope
+R1555 nc " t ! "
+R1549 nc " t ! "
+R1689 Coq.Init.Logic "x = y" type_scope
+R1683 nc.nc
+R1691 nc.nc
+R1828 nc.nc_ex
+R1835 nc.nc
+R1872 nc "'letnc' x := y 'in' p" type_scope
+R1884 nc.nc
+R1990 nc.nc
+R2118 nc.nc_ex
+R2244 nc "'letnc' x := y 'in' p" type_scope
+R2282 nc.nc_ex
+R2146 nc.nc_ex
+R1924 Coq.Init.Logic.refl_equal
+R1936 nc.nc
+R1775 nc.ProofRelevance
+R2495 Coq.Init.Logic "A <-> B" type_scope
+R2492 Coq.Init.Logic "x = y" type_scope
+R2491 nc.A
+R2493 nc.B
+R2526 Coq.Init.Logic "x = y" type_scope
+R2583 nc.A
+R2592 nc.B
+R2583 nc.A
+R2592 nc.B
+R2616 Coq.Init.Logic.eq_ind
+R2687 nc.B
+R2673 Coq.Init.Logic.refl_equal
+R2654 Coq.Init.Logic "x = y" type_scope
+R2652 nc.A
+R2638 nc.test
+R2623 nc.A
+R2616 Coq.Init.Logic.eq_ind
+R2687 nc.B
+R2673 Coq.Init.Logic.refl_equal
+R2654 Coq.Init.Logic "x = y" type_scope
+R2652 nc.A
+R2638 nc.test
+R2623 nc.A
+R2714 nc.B
+R2712 nc.A
+R2714 nc.B
+R2712 nc.A
+R2838 Coq.Init.Logic "A <-> B" type_scope
+R2834 Coq.Init.Logic "x = y" type_scope
+R2849 Coq.Init.Logic "x = y" type_scope
+R2844 nc.nc
+R2851 nc.nc
+R2951 nc.nc
+R2954 Coq.Init.Datatypes.O
+R2976 nc.nc
+R2980 Coq.Init.Datatypes.S
+R2951 nc.nc
+R2954 Coq.Init.Datatypes.O
+R2976 nc.nc
+R2980 Coq.Init.Datatypes.S
+R3008 Coq.Init.Logic.eq_ind
+R3083 nc.nc
+R3068 Coq.Init.Logic.refl_equal
+R3049 Coq.Init.Logic "x = y" type_scope
+R3043 nc.nc
+R3016 nc.nc
+R3008 Coq.Init.Logic.eq_ind
+R3083 nc.nc
+R3068 Coq.Init.Logic.refl_equal
+R3049 Coq.Init.Logic "x = y" type_scope
+R3043 nc.nc
+R3016 nc.nc
+FTaitCoreNc
+R147 nc.nc2
+R151 Term.App
+R175 nc.nc2
+R181 Coq.Lists.List.app
+R261 Coq.Init.Logic "x = y" type_scope
+R233 nc " t ! "
+R226 Typing.context
+R233 nc " t ! "
+R226 Typing.context
+R233 nc " t ! "
+R226 Typing.context
+R355 Coq.Lists.List.app_ass
+R355 Coq.Lists.List.app_ass
+R545 Coq.Init.Specif "{ x : A  |  P }" type_scope
+R556 nc "'letnc' x := y 'in' p" type_scope
+R592 nc "'letnc' x := y 'in' p" type_scope
+R608 R.N
+R549 Term.term
+R469 nc "'letnc' x := y 'in' p" type_scope
+R505 nc "'letnc' x := y 'in' p" type_scope
+R521 TaitCore.F
+R457 nc " t ! "
+R450 Typing.context
+R424 nc " t ! "
+R420 Term.term
+R411 Term.type
+R403 nc " t ! "
+R396 Typing.context
+R797 Coq.Init.Specif "{ x : A  |  P }" type_scope
+R808 nc "'letnc' x := y 'in' p" type_scope
+R844 nc "'letnc' x := y 'in' p" type_scope
+R860 R.A
+R801 Term.term
+R722 nc "'letnc' x := y 'in' p" type_scope
+R758 nc "'letnc' x := y 'in' p" type_scope
+R774 TaitCore.F
+R711 nc " t ! "
+R704 Typing.context
+R678 nc " t ! "
+R674 Term.term
+R665 Term.type
+R657 nc " t ! "
+R650 Typing.context
+R952 nc " t ! "
+R948 Term.term
+R939 Term.type
+R931 nc " t ! "
+R924 Typing.context
+R1039 TaitCore "x ** y" type_scope
+R982 nc "'letnc' x := y 'in' p" type_scope
+R1005 nc "'letnc' x := y 'in' p" type_scope
+R1022 Typing.TypJ
+R1066 Term.Iota
+R1074 TaitCoreNc.NormalizationProofNc.SN
+R1082 Term.Iota
+R1096 Term " rho --> sigma "
+R952 nc " t ! "
+R948 Term.term
+R939 Term.type
+R931 nc " t ! "
+R924 Typing.context
+R1344 TaitCoreNc.NormalizationProofNc.SN
+R1327 TaitCoreNc.NormalizationProofNc.SN
+R1263 nc "'letnc' x := y 'in' p" type_scope
+R1286 nc "'letnc' x := y 'in' p" type_scope
+R1303 Typing.TypJ
+R1424 TaitCoreNc.NormalizationProofNc.app'_ass
+R1448 TaitCoreNc.NormalizationProofNc.app'_ass
+R1424 TaitCoreNc.NormalizationProofNc.app'_ass
+R1448 TaitCoreNc.NormalizationProofNc.app'_ass
+R1495 TaitCoreNc.NormalizationProofNc.SN_ext_ctx
+R1580 nc "'letnc' x := y 'in' p" type_scope
+R1603 nc "'letnc' x := y 'in' p" type_scope
+R1620 Typing.TypJ
+R1560 TaitCoreNc.NormalizationProofNc.SC
+R1716 TaitCoreNc.NormalizationProofNc.SC_TypJ
+R1805 TaitCoreNc.NormalizationProofNc.SC
+R1788 TaitCoreNc.NormalizationProofNc.SC
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R1971 TaitCoreNc.NormalizationProofNc.app'_ass
+R1989 TaitCoreNc.NormalizationProofNc.app'_ass
+R1971 TaitCoreNc.NormalizationProofNc.app'_ass
+R1989 TaitCoreNc.NormalizationProofNc.app'_ass
+R2148 TaitCore "x * y" type_scope
+R2135 TaitCoreNc.NormalizationProofNc.SN
+R2118 TaitCoreNc.NormalizationProofNc.SC
+R2168 TaitCoreNc.NormalizationProofNc.SC
+R2151 TaitCoreNc.NormalizationProofNc.SA
+R2053 nc "'letnc' x := y 'in' p" type_scope
+R2076 nc "'letnc' x := y 'in' p" type_scope
+R2093 Typing.TypJ
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R2387 R.Ax2
+R2387 R.Ax2
+R2599 nc.nc
+R2603 Typing.ext_ctx
+R2599 nc.nc
+R2603 Typing.ext_ctx
+R2640 nc "'letnc' x := y 'in' p" type_scope
+R2675 Typing.TypJ
+R2640 nc "'letnc' x := y 'in' p" type_scope
+R2675 Typing.TypJ
+R2766 Typing.ext_ctx_TypJ
+R2766 Typing.ext_ctx_TypJ
+R2807 TaitCoreNc.NormalizationProofNc.SA
+R2835 nc.nc
+R2838 Term " [ n ] "
+R2807 TaitCoreNc.NormalizationProofNc.SA
+R2835 nc.nc
+R2838 Term " [ n ] "
+R2868 Term " [ n ] "
+R2868 Term " [ n ] "
+R2928 R.Ax3
+R2928 R.Ax3
+R2961 TaitCoreNc.NormalizationProofNc.SC
+R2999 nc.nc
+R3002 Term " [ n ] "
+R2961 TaitCoreNc.NormalizationProofNc.SC
+R2999 nc.nc
+R3002 Term " [ n ] "
+R3045 TaitCoreNc.NormalizationProofNc.app'_ass
+R3045 TaitCoreNc.NormalizationProofNc.app'_ass
+R3157 nc.nc
+R3160 Term " [ n ] "
+R3157 nc.nc
+R3160 Term " [ n ] "
+R3235 TaitCoreNc.NormalizationProofNc.SN
+R3273 nc.nc
+R3276 Term " [ n ] "
+R3235 TaitCoreNc.NormalizationProofNc.SN
+R3273 nc.nc
+R3276 Term " [ n ] "
+R3331 nc.nc
+R3334 Term " [ n ] "
+R3331 nc.nc
+R3334 Term " [ n ] "
+R3369 nc.nc
+R3372 Coq.Lists.List.nil
+R3363 Coq.Init.Datatypes.S
+R3369 nc.nc
+R3372 Coq.Lists.List.nil
+R3363 Coq.Init.Datatypes.S
+R3539 Coq.Lists.List.app_nil_end
+R3539 Coq.Lists.List.app_nil_end
+R3561 Typing.ext_ctx_length
+R3561 Typing.ext_ctx_length
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R3618 TaitCore " \! k : rho , r "
+R3618 TaitCore " \! k : rho , r "
+R3785 R.Ax1
+R3785 R.Ax1
+R4141 TaitCoreNc.NormalizationProofNc.app'_ass
+R4141 TaitCoreNc.NormalizationProofNc.app'_ass
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R4499 Term " r ; s "
+R4499 Term " r ; s "
+R4516 TaitCoreNc.NormalizationProofNc.app'_ass
+R4516 TaitCoreNc.NormalizationProofNc.app'_ass
+R4587 R.Ax4
+R4587 R.Ax4
+R4814 TaitCoreNc.NormalizationProofNc.SC
+R4732 nc "'letnc' x := y 'in' p" type_scope
+R4755 nc "'letnc' x := y 'in' p" type_scope
+R4772 nc "'letnc' x := y 'in' p" type_scope
+R4789 R.H
+R4711 TaitCoreNc.NormalizationProofNc.SC
+R4646 nc "'letnc' x := y 'in' p" type_scope
+R4669 nc "'letnc' x := y 'in' p" type_scope
+R4686 Typing.TypJ
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R5161 R.Ax5
+R5161 R.Ax5
+R5179 R.Ax_H_ext_ctx
+R5179 R.Ax_H_ext_ctx
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R5353 R.Ax7
+R5353 R.Ax7
+R5372 R.Ax_H_ext_ctx
+R5372 R.Ax_H_ext_ctx
+R5535 Coq.Lists.List.nil
+R5542 Term " [ n ] "
+R5552 Coq.Lists.List "x :: y" list_scope
+R5500 Coq.Lists.List.list
+R5505 Term.term
+R5624 Coq.Lists.List.nil
+R5631 Coq.Lists.List.nil
+R5641 Coq.Lists.List "x :: y" list_scope
+R5589 Coq.Lists.List.list
+R5594 Term.term
+R5679 nc.nc1
+R5683 TaitCoreNc.NormalizationProofNc.head
+R5709 nc.nc1
+R5713 TaitCoreNc.NormalizationProofNc.tail
+R5744 nc.nc2
+R5749 Coq.Lists.List.nth
+R5835 nc " t ! "
+R5826 Coq.Lists.List.list
+R5831 Term.term
+R5811 Typing.context
+R5801 nc " t ! "
+R5794 Typing.context
+R5885 Coq.Lists.List.nil
+R5892 nc "'letnc' x := y 'in' p" type_scope
+R5915 Coq.Init.Logic "x = y" type_scope
+R5917 Coq.Lists.List.nil
+R5927 Coq.Lists.List "x :: y" list_scope
+R6005 TaitCore "x * y" type_scope
+R5971 TaitCore "x ** y" type_scope
+R5942 nc "'letnc' x := y 'in' p" type_scope
+R5965 Coq.Init.Logic "x <> y" type_scope
+R5968 Coq.Lists.List.nil
+R5980 TaitCoreNc.NormalizationProofNc.SC
+R5835 nc " t ! "
+R5826 Coq.Lists.List.list
+R5831 Term.term
+R5811 Typing.context
+R5801 nc " t ! "
+R5794 Typing.context
+R6108 nc "'letnc' x := y 'in' p" type_scope
+R6139 Coq.Init.Logic "x = y" type_scope
+R6127 Coq.Lists.List.length
+R6141 Coq.Lists.List.length
+R6083 TaitCoreNc.NormalizationProofNc.SCs
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R6557 TaitCoreNc.NormalizationProofNc.SC
+R6586 TaitCoreNc "'nth'' n"
+R6568 Coq.Lists.List.nth
+R6532 TaitCoreNc.NormalizationProofNc.SCs
+R6513 Coq.Init.Peano "x < y" nat_scope
+R6515 Coq.Lists.List.length
+R6641 Coq.Init.Logic.False
+R6641 Coq.Init.Logic.False
+R6745 Coq.Init.Logic "x = y" type_scope
+R6733 TaitCoreNc "'nth'' n"
+R6745 Coq.Init.Logic "x = y" type_scope
+R6733 TaitCoreNc "'nth'' n"
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R6894 Coq.Init.Logic "x = y" type_scope
+R6878 TaitCoreNc "'nth'' n"
+R6884 Coq.Init.Datatypes.S
+R6896 TaitCoreNc "'nth'' n"
+R6894 Coq.Init.Logic "x = y" type_scope
+R6878 TaitCoreNc "'nth'' n"
+R6884 Coq.Init.Datatypes.S
+R6896 TaitCoreNc "'nth'' n"
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R7081 TaitCoreNc.NormalizationProofNc.SCs
+R7059 TaitCoreNc.NormalizationProofNc.SCs
+R7163 TaitCoreNc.NormalizationProofNc.SC_ext_ctx
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R7163 TaitCoreNc.NormalizationProofNc.SC_ext_ctx
+R7211 nc.nc1
+R7216 Subst.sub
+R7261 nc.nc1
+R7265 Subst.support
+R7377 TaitCoreNc.NormalizationProofNc.SC
+R7392 TaitCoreNc "'sub'' r"
+R7355 Typing.TypJ
+R7322 TaitCoreNc.NormalizationProofNc.SCs
+R7500 nc.nc
+R7503 Term " [ n ] "
+R7516 Coq.Init.Peano "n + m" nat_scope
+R7505 Coq.Init.Peano "n - m" nat_scope
+R7506 Coq.Lists.List.length
+R7517 Subst.shift
+R7500 nc.nc
+R7503 Term " [ n ] "
+R7516 Coq.Init.Peano "n + m" nat_scope
+R7505 Coq.Init.Peano "n - m" nat_scope
+R7506 Coq.Lists.List.length
+R7517 Subst.shift
+R7545 TaitCoreNc "'sub'' r"
+R7562 TaitCoreNc "'nth'' n"
+R7545 TaitCoreNc "'sub'' r"
+R7562 TaitCoreNc "'nth'' n"
+R7593 TaitCoreNc.NormalizationProofNc.SCs_nth
+R7593 TaitCoreNc.NormalizationProofNc.SCs_nth
+R7695 Typing.typ
+R7695 Typing.typ
+R7721 Typing.TypJ
+R7740 Term " rho --> sigma "
+R7721 Typing.TypJ
+R7740 Term " rho --> sigma "
+R7769 Typing.TypJ
+R7783 Typing.typ
+R7769 Typing.TypJ
+R7783 Typing.typ
+R7846 Term " rho --> sigma "
+R7846 Term " rho --> sigma "
+R7897 Typing.typ
+R7897 Typing.typ
+R7970 Coq.Init.Logic "x = y" type_scope
+R7985 nc.nc
+R7988 Coq.Lists.List.nil
+R7970 Coq.Init.Logic "x = y" type_scope
+R7985 nc.nc
+R7988 Coq.Lists.List.nil
+R8053 Coq.Lists.List.app_nil_end
+R8053 Coq.Lists.List.app_nil_end
+R8100 TaitCoreNc "'sub'' r"
+R8108 Term " r ; s "
+R8142 TaitCoreNc "'sub'' r"
+R8129 TaitCoreNc "'sub'' r"
+R8100 TaitCoreNc "'sub'' r"
+R8108 Term " r ; s "
+R8142 TaitCoreNc "'sub'' r"
+R8129 TaitCoreNc "'sub'' r"
+R8179 nc.nc
+R8182 Coq.Lists.List.nil
+R8166 TaitCoreNc "'sub'' r"
+R8179 nc.nc
+R8182 Coq.Lists.List.nil
+R8166 TaitCoreNc "'sub'' r"
+R8324 TaitCoreNc "'sub'' r"
+R8330 Term " \ rho , r "
+R8324 TaitCoreNc "'sub'' r"
+R8330 Term " \ rho , r "
+R8353 nc "'letnc' x := y 'in' p" type_scope
+R8378 nc "'letnc' x := y 'in' p" type_scope
+R8398 Typing.TypJ
+R8437 Term " rho --> sigma "
+R8441 Typing.typ
+R8449 Coq.Lists.List "x :: y" list_scope
+R8412 Subst.sub
+R8417 Term " \ rho , r "
+R8353 nc "'letnc' x := y 'in' p" type_scope
+R8378 nc "'letnc' x := y 'in' p" type_scope
+R8398 Typing.TypJ
+R8437 Term " rho --> sigma "
+R8441 Typing.typ
+R8449 Coq.Lists.List "x :: y" list_scope
+R8412 Subst.sub
+R8417 Term " \ rho , r "
+R8500 Typing.TypJ_sub2
+R8500 Typing.TypJ_sub2
+R8537 TaitCoreNc.NormalizationProofNc.SCs_length
+R8537 TaitCoreNc.NormalizationProofNc.SCs_length
+R8666 TaitCoreNc.NormalizationProofNc.SCs_nth
+R8704 nc.nc
+R8666 TaitCoreNc.NormalizationProofNc.SCs_nth
+R8704 nc.nc
+R8764 TaitCoreNc "'nth'' n"
+R8786 nc.nc
+R8743 TaitCoreNc.NormalizationProofNc.SC_TypJ
+R8764 TaitCoreNc "'nth'' n"
+R8786 nc.nc
+R8743 TaitCoreNc.NormalizationProofNc.SC_TypJ
+R8961 TaitCoreNc.NormalizationProofNc.One
+R8961 TaitCoreNc.NormalizationProofNc.One
+R9110 nc.nc
+R9122 Subst " l # n "
+R9117 Coq.Lists.List "x :: y" list_scope
+R9129 Subst.shift
+R9110 nc.nc
+R9122 Subst " l # n "
+R9117 Coq.Lists.List "x :: y" list_scope
+R9129 Subst.shift
+R9155 TaitCoreNc "'sub'' r"
+R9145 TaitCoreNc.NormalizationProofNc.Two
+R9155 TaitCoreNc "'sub'' r"
+R9145 TaitCoreNc.NormalizationProofNc.Two
+R9334 Coq.Lists.List "x :: y" list_scope
+R9334 Coq.Lists.List "x :: y" list_scope
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R9582 TaitCoreNc.NormalizationProofNc.SCs_ext_ctx
+R9582 TaitCoreNc.NormalizationProofNc.SCs_ext_ctx
+R9833 R.Ax6
+R9833 R.Ax6
+R9953 TaitCoreNc.NormalizationProofNc.SCs
+R9987 nc.nc
+R9991 Coq.Lists.List.map
+R10000 MoreList.seq
+R10007 Coq.Lists.List.length
+R9995 Term.Var
+R9971 nc.nc
+R9902 nc "'letnc' x := y 'in' p" type_scope
+R9942 Coq.Init.Logic "x = y" type_scope
+R9927 Coq.Lists.List.length
+R9893 nc " t ! "
+R9886 Typing.context
+R10138 TaitCoreNc.NormalizationProofNc.One
+R10174 nc.nc
+R10177 Term " [ n ] "
+R10158 nc.nc
+R10163 Coq.Lists.List "x :: y" list_scope
+R10138 TaitCoreNc.NormalizationProofNc.One
+R10174 nc.nc
+R10177 Term " [ n ] "
+R10158 nc.nc
+R10163 Coq.Lists.List "x :: y" list_scope
+R10317 MoreList.app_nth2
+R10317 MoreList.app_nth2
+R10470 Term " [ n ] "
+R10470 Term " [ n ] "
+R10511 R.Ax3
+R10511 R.Ax3
+R10585 nc.nc
+R10596 Coq.Lists.List "x ++ y" list_scope
+R10599 Coq.Lists.List "x :: y" list_scope
+R10601 Coq.Lists.List.nil
+R10585 nc.nc
+R10596 Coq.Lists.List "x ++ y" list_scope
+R10599 Coq.Lists.List "x :: y" list_scope
+R10601 Coq.Lists.List.nil
+R10631 nc.nc
+R10636 Coq.Lists.List "x :: y" list_scope
+R10666 nc.nc
+R10631 nc.nc
+R10636 Coq.Lists.List "x :: y" list_scope
+R10666 nc.nc
+R10835 Coq.Lists.List.app_ass
+R10835 Coq.Lists.List.app_ass
+R10947 Coq.Init.Specif "{ x : A  |  P }" type_scope
+R10958 R.N
+R10951 Term.term
+R10928 Typing.TypJ
+R11003 TaitCoreNc.NormalizationProofNc.One
+R11022 nc.nc
+R11012 nc.nc
+R11003 TaitCoreNc.NormalizationProofNc.One
+R11022 nc.nc
+R11012 nc.nc
+R11080 TaitCoreNc.NormalizationProofNc.SC
+R11098 nc.nc
+R11084 nc.nc
+R11080 TaitCoreNc.NormalizationProofNc.SC
+R11098 nc.nc
+R11084 nc.nc
+R11118 Subst.sub_id
+R11128 Coq.Lists.List.length
+R11118 Subst.sub_id
+R11128 Coq.Lists.List.length
+R11159 nc.nc
+R11163 Subst.sub
+R11170 Subst.id
+R11174 Coq.Lists.List.length
+R11196 TaitCoreNc "'sub'' r"
+R11204 nc.nc
+R11208 Subst.id
+R11212 Coq.Lists.List.length
+R11159 nc.nc
+R11163 Subst.sub
+R11170 Subst.id
+R11174 Coq.Lists.List.length
+R11196 TaitCoreNc "'sub'' r"
+R11204 nc.nc
+R11208 Subst.id
+R11212 Coq.Lists.List.length
+R11235 TaitCoreNc.NormalizationProofNc.Three
+R11235 TaitCoreNc.NormalizationProofNc.Three
+R11289 TaitCoreNc.NormalizationProofNc.SCs_seq
+R11303 nc.nc
+R11306 Coq.Lists.List.nil
+R11289 TaitCoreNc.NormalizationProofNc.SCs_seq
+R11303 nc.nc
+R11306 Coq.Lists.List.nil
+R11485 nc.nc
+R11488 Coq.Lists.List.nil
+R11471 Coq.Lists.List.length
+R11485 nc.nc
+R11488 Coq.Lists.List.nil
+R11471 Coq.Lists.List.length
+R11632 Coq.Lists.List.app_nil_end
+R11632 Coq.Lists.List.app_nil_end
+FTaitEtaRed
+R186 Typing.context
+R199 Term.type
+R209 Term.term
+R269 Coq.Init.Logic "x = y" type_scope
+R259 Eta.eta_red
+R249 WN.WN
+R347 Eta.is_eta_core
+R384 Term " \ rho , r "
+R390 Subst.sub_swap0
+R368 Apps.left_app
+R332 Term.term
+R324 Term.type
+R315 Coq.Init.Datatypes.nat
+R439 TaitEtaRed.RequirementsProofEtaRed.Rename.abstr
+R614 TaitEtaRed.RequirementsProofEtaRed.Rename.N
+R638 TaitEtaRed " \! k : rho , r "
+R625 Term " rho --> sigma "
+R565 TaitEtaRed.RequirementsProofEtaRed.Rename.N
+R602 Term " r ; s "
+R572 Coq.Lists.List "x ++ y" list_scope
+R574 Typing.ext_ctx
+R534 TaitCore.F
+R545 Term " rho --> sigma "
+R678 Term " r ; s "
+R678 Term " r ; s "
+R693 Coq.Init.Logic "x = y" type_scope
+R695 Term " r ; s "
+R693 Coq.Init.Logic "x = y" type_scope
+R695 Term " r ; s "
+R1017 MoreList.exists_last
+R1034 Coq.Lists.List "x :: y" list_scope
+R1017 MoreList.exists_last
+R1034 Coq.Lists.List "x :: y" list_scope
+R1143 MoreList.exists_last
+R1161 Coq.Lists.List "x :: y" list_scope
+R1143 MoreList.exists_last
+R1161 Coq.Lists.List "x :: y" list_scope
+R1275 Apps.apps_app
+R1275 Apps.apps_app
+R1355 WN.WNs_last
+R1355 WN.WNs_last
+R1404 Coq.Init.Logic "x = y" type_scope
+R1405 Term " [ n ] "
+R1404 Coq.Init.Logic "x = y" type_scope
+R1405 Term " [ n ] "
+R1439 Term " [ n ] "
+R1452 Apps " r ;; l "
+R1449 Term " [ n ] "
+R1454 Coq.Lists.List.nil
+R1439 Term " [ n ] "
+R1452 Apps " r ;; l "
+R1449 Term " [ n ] "
+R1454 Coq.Lists.List.nil
+R1486 Apps.apps_form_unique2
+R1486 Apps.apps_form_unique2
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R1574 Term " [ n ] "
+R1587 Apps " r ;; l "
+R1584 Term " [ n ] "
+R1589 Coq.Lists.List.nil
+R1574 Term " [ n ] "
+R1587 Apps " r ;; l "
+R1584 Term " [ n ] "
+R1589 Coq.Lists.List.nil
+R1633 Apps " r ;; l "
+R1629 Term " r ; s "
+R1620 Term " \ rho , r "
+R1657 Apps " r ;; l "
+R1648 Term " \ rho , r "
+R1663 Coq.Lists.List "x :: y" list_scope
+R1633 Apps " r ;; l "
+R1629 Term " r ; s "
+R1620 Term " \ rho , r "
+R1657 Apps " r ;; l "
+R1648 Term " \ rho , r "
+R1663 Coq.Lists.List "x :: y" list_scope
+R1697 Apps.apps_form_unique1
+R1697 Apps.apps_form_unique1
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R1783 Apps " r ;; l "
+R1783 Apps " r ;; l "
+R1797 WN.WN_var
+R1797 WN.WN_var
+R1824 Apps.apps_app
+R1824 Apps.apps_app
+R1904 Term.term_dec
+R1917 Term " [ n ] "
+R1913 Term " [ n ] "
+R1904 Term.term_dec
+R1917 Term " [ n ] "
+R1913 Term " [ n ] "
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R1977 Coq.Init.Logic "x = y" type_scope
+R1951 Term.occurs
+R1961 Eta.eta_red
+R1971 Apps " r ;; l "
+R1978 Coq.Init.Datatypes.false
+R1977 Coq.Init.Logic "x = y" type_scope
+R1951 Term.occurs
+R1961 Eta.eta_red
+R1971 Apps " r ;; l "
+R1978 Coq.Init.Datatypes.false
+R1996 Eta.eta_red_occurs
+R1996 Eta.eta_red_occurs
+R2037 Apps " r ;; l "
+R2020 WN.WN_occurs
+R2037 Apps " r ;; l "
+R2020 WN.WN_occurs
+R2058 TaitCore.F_occurs
+R2058 TaitCore.F_occurs
+R2206 Coq.Init.Logic "x = y" type_scope
+R2206 Coq.Init.Logic "x = y" type_scope
+R2306 Coq.Init.Logic "x = y" type_scope
+R2299 Subst.sub1
+R2325 Subst " l # n "
+R2309 Coq.Lists.List.map
+R2319 Coq.Lists.List "x :: y" list_scope
+R2321 Coq.Lists.List.nil
+R2313 Term.Var
+R2306 Coq.Init.Logic "x = y" type_scope
+R2299 Subst.sub1
+R2325 Subst " l # n "
+R2309 Coq.Lists.List.map
+R2319 Coq.Lists.List "x :: y" list_scope
+R2321 Coq.Lists.List.nil
+R2313 Term.Var
+R2368 WN.WN_subk
+R2381 Coq.Lists.List "x :: y" list_scope
+R2383 Coq.Lists.List.nil
+R2368 WN.WN_subk
+R2381 Coq.Lists.List "x :: y" list_scope
+R2383 Coq.Lists.List.nil
+R2478 Term " \ rho , r "
+R2478 Term " \ rho , r "
+R2496 WN.WN_abs
+R2496 WN.WN_abs
+R2547 Eta.eta_subk
+R2547 Eta.eta_subk
+R2603 Coq.Init.Logic "x = y" type_scope
+R2588 Term.occurs
+R2596 Coq.Init.Datatypes.S
+R2605 Coq.Init.Datatypes.false
+R2603 Coq.Init.Logic "x = y" type_scope
+R2588 Term.occurs
+R2596 Coq.Init.Datatypes.S
+R2605 Coq.Init.Datatypes.false
+R2621 WN.WN_occurs
+R2621 WN.WN_occurs
+R2656 Term.occurs
+R2664 Coq.Init.Datatypes.S
+R2678 Term.occurs
+R2688 Term " \ rho , r "
+R2656 Term.occurs
+R2664 Coq.Init.Datatypes.S
+R2678 Term.occurs
+R2688 Term " \ rho , r "
+R2713 TaitCore.F_occurs
+R2713 TaitCore.F_occurs
+R2742 Eta.eta_core_sub
+R2768 Eta.eta_red_occurs
+R2742 Eta.eta_core_sub
+R2768 Eta.eta_red_occurs
+R2768 Eta.eta_red_occurs
+R2798 Eta.is_eta_core
+R2811 Eta.eta_red
+R2798 Eta.is_eta_core
+R2811 Eta.eta_red
+R2872 Eta.eta_red
+R2872 Eta.eta_red
+R2934 Term.term_dec
+R2948 Term " [ n ] "
+R2934 Term.term_dec
+R2948 Term " [ n ] "
+R3010 Subst.down_sub
+R3026 Term " [ n ] "
+R3010 Subst.down_sub
+R3026 Term " [ n ] "
+R3047 Coq.Init.Datatypes.false
+R3059 Coq.Bool.Bool.negb
+R3064 Coq.Init.Datatypes.true
+R3083 Coq.Bool.Bool.negb_sym
+R3047 Coq.Init.Datatypes.false
+R3059 Coq.Bool.Bool.negb
+R3064 Coq.Init.Datatypes.true
+R3083 Coq.Bool.Bool.negb_sym
+R3108 Subst2.sub_sub_swap0
+R3108 Subst2.sub_sub_swap0
+R3151 Eta.eta_red_occurs
+R3151 Eta.eta_red_occurs
+R3174 WN.WN_occurs
+R3174 WN.WN_occurs
+R3208 Coq.Arith.Lt.S_pred
+R3208 Coq.Arith.Lt.S_pred
+R3267 Coq.Init.Logic "x = y" type_scope
+R3241 Term.occurs
+R3258 Term " \ rho , r "
+R3249 Coq.Init.Peano.pred
+R3269 Coq.Init.Datatypes.false
+R3267 Coq.Init.Logic "x = y" type_scope
+R3241 Term.occurs
+R3258 Term " \ rho , r "
+R3249 Coq.Init.Peano.pred
+R3269 Coq.Init.Datatypes.false
+R3307 Term " rho --> sigma "
+R3284 TaitCore.F_occurs
+R3307 Term " rho --> sigma "
+R3284 TaitCore.F_occurs
+R3364 MoreList.exists_last
+R3381 Coq.Lists.List "x :: y" list_scope
+R3364 MoreList.exists_last
+R3381 Coq.Lists.List "x :: y" list_scope
+R3524 Apps.apps_app
+R3524 Apps.apps_app
+R3622 Apps " r ;; l "
+R3615 Subst.sub
+R3622 Apps " r ;; l "
+R3615 Subst.sub
+R3666 Apps.apps_app
+R3666 Apps.apps_app
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R3752 Typing.CorTyp
+R3772 Term " r ; s "
+R3766 Term " \ rho , r "
+R3752 Typing.CorTyp
+R3772 Term " r ; s "
+R3766 Term " \ rho , r "
+R3789 Apps.CorTyp_apps
+R3789 Apps.CorTyp_apps
+R3936 Term " r ; s "
+R3928 Term " \ rho , r "
+R3911 Apps.TypJ_apps
+R3936 Term " r ; s "
+R3928 Term " \ rho , r "
+R3911 Apps.TypJ_apps
+R3980 Coq.Lists.List "x ++ y" list_scope
+R3977 Coq.Lists.List.nil
+R3980 Coq.Lists.List "x ++ y" list_scope
+R3977 Coq.Lists.List.nil
+R4022 Coq.Lists.List "x :: y" list_scope
+R4024 Coq.Lists.List.nil
+R4003 Typing.TypJ_sub1
+R4022 Coq.Lists.List "x :: y" list_scope
+R4024 Coq.Lists.List.nil
+R4003 Typing.TypJ_sub1
+R4170 Apps " r ;; l "
+R4164 Term " \ rho , r "
+R4175 Coq.Lists.List "x :: y" list_scope
+R4149 Apps " r ;; l "
+R4145 Term " r ; s "
+R4137 Term " \ rho , r "
+R4170 Apps " r ;; l "
+R4164 Term " \ rho , r "
+R4175 Coq.Lists.List "x :: y" list_scope
+R4149 Apps " r ;; l "
+R4145 Term " r ; s "
+R4137 Term " \ rho , r "
+R4215 Typing.context
+R4241 Term.term
+R4233 Term.term
+R4225 Term.type
+R4297 Term " [ n ] "
+R4293 Term " [ n ] "
+R4413 Term " r ; s "
+R4406 Term " r ; s "
+R4371 TaitEtaRed.RequirementsProofEtaRed.Rename.N
+R4354 Term " rho --> sigma "
+R4467 Term.term
+R4459 Term.term
+R4545 Apps " r ;; l "
+R4538 Subst.sub
+R4530 Apps " r ;; l "
+R4528 Term " r ; s "
+R4522 Term " \ rho , r "
+R4629 TaitEtaRed.RequirementsProofEtaRed.Rename.H'
+R4620 Term.term
+R4620 Term.term
+R4610 Term.type
+R4597 Typing.context
+R4713 Coq.Init.Logic "'exists' x : t , p" type_scope
+R4727 Coq.Init.Logic "'exists' x , p" type_scope
+R4737 Coq.Init.Logic "'exists' x , p" type_scope
+R4757 Coq.Init.Logic "A /\ B" type_scope
+R4750 Coq.Init.Logic "x = y" type_scope
+R4753 Apps " r ;; l "
+R4785 Coq.Init.Logic "A /\ B" type_scope
+R4762 Coq.Init.Logic "x = y" type_scope
+R4765 Apps " r ;; l "
+R4768 Coq.Lists.List.map
+R4772 Eta.eta_red
+R4794 WN.WNs
+R4722 Coq.Init.Datatypes.nat
+R4691 TaitEtaRed.RequirementsProofEtaRed.Rename.A
+R4849 Coq.Lists.List.list
+R4854 Term.term
+R4845 Coq.Lists.List.nil
+R4873 Coq.Lists.List.list
+R4878 Term.term
+R4869 Coq.Lists.List.nil
+R4849 Coq.Lists.List.list
+R4854 Term.term
+R4845 Coq.Lists.List.nil
+R4873 Coq.Lists.List.list
+R4878 Term.term
+R4869 Coq.Lists.List.nil
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R4974 Coq.Lists.List "x ++ y" list_scope
+R4978 Coq.Lists.List "x :: y" list_scope
+R4980 Coq.Lists.List.nil
+R4996 Coq.Lists.List "x ++ y" list_scope
+R4999 Coq.Lists.List "x :: y" list_scope
+R5001 Coq.Lists.List.nil
+R4974 Coq.Lists.List "x ++ y" list_scope
+R4978 Coq.Lists.List "x :: y" list_scope
+R4980 Coq.Lists.List.nil
+R4996 Coq.Lists.List "x ++ y" list_scope
+R4999 Coq.Lists.List "x :: y" list_scope
+R5001 Coq.Lists.List.nil
+R5016 MoreList.map_app
+R5016 MoreList.map_app
+R5049 Apps.apps_app
+R5049 Apps.apps_app
+R5049 Apps.apps_app
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R5142 TaitEtaRed.RequirementsProofEtaRed.Rename.N
+R5124 TaitEtaRed.RequirementsProofEtaRed.Rename.A
+R5186 TaitEtaRed.RequirementsProofEtaRed.Rename.A_apps
+R5186 TaitEtaRed.RequirementsProofEtaRed.Rename.A_apps
+R5245 Apps " r ;; l "
+R5245 Apps " r ;; l "
+R5323 Coq.Init.Logic "x = y" type_scope
+R5308 Eta.eta_red
+R5318 Apps " r ;; l "
+R5335 Apps " r ;; l "
+R5326 Eta.eta_red
+R5339 Coq.Lists.List.map
+R5343 Eta.eta_red
+R5323 Coq.Init.Logic "x = y" type_scope
+R5308 Eta.eta_red
+R5318 Apps " r ;; l "
+R5335 Apps " r ;; l "
+R5326 Eta.eta_red
+R5339 Coq.Lists.List.map
+R5343 Eta.eta_red
+R5530 TaitEtaRed.RequirementsProofEtaRed.Rename.N
+R5537 Term.Iota
+R5511 TaitEtaRed.RequirementsProofEtaRed.Rename.A
+R5518 Term.Iota
+R5571 TaitEtaRed.RequirementsProofEtaRed.Rename.Ax2_gen
+R5571 TaitEtaRed.RequirementsProofEtaRed.Rename.Ax2_gen
+R5647 TaitEtaRed.RequirementsProofEtaRed.Rename.A
+R5662 Term " [ n ] "
+R5658 Term " [ n ] "
+R5626 Typing.TypJ
+R5636 Term " [ n ] "
+R5805 TaitEtaRed.RequirementsProofEtaRed.Rename.A
+R5827 Term " r ; s "
+R5820 Term " r ; s "
+R5786 TaitEtaRed.RequirementsProofEtaRed.Rename.N
+R5757 TaitEtaRed.RequirementsProofEtaRed.Rename.A
+R5768 Term " rho --> sigma "
+R5736 Typing.TypJ
+R5932 TaitEtaRed.RequirementsProofEtaRed.Rename.N
+R5914 TaitEtaRed.RequirementsProofEtaRed.Rename.N
+R5896 TaitEtaRed.RequirementsProofEtaRed.Rename.H
+R6024 WN.WN_beta
+R6024 WN.WN_beta
+R6115 TaitEtaRed.RequirementsProofEtaRed.Rename.H
+R6151 Subst.sub
+R6164 Subst " l # n "
+R6160 Coq.Lists.List "x :: y" list_scope
+R6171 Subst.shift
+R6145 Term " r ; s "
+R6130 Subst.sub
+R6135 Term " \ rho , r "
+R6223 Subst2.Sub_Sub_Ad_Hoc
+R6223 Subst2.Sub_Sub_Ad_Hoc
+R6248 TaitEtaRed.RequirementsProofEtaRed.Rename.H'_intro
+R6265 Coq.Lists.List.nil
+R6248 TaitEtaRed.RequirementsProofEtaRed.Rename.H'_intro
+R6265 Coq.Lists.List.nil
+R6352 TaitEtaRed.RequirementsProofEtaRed.Rename.H
+R6373 Term " r ; s "
+R6367 Term " r ; s "
+R6324 TaitEtaRed.RequirementsProofEtaRed.Rename.H
+R6335 Term " rho --> sigma "
+R6418 TaitEtaRed.RequirementsProofEtaRed.Rename.H'_intro
+R6438 Coq.Lists.List "x ++ y" list_scope
+R6441 Coq.Lists.List "x :: y" list_scope
+R6443 Coq.Lists.List.nil
+R6418 TaitEtaRed.RequirementsProofEtaRed.Rename.H'_intro
+R6438 Coq.Lists.List "x ++ y" list_scope
+R6441 Coq.Lists.List "x :: y" list_scope
+R6443 Coq.Lists.List.nil
+R6467 Apps.apps_app
+R6467 Apps.apps_app
+R6467 Apps.apps_app
+R6582 TaitEtaRed.RequirementsProofEtaRed.Rename.H
+R6589 Coq.Lists.List "x ++ y" list_scope
+R6564 TaitEtaRed.RequirementsProofEtaRed.Rename.H
+R6542 Typing.TypJ
+R6696 TaitEtaRed.RequirementsProofEtaRed.Rename.abstr
+R6717 TaitEtaRed.RequirementsProofEtaRed.Rename.N
+R6734 TaitEtaRed.RequirementsProofEtaRed.Rename.A
+R6751 TaitEtaRed.RequirementsProofEtaRed.Rename.H
+R6771 TaitEtaRed.RequirementsProofEtaRed.Rename.Ax1
+R6792 TaitEtaRed.RequirementsProofEtaRed.Rename.Ax2
+R6813 TaitEtaRed.RequirementsProofEtaRed.Rename.Ax3
+R6834 TaitEtaRed.RequirementsProofEtaRed.Rename.Ax4
+R6855 TaitEtaRed.RequirementsProofEtaRed.Rename.Ax5
+R6876 TaitEtaRed.RequirementsProofEtaRed.Rename.Ax6
+R6897 TaitEtaRed.RequirementsProofEtaRed.Rename.Ax7
+R6929 TaitEtaRed.RequirementsProofEtaRed.Rename.Ax_H_ext_ctx
+FTaitEtaExp
+R240 Term " \ rho , r "
+R246 Subst.sub_swap0
+R228 Term.term
+R220 Term.type
+R211 Coq.Init.Datatypes.nat
+R281 Typing.context
+R294 Term.type
+R304 Term.term
+R354 Eta.EtaExp
+R344 WN.WN
+R515 TaitEtaExp.RequirementsProofEtaExp.Rename.N
+R539 Eta " \! k : rho , r "
+R526 Term " rho --> sigma "
+R466 TaitEtaExp.RequirementsProofEtaExp.Rename.N
+R503 Term " r ; s "
+R473 Coq.Lists.List "x ++ y" list_scope
+R475 Typing.ext_ctx
+R435 TaitCore.F
+R446 Term " rho --> sigma "
+R580 Term " r ; s "
+R580 Term " r ; s "
+R595 Coq.Init.Logic "x = y" type_scope
+R597 Term " r ; s "
+R595 Coq.Init.Logic "x = y" type_scope
+R597 Term " r ; s "
+R652 Coq.Init.Logic "x <> y" type_scope
+R633 Typing.ext_ctx
+R655 Coq.Lists.List.nil
+R652 Coq.Init.Logic "x <> y" type_scope
+R633 Typing.ext_ctx
+R655 Coq.Lists.List.nil
+R707 Typing.ext_ctx_length
+R707 Typing.ext_ctx_length
+R788 MoreList.app_removelast_last
+R831 Term.dtype
+R811 Typing.ext_ctx
+R788 MoreList.app_removelast_last
+R831 Term.dtype
+R811 Typing.ext_ctx
+R851 Typing.ext_ctx_last
+R851 Typing.ext_ctx_last
+R908 MoreList.removelast
+R920 Typing.ext_ctx
+R908 MoreList.removelast
+R920 Typing.ext_ctx
+R992 Coq.Init.Logic "x = y" type_scope
+R978 Coq.Init.Peano "n - m" nat_scope
+R980 Coq.Lists.List.length
+R994 Coq.Lists.List.length
+R992 Coq.Init.Logic "x = y" type_scope
+R978 Coq.Init.Peano "n - m" nat_scope
+R980 Coq.Lists.List.length
+R994 Coq.Lists.List.length
+R1028 Coq.Init.Peano.eq_add_S
+R1028 Coq.Init.Peano.eq_add_S
+R1048 Coq.Init.Datatypes.S
+R1051 Coq.Lists.List.length
+R1071 Coq.Lists.List.length
+R1083 Coq.Lists.List "x ++ y" list_scope
+R1088 Coq.Lists.List "x :: y" list_scope
+R1090 Coq.Lists.List.nil
+R1048 Coq.Init.Datatypes.S
+R1051 Coq.Lists.List.length
+R1071 Coq.Lists.List.length
+R1083 Coq.Lists.List "x ++ y" list_scope
+R1088 Coq.Lists.List "x :: y" list_scope
+R1090 Coq.Lists.List.nil
+R1126 Typing.ext_ctx_length
+R1126 Typing.ext_ctx_length
+R1486 MoreList.exists_last
+R1503 Coq.Lists.List "x :: y" list_scope
+R1486 MoreList.exists_last
+R1503 Coq.Lists.List "x :: y" list_scope
+R1612 MoreList.exists_last
+R1630 Coq.Lists.List "x :: y" list_scope
+R1612 MoreList.exists_last
+R1630 Coq.Lists.List "x :: y" list_scope
+R1744 Apps.apps_app
+R1744 Apps.apps_app
+R1824 WN.WNs_last
+R1824 WN.WNs_last
+R1873 Coq.Init.Logic "x = y" type_scope
+R1874 Term " [ n ] "
+R1873 Coq.Init.Logic "x = y" type_scope
+R1874 Term " [ n ] "
+R1908 Term " [ n ] "
+R1921 Apps " r ;; l "
+R1918 Term " [ n ] "
+R1923 Coq.Lists.List.nil
+R1908 Term " [ n ] "
+R1921 Apps " r ;; l "
+R1918 Term " [ n ] "
+R1923 Coq.Lists.List.nil
+R1955 Apps.apps_form_unique2
+R1955 Apps.apps_form_unique2
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R2043 Term " [ n ] "
+R2056 Apps " r ;; l "
+R2053 Term " [ n ] "
+R2058 Coq.Lists.List.nil
+R2043 Term " [ n ] "
+R2056 Apps " r ;; l "
+R2053 Term " [ n ] "
+R2058 Coq.Lists.List.nil
+R2103 Apps " r ;; l "
+R2098 Term " r ; s "
+R2089 Term " \ rho , r "
+R2127 Apps " r ;; l "
+R2118 Term " \ rho , r "
+R2134 Coq.Lists.List "x :: y" list_scope
+R2103 Apps " r ;; l "
+R2098 Term " r ; s "
+R2089 Term " \ rho , r "
+R2127 Apps " r ;; l "
+R2118 Term " \ rho , r "
+R2134 Coq.Lists.List "x :: y" list_scope
+R2168 Apps.apps_form_unique1
+R2168 Apps.apps_form_unique1
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R2254 Apps " r ;; l "
+R2254 Apps " r ;; l "
+R2304 Apps.apps_app
+R2304 Apps.apps_app
+R2359 Apps.apps_form_unique2
+R2407 Coq.Init.Logic.refl_equal
+R2418 Coq.Init.Datatypes.false
+R2388 Coq.Init.Logic.refl_equal
+R2399 Coq.Init.Datatypes.false
+R2359 Apps.apps_form_unique2
+R2407 Coq.Init.Logic.refl_equal
+R2418 Coq.Init.Datatypes.false
+R2388 Coq.Init.Logic.refl_equal
+R2399 Coq.Init.Datatypes.false
+R2448 Apps.apps_form_unique1
+R2496 Coq.Init.Logic.refl_equal
+R2507 Coq.Init.Datatypes.false
+R2477 Coq.Init.Logic.refl_equal
+R2488 Coq.Init.Datatypes.false
+R2448 Apps.apps_form_unique1
+R2496 Coq.Init.Logic.refl_equal
+R2507 Coq.Init.Datatypes.false
+R2477 Coq.Init.Logic.refl_equal
+R2488 Coq.Init.Datatypes.false
+R2578 MoreList.exists_last
+R2578 MoreList.exists_last
+R2694 Coq.Init.Logic "x = y" type_scope
+R2674 Coq.Lists.List.length
+R2683 Coq.Lists.List.nil
+R2687 Term.term
+R2697 Coq.Init.Datatypes.S
+R2700 Coq.Lists.List.length
+R2694 Coq.Init.Logic "x = y" type_scope
+R2674 Coq.Lists.List.length
+R2683 Coq.Lists.List.nil
+R2687 Term.term
+R2697 Coq.Init.Datatypes.S
+R2700 Coq.Lists.List.length
+R2779 MoreList.exists_last
+R2779 MoreList.exists_last
+R2884 Coq.Init.Logic "x = y" type_scope
+R2864 Coq.Lists.List.length
+R2873 Coq.Lists.List.nil
+R2877 Term.term
+R2887 Coq.Init.Datatypes.S
+R2890 Coq.Lists.List.length
+R2884 Coq.Init.Logic "x = y" type_scope
+R2864 Coq.Lists.List.length
+R2873 Coq.Lists.List.nil
+R2877 Term.term
+R2887 Coq.Init.Datatypes.S
+R2890 Coq.Lists.List.length
+R2968 Eta.EtaExps_last
+R2968 Eta.EtaExps_last
+R3018 Apps.arrows_app
+R3018 Apps.arrows_app
+R3062 Coq.Init.Logic "x = y" type_scope
+R3062 Coq.Init.Logic "x = y" type_scope
+R3093 Coq.Init.Logic "x = y" type_scope
+R3084 Coq.Lists.List.length
+R3095 Coq.Lists.List.length
+R3093 Coq.Init.Logic "x = y" type_scope
+R3084 Coq.Lists.List.length
+R3095 Coq.Lists.List.length
+R3469 Term " [ n ] "
+R3469 Term " [ n ] "
+R3680 Typing.TypJ_ext_ctx
+R3705 Coq.Lists.List "x ++ y" list_scope
+R3710 Coq.Lists.List "x :: y" list_scope
+R3712 Coq.Lists.List.nil
+R3680 Typing.TypJ_ext_ctx
+R3705 Coq.Lists.List "x ++ y" list_scope
+R3710 Coq.Lists.List "x :: y" list_scope
+R3712 Coq.Lists.List.nil
+R3868 Term " r ; s "
+R3868 Term " r ; s "
+R3896 Typing.TypJ_App
+R3896 Typing.TypJ_App
+R3944 Coq.Lists.List "x ++ y" list_scope
+R3949 Coq.Lists.List "x :: y" list_scope
+R3951 Coq.Lists.List.nil
+R3944 Coq.Lists.List "x ++ y" list_scope
+R3949 Coq.Lists.List "x :: y" list_scope
+R3951 Coq.Lists.List.nil
+R3978 Typing.TypJ_ext_ctx
+R3978 Typing.TypJ_ext_ctx
+R4062 Typing.CorTyp
+R4083 Term " r ; s "
+R4074 Coq.Lists.List "x ++ y" list_scope
+R4062 Typing.CorTyp
+R4083 Term " r ; s "
+R4074 Coq.Lists.List "x ++ y" list_scope
+R4101 Apps.CorTyp_apps
+R4101 Apps.CorTyp_apps
+R4179 Typing.CorTyp
+R4200 Term " r ; s "
+R4191 Coq.Lists.List "x ++ y" list_scope
+R4179 Typing.CorTyp
+R4200 Term " r ; s "
+R4191 Coq.Lists.List "x ++ y" list_scope
+R4218 Apps.CorTyp_apps
+R4218 Apps.CorTyp_apps
+R4318 Eta.EtaExp_Var
+R4318 Eta.EtaExp_Var
+R4400 Apps.CorTyp_apps
+R4400 Apps.CorTyp_apps
+R4509 MoreList.app_nth1
+R4509 MoreList.app_nth1
+R4542 Eta.EtaExps_red_ctx
+R4542 Eta.EtaExps_red_ctx
+R4576 Subst2.above
+R4598 Apps " r ;; l "
+R4583 Coq.Lists.List.length
+R4576 Subst2.above
+R4598 Apps " r ;; l "
+R4583 Coq.Lists.List.length
+R4646 Apps " r ;; l "
+R4629 WN.WN_occurs
+R4646 Apps " r ;; l "
+R4629 WN.WN_occurs
+R4705 Term " rho --> sigma "
+R4681 TaitCore.F_occurs
+R4705 Term " rho --> sigma "
+R4681 TaitCore.F_occurs
+R4754 Apps.above_apps
+R4754 Apps.above_apps
+R4793 Apps.apps_app
+R4793 Apps.apps_app
+R4916 Term " [ n ] "
+R4927 Apps " r ;; l "
+R4929 Coq.Lists.List.nil
+R4916 Term " [ n ] "
+R4927 Apps " r ;; l "
+R4929 Coq.Lists.List.nil
+R4960 Apps.apps_form_unique2
+R5009 Coq.Init.Logic.refl_equal
+R5020 Coq.Init.Datatypes.false
+R4990 Coq.Init.Logic.refl_equal
+R5001 Coq.Init.Datatypes.false
+R4960 Apps.apps_form_unique2
+R5009 Coq.Init.Logic.refl_equal
+R5020 Coq.Init.Datatypes.false
+R4990 Coq.Init.Logic.refl_equal
+R5001 Coq.Init.Datatypes.false
+R5051 Apps.apps_form_unique1
+R5100 Coq.Init.Logic.refl_equal
+R5111 Coq.Init.Datatypes.false
+R5081 Coq.Init.Logic.refl_equal
+R5092 Coq.Init.Datatypes.false
+R5051 Apps.apps_form_unique1
+R5100 Coq.Init.Logic.refl_equal
+R5111 Coq.Init.Datatypes.false
+R5081 Coq.Init.Logic.refl_equal
+R5092 Coq.Init.Datatypes.false
+R5310 Coq.Init.Logic "x = y" type_scope
+R5310 Coq.Init.Logic "x = y" type_scope
+R5410 Coq.Init.Logic "x = y" type_scope
+R5403 Subst.sub1
+R5429 Subst " l # n "
+R5413 Coq.Lists.List.map
+R5423 Coq.Lists.List "x :: y" list_scope
+R5425 Coq.Lists.List.nil
+R5417 Term.Var
+R5410 Coq.Init.Logic "x = y" type_scope
+R5403 Subst.sub1
+R5429 Subst " l # n "
+R5413 Coq.Lists.List.map
+R5423 Coq.Lists.List "x :: y" list_scope
+R5425 Coq.Lists.List.nil
+R5417 Term.Var
+R5472 WN.WN_subk
+R5485 Coq.Lists.List "x :: y" list_scope
+R5487 Coq.Lists.List.nil
+R5472 WN.WN_subk
+R5485 Coq.Lists.List "x :: y" list_scope
+R5487 Coq.Lists.List.nil
+R5595 Term " \ rho , r "
+R5595 Term " \ rho , r "
+R5613 WN.WN_abs
+R5613 WN.WN_abs
+R5668 Subst2.sub_sub_swap0
+R5668 Subst2.sub_sub_swap0
+R5698 Term " \ rho , r "
+R5705 Subst.sub_swap0
+R5716 Subst.sub
+R5734 Eta " \! k : rho , r "
+R5744 Subst.sub
+R5698 Term " \ rho , r "
+R5705 Subst.sub_swap0
+R5716 Subst.sub
+R5734 Eta " \! k : rho , r "
+R5744 Subst.sub
+R5828 WN.WN_occurs
+R5828 WN.WN_occurs
+R5862 Coq.Arith.Lt.S_pred
+R5862 Coq.Arith.Lt.S_pred
+R5896 Term.occurs
+R5904 Coq.Init.Datatypes.S
+R5907 Coq.Init.Peano.pred
+R5925 Term.occurs
+R5942 Term " \ rho , r "
+R5933 Coq.Init.Peano.pred
+R5896 Term.occurs
+R5904 Coq.Init.Datatypes.S
+R5907 Coq.Init.Peano.pred
+R5925 Term.occurs
+R5942 Term " \ rho , r "
+R5933 Coq.Init.Peano.pred
+R5989 Term " rho --> sigma "
+R5966 TaitCore.F_occurs
+R5989 Term " rho --> sigma "
+R5966 TaitCore.F_occurs
+R6033 MoreList.exists_last
+R6050 Coq.Lists.List "x :: y" list_scope
+R6033 MoreList.exists_last
+R6050 Coq.Lists.List "x :: y" list_scope
+R6193 Apps.apps_app
+R6193 Apps.apps_app
+R6291 Apps " r ;; l "
+R6284 Subst.sub
+R6291 Apps " r ;; l "
+R6284 Subst.sub
+R6345 Apps.apps_app
+R6345 Apps.apps_app
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R6431 Typing.CorTyp
+R6451 Term " r ; s "
+R6445 Term " \ rho , r "
+R6431 Typing.CorTyp
+R6451 Term " r ; s "
+R6445 Term " \ rho , r "
+R6468 Apps.CorTyp_apps
+R6468 Apps.CorTyp_apps
+R6615 Term " r ; s "
+R6607 Term " \ rho , r "
+R6590 Apps.TypJ_apps
+R6615 Term " r ; s "
+R6607 Term " \ rho , r "
+R6590 Apps.TypJ_apps
+R6659 Coq.Lists.List "x ++ y" list_scope
+R6656 Coq.Lists.List.nil
+R6659 Coq.Lists.List "x ++ y" list_scope
+R6656 Coq.Lists.List.nil
+R6701 Coq.Lists.List "x :: y" list_scope
+R6703 Coq.Lists.List.nil
+R6682 Typing.TypJ_sub1
+R6701 Coq.Lists.List "x :: y" list_scope
+R6703 Coq.Lists.List.nil
+R6682 Typing.TypJ_sub1
+R6849 Apps " r ;; l "
+R6843 Term " \ rho , r "
+R6854 Coq.Lists.List "x :: y" list_scope
+R6828 Apps " r ;; l "
+R6824 Term " r ; s "
+R6816 Term " \ rho , r "
+R6849 Apps " r ;; l "
+R6843 Term " \ rho , r "
+R6854 Coq.Lists.List "x :: y" list_scope
+R6828 Apps " r ;; l "
+R6824 Term " r ; s "
+R6816 Term " \ rho , r "
+R6894 Typing.context
+R6920 Term.term
+R6912 Term.term
+R6904 Term.type
+R6997 Term " [ n ] "
+R6993 Term " [ n ] "
+R6961 Typing.TypJ
+R6971 Term " [ n ] "
+R7137 Term " r ; s "
+R7130 Term " r ; s "
+R7095 TaitEtaExp.RequirementsProofEtaExp.Rename.N
+R7075 Typing.TypJ
+R7054 Term " rho --> sigma "
+R7191 Term.term
+R7183 Term.term
+R7269 Apps " r ;; l "
+R7262 Subst.sub
+R7254 Apps " r ;; l "
+R7252 Term " r ; s "
+R7246 Term " \ rho , r "
+R7353 TaitEtaExp.RequirementsProofEtaExp.Rename.H'
+R7344 Term.term
+R7344 Term.term
+R7334 Term.type
+R7321 Typing.context
+R7400 Typing.context
+R7427 Term.term
+R7419 Term.term
+R7411 Term.type
+R7617 Apps " r ;; l "
+R7614 Term " [ n ] "
+R7608 Apps " r ;; l "
+R7605 Term " [ n ] "
+R7548 Typing.TypJ
+R7569 Apps " l ---> rho "
+R7558 Term " [ n ] "
+R7512 Eta.EtaExps
+R7500 WN.WNs
+R7684 TaitEtaExp.RequirementsProofEtaExp.Rename.Abis
+R7666 TaitEtaExp.RequirementsProofEtaExp.Rename.A
+R7734 TaitEtaExp.RequirementsProofEtaExp.Rename.Abis_intros
+R7765 Coq.Lists.List.nil
+R7761 Coq.Lists.List.nil
+R7757 Coq.Lists.List.nil
+R7753 Coq.Lists.List.nil
+R7734 TaitEtaExp.RequirementsProofEtaExp.Rename.Abis_intros
+R7765 Coq.Lists.List.nil
+R7761 Coq.Lists.List.nil
+R7757 Coq.Lists.List.nil
+R7753 Coq.Lists.List.nil
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R-1 Coq.Init.Logic.iff
+R-1 Coq.Init.Logic.not
+R7814 TaitEtaExp.RequirementsProofEtaExp.Rename.Abis
+R7861 Apps " r ;; l "
+R7855 Apps " r ;; l "
+R7868 Coq.Lists.List "x :: y" list_scope
+R7870 Coq.Lists.List.nil
+R7837 Apps " r ;; l "
+R7833 Apps " r ;; l "
+R7844 Coq.Lists.List "x :: y" list_scope
+R7846 Coq.Lists.List.nil
+R7814 TaitEtaExp.RequirementsProofEtaExp.Rename.Abis
+R7861 Apps " r ;; l "
+R7855 Apps " r ;; l "
+R7868 Coq.Lists.List "x :: y" list_scope
+R7870 Coq.Lists.List.nil
+R7837 Apps " r ;; l "
+R7833 Apps " r ;; l "
+R7844 Coq.Lists.List "x :: y" list_scope
+R7846 Coq.Lists.List.nil
+R7892 Apps.apps_app
+R7892 Apps.apps_app
+R7892 Apps.apps_app
+R7932 TaitEtaExp.RequirementsProofEtaExp.Rename.Abis_intros
+R7999 Coq.Lists.List "x ++ y" list_scope
+R8004 Coq.Lists.List "x :: y" list_scope
+R8006 Coq.Lists.List.nil
+R7981 Coq.Lists.List "x ++ y" list_scope
+R7985 Coq.Lists.List "x :: y" list_scope
+R7987 Coq.Lists.List.nil
+R7967 Coq.Lists.List "x ++ y" list_scope
+R7970 Coq.Lists.List "x :: y" list_scope
+R7972 Coq.Lists.List.nil
+R7953 Coq.Lists.List "x ++ y" list_scope
+R7957 Coq.Lists.List "x :: y" list_scope
+R7959 Coq.Lists.List.nil
+R7932 TaitEtaExp.RequirementsProofEtaExp.Rename.Abis_intros
+R7999 Coq.Lists.List "x ++ y" list_scope
+R8004 Coq.Lists.List "x :: y" list_scope
+R8006 Coq.Lists.List.nil
+R7981 Coq.Lists.List "x ++ y" list_scope
+R7985 Coq.Lists.List "x :: y" list_scope
+R7987 Coq.Lists.List.nil
+R7967 Coq.Lists.List "x ++ y" list_scope
+R7970 Coq.Lists.List "x :: y" list_scope
+R7972 Coq.Lists.List.nil
+R7953 Coq.Lists.List "x ++ y" list_scope
+R7957 Coq.Lists.List "x :: y" list_scope
+R7959 Coq.Lists.List.nil
+R8020 WN.WNs_app
+R8020 WN.WNs_app
+R8042 Eta.EtaExps_app
+R8042 Eta.EtaExps_app
+R8070 Apps.arrows_app
+R8070 Apps.arrows_app
+R8151 TaitEtaExp.RequirementsProofEtaExp.Rename.N
+R8158 Term.Iota
+R8132 TaitEtaExp.RequirementsProofEtaExp.Rename.A
+R8139 Term.Iota
+R8198 TaitEtaExp.RequirementsProofEtaExp.Rename.A_Abis
+R8198 TaitEtaExp.RequirementsProofEtaExp.Rename.A_Abis
+R8242 Apps " r ;; l "
+R8242 Apps " r ;; l "
+R8317 TaitEtaExp.RequirementsProofEtaExp.Rename.A
+R8332 Term " [ n ] "
+R8328 Term " [ n ] "
+R8296 Typing.TypJ
+R8306 Term " [ n ] "
+R8479 TaitEtaExp.RequirementsProofEtaExp.Rename.A
+R8501 Term " r ; s "
+R8494 Term " r ; s "
+R8460 TaitEtaExp.RequirementsProofEtaExp.Rename.N
+R8431 TaitEtaExp.RequirementsProofEtaExp.Rename.A
+R8442 Term " rho --> sigma "
+R8409 Typing.TypJ
+R8607 TaitEtaExp.RequirementsProofEtaExp.Rename.N
+R8589 TaitEtaExp.RequirementsProofEtaExp.Rename.N
+R8571 TaitEtaExp.RequirementsProofEtaExp.Rename.H
+R8699 WN.WN_beta
+R8699 WN.WN_beta
+R8790 TaitEtaExp.RequirementsProofEtaExp.Rename.H
+R8826 Subst.sub
+R8839 Subst " l # n "
+R8835 Coq.Lists.List "x :: y" list_scope
+R8846 Subst.shift
+R8820 Term " r ; s "
+R8805 Subst.sub
+R8810 Term " \ rho , r "
+R8898 Subst2.Sub_Sub_Ad_Hoc
+R8898 Subst2.Sub_Sub_Ad_Hoc
+R8923 TaitEtaExp.RequirementsProofEtaExp.Rename.H'_intro
+R8940 Coq.Lists.List.nil
+R8923 TaitEtaExp.RequirementsProofEtaExp.Rename.H'_intro
+R8940 Coq.Lists.List.nil
+R9027 TaitEtaExp.RequirementsProofEtaExp.Rename.H
+R9048 Term " r ; s "
+R9042 Term " r ; s "
+R8999 TaitEtaExp.RequirementsProofEtaExp.Rename.H
+R9010 Term " rho --> sigma "
+R9093 TaitEtaExp.RequirementsProofEtaExp.Rename.H'_intro
+R9113 Coq.Lists.List "x ++ y" list_scope
+R9116 Coq.Lists.List "x :: y" list_scope
+R9118 Coq.Lists.List.nil
+R9093 TaitEtaExp.RequirementsProofEtaExp.Rename.H'_intro
+R9113 Coq.Lists.List "x ++ y" list_scope
+R9116 Coq.Lists.List "x :: y" list_scope
+R9118 Coq.Lists.List.nil
+R9142 Apps.apps_app
+R9142 Apps.apps_app
+R9142 Apps.apps_app
+R9257 TaitEtaExp.RequirementsProofEtaExp.Rename.H
+R9264 Coq.Lists.List "x ++ y" list_scope
+R9239 TaitEtaExp.RequirementsProofEtaExp.Rename.H
+R9217 Typing.TypJ
+R9371 TaitEtaExp.RequirementsProofEtaExp.Rename.abstr
+R9392 TaitEtaExp.RequirementsProofEtaExp.Rename.N
+R9409 TaitEtaExp.RequirementsProofEtaExp.Rename.A
+R9426 TaitEtaExp.RequirementsProofEtaExp.Rename.H
+R9446 TaitEtaExp.RequirementsProofEtaExp.Rename.Ax1
+R9467 TaitEtaExp.RequirementsProofEtaExp.Rename.Ax2
+R9488 TaitEtaExp.RequirementsProofEtaExp.Rename.Ax3
+R9509 TaitEtaExp.RequirementsProofEtaExp.Rename.Ax4
+R9530 TaitEtaExp.RequirementsProofEtaExp.Rename.Ax5
+R9551 TaitEtaExp.RequirementsProofEtaExp.Rename.Ax6
+R9572 TaitEtaExp.RequirementsProofEtaExp.Rename.Ax7
+R9604 TaitEtaExp.RequirementsProofEtaExp.Rename.Ax_H_ext_ctx
+FExtract
+R103 Term " rho --> sigma "
+R98 Term.Iota
+R107 Term.Iota
+R126 Typing.TypJ
+R160 Extract.rho
+R154 Term " r ; s "
+R146 Term " \ rho , r "
+R148 Extract.rho
+R153 Coq.Init.Datatypes.O
+R157 Coq.Init.Datatypes.O
+R136 Coq.Lists.List "x :: y" list_scope
+R132 Extract.rho
+R139 Coq.Lists.List.nil
+R268 TaitEtaRed.CompleteEtaRedProof.NormalizeTheorem
+R311 Extract.Hex
+R307 Term " r ; s "
+R301 Term " \ rho , r "
+R302 Extract.rho
+R296 Extract.rho
+R289 Coq.Lists.List "x :: y" list_scope
+R286 Extract.rho
+R291 Coq.Lists.List.nil
+R413 TaitEtaRed.CompleteEtaRedProofNc.NormalizeTheorem
+R456 Extract.Hex
+R452 Term " r ; s "
+R446 Term " \ rho , r "
+R447 Extract.rho
+R441 Extract.rho
+R434 Coq.Lists.List "x :: y" list_scope
+R431 Extract.rho
+R436 Coq.Lists.List.nil
+R560 TaitEtaExp.CompleteEtaExpProof.NormalizeTheorem
+R603 Extract.Hex
+R599 Term " r ; s "
+R593 Term " \ rho , r "
+R594 Extract.rho
+R588 Extract.rho
+R581 Coq.Lists.List "x :: y" list_scope
+R578 Extract.rho
+R583 Coq.Lists.List.nil
+R707 TaitEtaExp.CompleteEtaExpProofNc.NormalizeTheorem
+R750 Extract.Hex
+R746 Term " r ; s "
+R740 Term " \ rho , r "
+R741 Extract.rho
+R735 Extract.rho
+R728 Coq.Lists.List "x :: y" list_scope
+R725 Extract.rho
+R730 Coq.Lists.List.nil
