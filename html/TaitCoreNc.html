@@ -1,0 +1,140 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf8"><link rel="stylesheet" href="style.css" type="text/css"><title>TaitCoreNc</title>
+</head>
+
+<body>
+
+<h1>Library TaitCoreNc</h1>
+
+<code>
+<code class="keyword">Require</code> <code class="keyword">Export</code> <a href="TaitCore.html">TaitCore</a>. <br/>
+<code class="keyword">Require</code> <code class="keyword">Export</code> <a href="nc.html">nc</a>.<br/>
+
+<br/>
+Set <code class="keyword">Implicit</code> Arguments.<br/>
+
+<br/>
+<code class="keyword">Module</code> <a name="NormalizationProofNc"></a>NormalizationProofNc (R:Requirements).<br/>
+
+<br/>
+<code class="keyword">Import</code> R.<br/>
+
+<br/>
+<code class="keyword">Notation</code> App' := (<a href="nc.html#nc2">nc2</a> <a href="Term.html#App">App</a>).<br/>
+<code class="keyword">Notation</code> app' := (<a href="nc.html#nc2">nc2</a> (@<a href="http://coq.inria.fr/library/Coq.Lists.List.html#app">app</a> _)).<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="app'_ass"></a>app'_ass : forall (l1 l2 l3: <a href="Typing.html#context">context</a>!) , <br/>
+&nbsp;app' (app' l1 l2) l3 = app' l1 (app' l2 l3).<br/>
+
+<br/>
+<code class="keyword">Definition</code> <a name="SN"></a>SN (ρs:<a href="Typing.html#context">context</a>!) (ρ:<a href="Term.html#type">type</a>) (r:<a href="Term.html#term">term</a>!) := <br/>
+&nbsp;&nbsp;forall k (σs:<a href="Typing.html#context">context</a>!) ,  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;(letnc τs' := app' ρs σs  in letnc r':= r in <a href="TaitCore.html#F">F</a> τs' ρ r' k) -&gt; <br/>
+&nbsp;&nbsp;{ s:<a href="Term.html#term">term</a> | letnc τs' := app' ρs σs  in letnc r':= r in N τs' ρ r' s }. <br/>
+
+<br/>
+<code class="keyword">Definition</code> <a name="SA"></a>SA (ρs:<a href="Typing.html#context">context</a>!) (ρ:<a href="Term.html#type">type</a>) (r:<a href="Term.html#term">term</a>!) := <br/>
+&nbsp;&nbsp;forall k (σs:<a href="Typing.html#context">context</a>!) , <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;(letnc τs' := app' ρs σs  in letnc r':= r in <a href="TaitCore.html#F">F</a> τs' ρ r' k) -&gt;<br/>
+&nbsp;&nbsp;{ s:<a href="Term.html#term">term</a> | letnc τs' := app' ρs σs  in letnc r':= r in A τs' ρ r' s }. <br/>
+
+<br/>
+Open Scope type_scope.<br/>
+
+<br/>
+<code class="keyword">Fixpoint</code> <a name="SC"></a>SC (ρs:<a href="Typing.html#context">context</a>!) (ρ:<a href="Term.html#type">type</a>) (r:<a href="Term.html#term">term</a>!) {struct ρ} : Type := <br/>
+&nbsp;&nbsp;(letnc ρs' := ρs in letnc r' := r in <a href="Typing.html#TypJ">TypJ</a> ρs' r' ρ) **<br/>
+&nbsp;&nbsp;match ρ with <br/>
+&nbsp;&nbsp;| <a href="Term.html#Iota">Iota</a> =&gt; SN ρs <a href="Term.html#Iota">Iota</a> r<br/>
+&nbsp;&nbsp;| ρ--&gt;σ =&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;forall s σs, SC (app' ρs σs) ρ s -&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SC (app' ρs σs) σ (App' r s)<br/>
+&nbsp;&nbsp;end.<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="SN_ext_ctx"></a>SN_ext_ctx : forall ρ ρs σs r, <br/>
+&nbsp;(letnc ρs' := ρs in letnc r' := r in <a href="Typing.html#TypJ">TypJ</a> ρs' r' ρ) -&gt; <br/>
+&nbsp;SN ρs ρ r -&gt; SN (app' ρs σs) ρ r.<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="SC_TypJ"></a>SC_TypJ : <br/>
+&nbsp;forall ρs ρ r, SC ρs ρ r -&gt; <br/>
+&nbsp;(letnc ρs' := ρs in letnc r' := r in <a href="Typing.html#TypJ">TypJ</a> ρs' r' ρ).<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="SC_ext_ctx"></a>SC_ext_ctx : forall ρ ρs σs r, <br/>
+&nbsp;SC ρs ρ r -&gt; SC (app' ρs σs) ρ r.<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="one"></a>one :  <br/>
+&nbsp;forall ρ ρs r, <br/>
+&nbsp;(letnc ρs' := ρs in letnc r' := r in TypJ ρs' r' ρ) -&gt; <br/>
+&nbsp;(SC ρs ρ r -&gt; SN ρs ρ r)*(SA ρs ρ r -&gt; SC ρs ρ r).<br/>
+
+<br/>
+<code class="keyword">Definition</code> <a name="head"></a>head (rs:list term) := <br/>
+&nbsp;match rs with <br/>
+&nbsp;&nbsp;| nil =&gt; [0] <br/>
+&nbsp;&nbsp;| r::_ =&gt; r<br/>
+&nbsp;end. <br/>
+
+<br/>
+<code class="keyword">Definition</code> <a name="tail"></a>tail (rs:list term) := <br/>
+&nbsp;match rs with <br/>
+&nbsp;&nbsp;| nil =&gt; nil <br/>
+&nbsp;&nbsp;| _::rs =&gt; rs<br/>
+&nbsp;end. <br/>
+
+<br/>
+<code class="keyword">Notation</code> head' := (nc1 head).<br/>
+<code class="keyword">Notation</code> tail' := (nc1 tail).<br/>
+<code class="keyword">Notation</code> "'nth'' n" := (nc2 (nth n)) (at level 10).<br/>
+
+<br/>
+<code class="keyword">Fixpoint</code> <a name="SCs"></a>SCs (σs:context!) (ρs: context) (rs: (list term)!) {struct ρs} : Type := <br/>
+&nbsp;match ρs with <br/>
+&nbsp;| nil =&gt; letnc rs' := rs in rs' = nil<br/>
+&nbsp;| ρ::ρs =&gt; <br/>
+&nbsp;&nbsp;&nbsp;(letnc rs' := rs in rs' &lt;&gt; nil) **<br/>
+&nbsp;&nbsp;&nbsp;(SC σs ρ (head' rs))*(SCs σs ρs (tail' rs))<br/>
+end.<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="SCs_length"></a>SCs_length : forall σs ρs rs, SCs σs ρs rs -&gt; <br/>
+&nbsp;&nbsp;letnc rs' := rs in length ρs = length rs'.<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="SCs_nth"></a>SCs_nth : forall σs ρs ρ rs r n, n &lt; length ρs -&gt;<br/>
+&nbsp;&nbsp;SCs σs ρs rs -&gt; <br/>
+&nbsp;&nbsp;SC σs (nth n ρs ρ)  (nth' n rs r).<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="SCs_ext_ctx"></a>SCs_ext_ctx : forall σs σs0 ρs rs, <br/>
+&nbsp;SCs σs ρs rs -&gt; SCs (app' σs σs0) ρs rs.<br/>
+
+<br/>
+<code class="keyword">Notation</code> "'sub'' r" := (nc1 (sub r)) (at level 10).<br/>
+<code class="keyword">Notation</code> support' := (nc1 support).<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="three"></a>three : forall r rs ρs σs ρ, <br/>
+&nbsp;&nbsp;SCs σs ρs (support' rs) -&gt; TypJ ρs r ρ -&gt; <br/>
+&nbsp;&nbsp;SC σs ρ (sub' r rs).<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="SCs_seq"></a>SCs_seq : forall ρs (σs:context!) k, <br/>
+&nbsp;(letnc sigmas':=σs in length sigmas' = k) -&gt; <br/>
+&nbsp;&nbsp;SCs (app' σs (nc ρs)) ρs (nc (map Var (seq k (length ρs)))).<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="normalizeTheorem"></a>normalizeTheorem : <br/>
+&nbsp;forall ρs ρ r, TypJ ρs r ρ -&gt; { s:term | N ρs ρ r s }.<br/>
+
+<br/>
+<code class="keyword">End</code> NormalizationProofNc.<br/>
+</code>
+<hr/><a href="index.html">Index</a><hr/><font size="-1">This page has been generated by <a href="http://www.lri.fr/~filliatr/coqdoc/">coqdoc</a></font>
+</body>
+</html>

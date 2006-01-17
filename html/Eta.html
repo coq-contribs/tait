@@ -1,0 +1,151 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf8"><link rel="stylesheet" href="style.css" type="text/css"><title>Eta</title>
+</head>
+
+<body>
+
+<h1>Library Eta</h1>
+
+<code>
+<code class="keyword">Require</code> <code class="keyword">Export</code> <a href="Apps.html">Apps</a>.<br/>
+<code class="keyword">Require</code> <code class="keyword">Export</code> <a href="Subst2.html">Subst2</a>.<br/>
+
+<br/>
+Set <code class="keyword">Implicit</code> Arguments.<br/>
+
+<br/>
+</code>
+
+<table width="100%"><tr class="doc"><td>
+<a name="lab2"></a><h3>First, the eta reduction</h3>
+
+</td></tr></table>
+<code>
+
+<br/>
+<code class="keyword">Definition</code> <a name="is_eta_core"></a>is_eta_core (r:term)(k:nat) := <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;is_app r &amp;&amp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;(if term_dec (right_app r) [k] then true else false) &amp;&amp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;negb (occurs k (left_app r)).<br/>
+
+<br/>
+<code class="keyword">Fixpoint</code> <a name="eta_red"></a>eta_red (r:term) : term := match r with <br/>
+&nbsp;&nbsp;| [n] =&gt; [n]<br/>
+&nbsp;&nbsp;| r;s =&gt; (eta_red r);(eta_red s)<br/>
+&nbsp;&nbsp;| λρ,r =&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;let r':= eta_red r in <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if is_eta_core r' 0 then down 0 (left_app r') else λρ, r'<br/>
+&nbsp;end.  <br/>
+
+<br/>
+</code>
+
+<table width="100%"><tr class="doc"><td>
+Here we define an ad-hoc induction principle (hidden in the doc) 
+</td></tr></table>
+<code>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="eta_red_occurs"></a>eta_red_occurs : forall r k, occurs k (eta_red r) = occurs k r. <br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="eta_core_sub"></a>eta_core_sub : forall r (k:nat), <br/>
+&nbsp;&nbsp;&nbsp;occurs (S k) r = false -&gt; <br/>
+&nbsp;&nbsp;&nbsp;is_eta_core r 0 = is_eta_core (sub r k) k.<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="eta_core_sub2"></a>eta_core_sub2 : forall r (l k:nat), <br/>
+&nbsp;&nbsp;&nbsp;is_eta_core r 0 = is_eta_core (sub r ((id (S l) ++ [S k] :: nil) # S l)) 0.<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="eta_subk_gen"></a>eta_subk_gen : forall r (l k:nat), <br/>
+&nbsp;&nbsp;&nbsp;eta_red (sub r ((id l ++ [k]::nil)#l)) = sub (eta_red r) ((id l ++[k]::nil)#l).<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="eta_subk"></a>eta_subk : forall r (k:nat), <br/>
+&nbsp;&nbsp;&nbsp;eta_red (sub r k) = sub (eta_red r) k.<br/>
+
+<br/>
+</code>
+
+<table width="100%"><tr class="doc"><td>
+<a name="lab3"></a><h3>Secondly, the eta expansion</h3>
+
+</td></tr></table>
+<code>
+
+<br/>
+<code class="keyword">Notation</code> " λ k : ρ , r " := (λρ, sub_swap0 r k) (at level 20, k at level 99).<br/>
+
+<br/>
+<code class="keyword">Inductive</code> <a name="Eta"></a>Eta : context -&gt; type -&gt; term -&gt; term -&gt; Prop := <br/>
+&nbsp;&nbsp;| <a name="Eta_Iota"></a>Eta_Iota : forall ρs r, Eta ρs Iota r r<br/>
+&nbsp;&nbsp;| <a name="Eta_Arrow"></a>Eta_Arrow : forall ρs σs ρ σ k etak r s, <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;length ρs &lt;= k -&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;length (ρs++σs) = k -&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eta (ρs++σs++ρ::nil) ρ [k] etak -&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eta (ρs++σs++ρ::nil) σ (r;etak) s -&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eta ρs (ρ--&gt;σ) r (λ k : ρ, s).<br/>
+
+<br/>
+<code class="keyword">Inductive</code> <a name="EtaExp"></a>EtaExp : context -&gt; type -&gt; term -&gt; term -&gt; Prop := <br/>
+&nbsp;&nbsp;| <a name="EtaExp_Var"></a>EtaExp_Var : forall ρs σs rs ss k t ρ, <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TypJ ρs [k] (σs---&gt;ρ) -&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EtaExps ρs σs rs ss -&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eta ρs ρ ([k];;ss) t -&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EtaExp ρs ρ ([k];;rs) t<br/>
+&nbsp;&nbsp;| <a name="EtaExp_Abs"></a>EtaExp_Abs : forall ρs σs ρ σ r s k, <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;length ρs &lt;= k -&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;length (ρs++σs) = k -&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EtaExp (ρs++σs++ρ::nil) σ r s -&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EtaExp ρs (ρ--&gt; σ) (λ k : ρ, r) (λ k : ρ, s)<br/>
+with <a name="EtaExps"></a>EtaExps: context -&gt; list type -&gt; list term -&gt; list term -&gt; Prop := <br/>
+&nbsp;&nbsp;| <a name="EtaExps_nil"></a>EtaExps_nil : forall ρs, EtaExps ρs nil nil nil<br/>
+&nbsp;&nbsp;| <a name="EtaExps_cons"></a>EtaExps_cons : forall ρs σ σs r s rs ss, <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EtaExp ρs σ r s -&gt; EtaExps ρs σs rs ss -&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EtaExps ρs (σ::σs) (r::rs) (s::ss).<br/>
+
+<br/>
+&nbsp;&nbsp;  <code class="keyword">Hint</code> Constructors Eta. <br/>
+&nbsp;&nbsp;  <code class="keyword">Hint</code> Constructors EtaExp.<br/>
+&nbsp;&nbsp;  <code class="keyword">Hint</code> Constructors EtaExps.<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="EtaExps_app"></a>EtaExps_app : forall ρs s1 s2 l1 l2 l1' l2', <br/>
+&nbsp;&nbsp;EtaExps ρs s1 l1 l1' -&gt; EtaExps ρs s2 l2 l2' -&gt; <br/>
+&nbsp;&nbsp;EtaExps ρs (s1++s2) (l1++l2) (l1'++l2').<br/>
+<code class="keyword">Hint</code> Resolve EtaExps_app.<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="EtaExps_rev"></a>EtaExps_rev : forall ρs s l l', <br/>
+&nbsp;&nbsp;EtaExps ρs s l l' -&gt; EtaExps ρs (rev s) (rev l) (rev l').<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="EtaExps_last"></a>EtaExps_last : forall ρs σs σ l r l' r', <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;EtaExps ρs (σs++σ::nil) (l++r::nil) (l'++r'::nil) -&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;EtaExps ρs σs l l'  /\ EtaExp ρs σ r r'.<br/>
+
+<br/>
+</code>
+
+<table width="100%"><tr class="doc"><td>
+Here we define an ad-hoc induction principle (hidden in the doc) 
+</td></tr></table>
+<code>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="Eta_red_ctx"></a>Eta_red_ctx : forall ρs μs σ r r', <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Eta (ρs++μs) σ r r' -&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;Eta ρs σ r r'.<br/>
+
+<br/>
+<code class="keyword">Lemma</code> <a name="EtaExps_red_ctx"></a>EtaExps_red_ctx : forall ρs σs l l', <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;EtaExps ρs σs l l' -&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;forall ρs' μs, ρs = ρs'++μs -&gt; <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;(forall k, length ρs' &lt;= k -&gt; existsb (occurs k) l = false) -&gt;  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;EtaExps ρs' σs l l'.<br/>
+</code>
+<hr/><a href="index.html">Index</a><hr/><font size="-1">This page has been generated by <a href="http://www.lri.fr/~filliatr/coqdoc/">coqdoc</a></font>
+</body>
+</html>
