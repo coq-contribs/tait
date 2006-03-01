@@ -1,0 +1,22 @@
+  A normalization proof a la Tait for simply-type lambda-calculus
+  --------------------------------------------------------------
+         (Formalisation of Berger's TLCA'93 paper) 
+
+Main author: Pierre Letouzey.
+In collaboration with Helmut Schwichtenberg and Ulrich Berger. 
+Many thanks to Freiric Barral for his help on the last files. 
+The "nc" encoding in Coq is joint work with Bas Spitters.  
+
+** Reference: 
+@article{bbls05,
+   AUTHOR = {U. Berger and S. Berghofer and P. Letouzey and H. Schwichtenberg},
+   TITLE = {Program extraction from normalization proofs},
+   JOURNAL = "Studia Logica",
+   YEAR = "2005",
+   NOTE = "Special issue, to appear"
+}
+
+** How to (re)generate the documentation: ?
+-> simply erase doc.ps.gz and doc.html and run make 
+(requires an installed coqdoc program)
+
