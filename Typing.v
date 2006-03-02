@@ -202,7 +202,7 @@ induction n.
 inversion H0.
 inversion H0.
 simpl; auto.
-simpl; rewrite IHn; auto.
+simpl; fold (consn n rho nil); rewrite IHn; auto.
 destruct (consn n rho nil); auto.
 Qed.
 

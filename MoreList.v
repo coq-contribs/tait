@@ -1,4 +1,5 @@
 Require Import List.
+Require Import Zmisc.
 Require Import Arith.
 Require Import Bool.
 
@@ -261,36 +262,29 @@ End SplitLast.
 
 Section ConsN.
 
-Fixpoint consn (n:nat)(a:A)(l:list A) {struct n} : list A := 
- match n with 
-  | 0 => l  
-  | S n => a::(consn n a l)
- end. 
+(* [consn n a l] adds [n] times the element [a] in head position of [l]. *)
+
+Definition consn n a (l:list A) := iter_nat n _ (cons a) l.
 
 Lemma consn_length : forall n a l, length (consn n a l) = n + length l.
 Proof.
-induction n; simpl; auto.
+unfold consn; induction n; simpl; auto.
 Qed.
 
 Lemma consn_nth1 : 
 forall n a l k d,  k < n -> nth k (consn n a l) d = a.
 Proof. 
-induction n; intros.
-inversion H.
-destruct k; auto.
-simpl; rewrite IHn; auto with arith.
+unfold consn; induction n.
+inversion 1.
+destruct k; simpl; auto with arith.
 Qed.
 
 Lemma consn_nth2 : 
 forall n a l k d,  n <= k -> nth k (consn n a l) d = nth (k-n) l d.
 Proof. 
-induction n; intros.
-rewrite <- minus_n_O;simpl; auto.
-simpl.
-destruct k.
-inversion H.
-simpl.
-auto with arith.
+unfold consn; induction n.
+intros; rewrite <- minus_n_O; auto.
+destruct k; [ inversion 1 | simpl; auto with arith ].
 Qed.
 
 End ConsN.
