@@ -159,7 +159,8 @@ Lemma two : forall rho rhos r s,
   SC rhos rho r.
 Proof.
 induction rho; simpl; unfold SN; split; auto; intros.
-destruct X as [T H4].
+try rename X into H1.
+destruct H1 as [T H4].
 destruct (H4 k sigmas) as [s0 Hs0]; auto.
 unfold F in *; intuition.
 (*NC*) nc; intuition.
