@@ -133,7 +133,8 @@ assert (SC (app' rhos' sigmas) sigma (App' r (nc [k]))).
  (*NC*) nc; auto.
 assert (SN (app' rhos' sigmas) sigma (App' r (nc [k]))).
  refine (fst (IHrho2 (app' rhos' sigmas) (App' r (nc [k])) _) _); eauto.
-destruct (X2 (S k) (nc nil)) as [t Ht]; auto.
+try rename X2 into H2.
+destruct (H2 (S k) (nc nil)) as [t Ht]; auto.
  split.
  (*NC*) nc; eauto.
  (*NC*) nc.

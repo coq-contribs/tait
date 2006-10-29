@@ -178,7 +178,8 @@ assert (SC (rhos'++sigmas) sigma (r;k)).
  refine (snd (IHrho1 (rhos++mus++sigmas) [k] _) _); auto.
 assert (SN (rhos'++sigmas) sigma (r;k)).
  refine (fst (IHrho2 (rhos'++sigmas) (r;k) _) _); eauto.
-destruct (X2 (S k) nil) as [t Ht]; auto.
+try rename X2 into H2.
+destruct (H2 (S k) nil) as [t Ht]; auto.
  simpl_list.
  split; auto.
  unfold sigmas; rewrite ext_ctx_length; auto.
