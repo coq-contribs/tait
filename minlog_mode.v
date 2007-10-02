@@ -40,7 +40,7 @@ Ltac rewrite_all_rev Eq := match type of Eq with
 
 Ltac break_dec dec := 
   let parse g :=  
-    match g with context [dec ?a ? b] => destruct (dec a b) end
+    match g with context [dec ?a ?b] => destruct (dec a b) end
   in 
   match goal with 
   |         |- ?g => parse g
