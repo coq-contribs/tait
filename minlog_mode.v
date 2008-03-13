@@ -49,22 +49,6 @@ Ltac break_dec dec :=
 
 Ltac break := try break_dec eq_nat_dec; try break_dec le_lt_dec.
 
-Ltac f_equal := 
-  let c := try congruence in 
-  let r := try reflexivity in 
-  match goal with 
-   | |- ?f ?a = ?f' ?a' => cut (a=a'); [c; r|r]
-   | |- ?f ?a ?b = ?f' ?a' ?b' => 
-      cut (b=b');[cut (a=a');[c; r|r]|r]
-   | |- ?f ?a ?b ?c = ?f' ?a' ?b' ?c'=> 
-      cut (c=c');[cut (b=b');[cut (a=a');[c; r|r]|r]|r]
-   | |- ?f ?a ?b ?c ?d= ?f' ?a' ?b' ?c' ?d'=> 
-      cut (d=d');[cut (c=c');[cut (b=b');[cut (a=a');[c; r|r]|r]|r]|r]
-  | |- ?f ?a ?b ?c ?d ?e= ?f' ?a' ?b' ?c' ?d' ?e'=> 
-      cut (e=e');[cut (d=d');[cut (c=c');[cut (b=b');[cut (a=a');[c; r|r]|r]|r]|r]|r]
-   | _ => idtac
-  end.
-
 Ltac tomega := f_equal; omega.
 Ltac impossible := intros; elimtype False; omega.
 Ltac imp_or_inv := try impossible; try tomega. 
