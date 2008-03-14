@@ -1,5 +1,4 @@
 -R . tait
--I ../QArith
 minlog_mode.v
 MoreList.v
 Term.v 
