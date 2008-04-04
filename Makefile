@@ -24,8 +24,8 @@
 #########################
 
 OCAMLLIBS:=
-COQLIBS:= -R . tait
-COQDOCLIBS:=-R . tait
+COQLIBS:= -R . Tait
+COQDOCLIBS:=-R . Tait
 
 ##########################
 #                        #
@@ -89,22 +89,7 @@ GFILES:=$(VFILES:.v=.g)
 HTMLFILES:=$(VFILES:.v=.html)
 GHTMLFILES:=$(VFILES:.v=.g.html)
 
-all: minlog_mode.vo\
-  MoreList.vo\
-  Term.vo\
-  Subst.vo\
-  Subst2.vo\
-  Typing.vo\
-  Apps.vo\
-  Eta.vo\
-  WN.vo\
-  TaitCore.vo\
-  nc.vo\
-  TaitCoreNc.vo\
-  TaitEtaRed.vo\
-  TaitEtaExp.vo\
-  Extract.vo
-
+all: $(VOFILES) 
 spec: $(VIFILES)
 
 gallina: $(GFILES)
@@ -132,8 +117,6 @@ all-gal.ps: $(VFILES)
 ####################
 
 .PHONY: all opt byte archclean clean install depend html
-
-.SUFFIXES: .v .vo .vi .g .html .tex .g.tex .g.html
 
 %.vo %.glob: %.v
 	$(COQC) -dump-glob $*.glob $(COQDEBUG) $(COQFLAGS) $*

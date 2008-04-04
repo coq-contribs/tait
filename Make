@@ -1,4 +1,4 @@
--R . tait
+-R . Tait
 minlog_mode.v
 MoreList.v
 Term.v 
