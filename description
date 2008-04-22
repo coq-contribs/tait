@@ -9,3 +9,6 @@ Description:
   of the axioms and an extraction of a normalization program close to N.B.E. 
 Keywords:
   Normalization, Lambda-calculus, Extraction, Tait proof, N.B.E.
+Category: Mathematics/Logic/Type theory
+Category: Computer Science/Lambda Calculi
+Category: Miscellaneous/Extracted Programs/Type checking unification and normalization
