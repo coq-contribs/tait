@@ -14,7 +14,7 @@
 (* 02110-1301 USA                                                     *)
 
 
-Require Import Arith. 
+Require Import Arith Omega. 
 
 (** misc tactics *)
 
