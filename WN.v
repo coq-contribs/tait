@@ -18,6 +18,7 @@ Require Export Apps.
 Require Import Subst2.
 
 Set Implicit Arguments.
+Set Asymmetric Patterns.
 
 Inductive WN : term -> term -> Prop := 
  | WN_var : forall n l l', WNs l l' -> WN ([n];;l) ([n];;l')

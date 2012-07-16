@@ -18,6 +18,7 @@ Require Export Apps.
 Require Export Subst2.
 
 Set Implicit Arguments.
+Set Asymmetric Patterns.
 
 (** *** First, the eta reduction *)
 
