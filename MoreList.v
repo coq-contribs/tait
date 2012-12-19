@@ -280,7 +280,7 @@ Section ConsN.
 
 (* [consn n a l] adds [n] times the element [a] in head position of [l]. *)
 
-Definition consn n a (l:list A) := iter_nat n _ (cons a) l.
+Definition consn n a (l:list A) := nat_rect _ l (fun _ => cons a) n.
 
 Lemma consn_length : forall n a l, length (consn n a l) = n + length l.
 Proof.
