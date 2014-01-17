@@ -20,14 +20,14 @@ Require Import Arith Omega.
 
 Ltac __ := idtac.
 
-Ltac rewrite_all Eq := match type of Eq with 
+(* Ltac rewrite_all Eq := match type of Eq with 
   ?a = ?b => 
      generalize Eq; clear Eq; 
      match goal with 
     | H : context [a] |- _ => intro Eq; try rewrite Eq in H; rewrite_all Eq
     | _ => intro Eq; try rewrite Eq
     end
- end. 
+ end. *)
 
 Ltac rewrite_all_rev Eq := match type of Eq with 
   ?a = ?b => 
