@@ -13,7 +13,6 @@
 (* Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA *)
 (* 02110-1301 USA                                                     *)
 
-
 Require Export TaitCore. 
 Require Export nc.
 
@@ -24,7 +23,7 @@ Module NormalizationProofNc (R:Requirements).
 Import R.
 
 Notation App' := (nc2 App).
-Notation app' := (nc2 (@app _)).
+Notation app' := (nc2 (@app (_ : Set))).
 
 Lemma app'_ass : forall (l1 l2 l3: context!) , 
  app' (app' l1 l2) l3 = app' l1 (app' l2 l3).
@@ -209,7 +208,7 @@ Definition tail (rs:list term) :=
 
 Notation head' := (nc1 head).
 Notation tail' := (nc1 tail).
-Notation "'nth'' n" := (nc2 (nth n)) (at level 10).
+Notation "'nth'' n" := (nc2 (@nth (_:Set) n)) (at level 10).
 
 Fixpoint SCs (sigmas:context!) (rhos: context) (rs: (list term)!) {struct rhos} : Type := 
  match rhos with 
