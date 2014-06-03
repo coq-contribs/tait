@@ -17,6 +17,7 @@ Require Export TaitCore.
 Require Export nc.
 
 Set Implicit Arguments.
+Unset Standard Proposition Elimination Names.
 
 Module NormalizationProofNc (R:Requirements).
 

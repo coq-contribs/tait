@@ -19,6 +19,7 @@ Require Export Subst2.
 
 Set Implicit Arguments.
 Set Asymmetric Patterns.
+Unset Standard Proposition Elimination Names.
 
 (** *** First, the eta reduction *)
 

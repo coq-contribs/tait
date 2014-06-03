@@ -17,6 +17,7 @@
 Require Export Typing. 
 
 Set Implicit Arguments.
+Unset Standard Proposition Elimination Names.
 
 (* Redefinition of pairs on [Type] instead of [Set] *)
 
