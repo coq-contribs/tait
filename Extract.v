@@ -16,6 +16,7 @@
 
 Require Import TaitEtaRed.
 Require Import TaitEtaExp.
+Require Extraction.
 Extraction NoInline map.
 
 Definition rho := Iota --> Iota.
