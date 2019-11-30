@@ -339,7 +339,7 @@ Fixpoint firstn (n:nat)(l:list A) {struct n} : list A :=
 
 End MoreLists.
 
-Implicit Arguments consn [A].
+Arguments consn [A].
 
 Hint Rewrite 
  rev_involutive (* rev (rev l) = l *)

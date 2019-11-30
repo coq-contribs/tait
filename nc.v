@@ -20,7 +20,7 @@ Require Import minlog_mode.
 Ltac dcase x := generalize (refl_equal x); pattern x at -1; case x.
 
 Inductive nc_type (A:Set) : Prop := nc : A -> nc_type A.
-Implicit Arguments nc.
+Arguments nc : default implicits.
 Notation " t ! " := (nc_type t) (at level 50).
 
 Inductive existsnc_t (A : Prop) (P : A -> Type) : Type :=

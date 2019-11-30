@@ -17,8 +17,6 @@
 Require Import List.
 Require Term.
 
-Unset Standard Proposition Elimination Names.
-
 (** A substitution is a list of term plus a shift to apply to remaining 
   variables. The encoding is close to Joachimski, but uses normal lists 
 *)

@@ -16,8 +16,6 @@
 
 Require Export Subst2. 
 
-Unset Standard Proposition Elimination Names.
-
 (** Lists for coding typing contexts. First comes the type of [Var 0] *)
 
 Definition context := list type.

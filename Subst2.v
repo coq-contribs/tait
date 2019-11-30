@@ -16,8 +16,6 @@
 
 Require Export Subst.
 
-Unset Standard Proposition Elimination Names.
-
 (** Here, we follow exactly Joachimski manuscript *)
 
 Module Joachimski.
